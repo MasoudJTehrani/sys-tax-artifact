@@ -1,0 +1,2657 @@
+{
+  "databases": [
+    "ieee"
+  ],
+  "limit": null,
+  "limit_per_database": null,
+  "number_of_papers": 58,
+  "number_of_papers_by_database": {
+    "IEEE": 58
+  },
+  "papers": [
+    {
+      "abstract": "The automotive industry has witnessed flourishing development in the last few years with the hope of achieving fully autonomous driving. In parallel, dual-function radar-communication (DFRC) systems are being developed to tackle the spectrum scarcity challenge and integrate radar and communication transceivers into a unified system. However, with a DFRC system, critical information may be intercepted by unauthorized people in the target vehicle. Therefore, the physical layer security of the DFRC system needs to be given considerable attention. To improve the security of information transmission, artificial noise (AN) is used to interfere with eavesdroppers. The main objective of this work is to maximize the secrecy rate of vehicles subject to both radar signal-to-interference-plus-noise ratio (SINR) and communication transmit power constraints. To overcome the difficulty caused by the existence of the nonconvex Shannon capacity formula in the formulated problem, we convert the secrecy rate optimization to an equivalent bi-convex optimization problem. Furthermore, due to the nonconvexity of the formulated design problem, we exploit an inexact block coordinate descent (IBCD) algorithm based on semi-definite Programming (SDP) to obtain the optimal solution. Moreover, to reduce the complexity of the SDP-based IBCD algorithm, a bi-search-based IBCD algorithm is employed for single target scenarios. Finally, numerical simulations are used to demonstrate the superiority of using the AN approach to enhance the performance of the DFRC system in terms of the secrecy rate.",
+      "authors": [
+        "Zheng-Ming Jiang",
+        "Mohamed Rihan",
+        "Qijun Deng",
+        "Ehab Mahmoud Mohamed",
+        "Haitham S. Khallaf",
+        "Xiaojun Wang",
+        "Rasha Omar"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "IEEE"
+      ],
+      "doi": "10.1109/JIOT.2023.3301771",
+      "keywords": [
+        "inexact block coordinate descent (IBCD) algorithm",
+        "physical layer security",
+        "Dual function radar communication (DFRC)"
+      ],
+      "number_of_pages": 15,
+      "pages": "5090-5104",
+      "publication": {
+        "category": "Journal",
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": "2372-2541",
+        "publisher": "IEEE",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "IEEE Internet of Things Journal"
+      },
+      "publication_date": "2024-02-01",
+      "selected": null,
+      "title": "On the Physical Layer Security of Automotive Dual-Function Radar-Communication Systems",
+      "urls": [
+        "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10206037"
+      ]
+    },
+    {
+      "abstract": "By exploiting the degree of freedom on the altitude, unmanned aerial vehicle (UAV) communication can provide ubiquitous communication for future wireless networks. In the case of concurrent transmission of multiple UAVs, the directional beamforming formed by multiple antennas is an effective way to reduce co-channel interference. However, factors, such as airflow disturbance or estimation error for UAV communications, can cause the occurrence of beam misalignment. In this article, we investigate the system performance of a multitier UAV communication network with the consideration of unstable beam alignment. In particular, we propose a tractable random model to capture the impacts of beam misalignment in the 3-D space. Based on this, by utilizing stochastic geometry, an analytical framework for obtaining the outage probability in the downlink of a multitier UAV communication network for the closest distance association scheme and the maximum average power association scheme is established. The accuracy of the analysis is verified by Monte Carlo simulations. The results indicate that in the presence of random beam misalignment, the optimal number of UAV antennas needs to be adjusted to be relatively larger when the density of UAVs increases or the altitude of UAVs becomes higher.",
+      "authors": [
+        "Weihao Wang",
+        "Zesong Fei",
+        "Jing Guo",
+        "Salman Durrani",
+        "Halim Yanikomeroglu"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "IEEE"
+      ],
+      "doi": "10.1109/JIOT.2023.3299279",
+      "keywords": [
+        "stochastic geometry",
+        "unmanned aerial vehicle (UAV) communication",
+        "outage performance",
+        "beamforming",
+        "Beam misalignment"
+      ],
+      "number_of_pages": 16,
+      "pages": "4163-4178",
+      "publication": {
+        "category": "Journal",
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": "2372-2541",
+        "publisher": "IEEE",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "IEEE Internet of Things Journal"
+      },
+      "publication_date": "2024-02-01",
+      "selected": null,
+      "title": "Outage Performance of Multitier UAV Communication With Random Beam Misalignment",
+      "urls": [
+        "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10195979"
+      ]
+    },
+    {
+      "abstract": "The advancements in unmanned aerial vehicle (UAV) technology have brought immense convenience to society. However, unauthorized UAVs pose a serious threat to personal privacy, public safety, and aviation security. Therefore, accurate UAV detection and classification are crucial. Moreover, with the increased popularity of UAVs, the likelihood of multiple UAVs appearing in the same area simultaneously has also dramatically increased. Recent studies demonstrate that object detectors, such as FasterRCNN and YOLO, can be used to detect and classify multiple UAVs based on spectrograms. To our best knowledge, the object detectors are directly used to classify UAV without considering the characteristics of the UAV signal spectrogram, which results in a decrease in recognition performance. In this article, we analyze the characteristics of the UAV signal spectrogram in detail and conclude two problems, i.e., prior anchor mismatch and cross-domain detection, hindering the implementation of object detector for UAV recognition. To solve prior anchor mismatch, we propose an anchor-free detector based on keypoint and design a novel keypoints matching algorithm to improve recognition performance. To solve cross-domain detection, we propose an adversarial learning-based data adaptation method, which can generate domain-independent and domain-aligned features. Finally, the experiments adopt practical spectrogram and synthetic spectrogram to verify the superiority of the proposed anchor-free detector and the effectiveness of the proposed data adaptation method.",
+      "authors": [
+        "Runyi Zhao",
+        "Tao Li",
+        "Yongzhao Li",
+        "Yuhan Ruan",
+        "Rui Zhang"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "IEEE"
+      ],
+      "doi": "10.1109/JIOT.2023.3306001",
+      "keywords": [
+        "detection and classification",
+        "object detection",
+        "Adversarial learning",
+        "universal software radio peripheral (USRP) testbed",
+        "unmanned aerial vehicle (UAV)"
+      ],
+      "number_of_pages": 14,
+      "pages": "5259-5272",
+      "publication": {
+        "category": "Journal",
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": "2372-2541",
+        "publisher": "IEEE",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "IEEE Internet of Things Journal"
+      },
+      "publication_date": "2024-02-01",
+      "selected": null,
+      "title": "Anchor-Free Multi-UAV Detection and Classification Using Spectrogram",
+      "urls": [
+        "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10221859"
+      ]
+    },
+    {
+      "abstract": "The emerging drone swarms are capable of carrying out sophisticated tasks in support of demanding Internet of Things (IoT) applications by synergistically working together. However, the target area may be out of the coverage of the ground station (GS) and it may be impractical to deploy a large number of drones in the target area due to cost, electromagnetic interference, and flight-safety regulations. By exploiting the innate agility and mobility of unmanned aerial vehicles (UAVs), we conceive a mobile relaying-assisted drone swarm network architecture, which is capable of extending the coverage of the GS and enhancing the effective end-to-end throughput. Explicitly, a swarm of drones forms a data-collecting drone swarm (DCDS) designed for sensing and collecting data with the aid of their mounted cameras and/or sensors, and a powerful relay-UAV (RUAV) acts as a mobile relay for conveying data between the DCDS and a GS. Given a time period, in order to maximize the data delivered while minimizing the delay imposed, we harness an  $\\epsilon $ -multiple-objective genetic algorithm ( $\\epsilon $ -MOGA)-assisted Pareto-optimization scheme. Our simulation results demonstrate that the proposed mobile relaying is capable of delivering more data. As specific examples investigated in our simulations, our mobile relaying-assisted drone swarm network is capable of delivering 45.38% more data than the benchmark solutions, when a stationary relay is available, and it is capable of delivering 26.86% more data than the benchmark solutions when no stationary relay is available.",
+      "authors": [
+        "Jiankang Zhang",
+        "Sheng Chen",
+        "Wei Koong Chai",
+        "Lajos Hanzo"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "IEEE"
+      ],
+      "doi": "10.1109/JIOT.2023.3296058",
+      "keywords": [
+        "aeronautical communications",
+        "beamforming",
+        "Adaptive coding and modulation (ACM)",
+        "millimeter wave (mmWave)",
+        "drone swarm",
+        "unmanned aerial vehicle (UAV)"
+      ],
+      "number_of_pages": 20,
+      "pages": "3282-3301",
+      "publication": {
+        "category": "Journal",
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": "2372-2541",
+        "publisher": "IEEE",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "IEEE Internet of Things Journal"
+      },
+      "publication_date": "2024-01-15",
+      "selected": null,
+      "title": "Adaptive Coding and Modulation-Aided Mobile Relaying for Millimeter-Wave Flying Ad Hoc Networks",
+      "urls": [
+        "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10184282"
+      ]
+    },
+    {
+      "abstract": "In this article, to enhance the communication quality of cognitive unmanned aerial vehicle networks (CUAVNs), we investigate the intelligent reflecting surface (IRS)-assisted CUAVNs, where a leading UAV (LUAV) is deployed for sensing spectrum and a group of following UAVs (FUAVs) transmit data to LUAV with the aid of IRS. Our objective is to maximize the achievable throughput of CUAVNs by jointly optimizing sensing duration, IRS passive beamforming, and LUAV\u2019s 3-D location, where LUAV\u2019s 3-D location is restricted by IRS, FUAVs, and primary user. For the IRS-assisted single FUAV case, the intractable nonconvex optimization problem is resolved into three subproblems, which are solved by utilizing the bisection search method, the closed-form expression of the optimal IRS phase shift matrix and the successive convex approximation method, respectively. Finally, an efficient alternating optimization algorithm is developed to obtain a high-quality suboptimal solution. By exploiting the solutions of single FUAV, we further propose the throughput weighted sum (TWS) algorithm to solve the intricate nonconvex problem in IRS-assisted multiple FUAVs case. To further reduce the complexity of TWS, the low-complexity location weighted sum (LWS) algorithm is proposed. Numerical results show that compared to the scheme without IRS assistance, the achievable throughput increases about 102% with the proposed single FUAV scheme, and over 88% with the proposed TWS-based multiple FUAVs scheme. Moreover, the performance gap between the low-complexity LWS and the TWS is less than 7%.",
+      "authors": [
+        "Qian Deng",
+        "Guangcheng Yu",
+        "Xiaopeng Liang",
+        "Feng Shu",
+        "Jiangzhou Wang"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "IEEE"
+      ],
+      "doi": "10.1109/JIOT.2023.3293801",
+      "keywords": [
+        "unmanned aerial vehicle (UAV) networks",
+        "spectrum sensing",
+        "location optimization",
+        "Intelligent reflecting surface (IRS)"
+      ],
+      "number_of_pages": 16,
+      "pages": "2767-2782",
+      "publication": {
+        "category": "Journal",
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": "2372-2541",
+        "publisher": "IEEE",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "IEEE Internet of Things Journal"
+      },
+      "publication_date": "2024-01-15",
+      "selected": null,
+      "title": "IRS-Assisted Cognitive UAV Networks: Joint Sensing Duration, Passive Beamforming, and 3-D Location Optimization",
+      "urls": [
+        "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10177947"
+      ]
+    },
+    {
+      "abstract": "This article investigates the pilot assignment and power control (PC) problems for secure unmanned aerial vehicle (UAV) communications in a cell-free massive multi-input\u2013multioutput network with the user-centric scheme, where numerous distributed access points (APs) simultaneously serve multiple UAVs and terminal users. Meanwhile, there exists one UAV acting as an eavesdropper which can perform pilot spoofing attack. Considering a mixture of Rayleigh and Rician fading channels, the APs, respectively, perform minimum mean-square error estimation and distributed conjugate beamforming for uplink training and downlink data transmission. Using the random matrix theory, the closed-form expression for a tight lower bound on the achievable secrecy rate is derived, which enables the impact analysis of key parameters, such as power, antenna configuration, UAV height, etc. Taking into account both performance and complexity, a novel pilot assignment scheme is proposed by combining the weighted graphic framework and genetic algorithm, which can actualize global search with limited iterations. The max\u2013min PC with security constraints is then studied in parallel, which can not only enhance the network fairness but also ensure the security. Accordingly, successive convex approximation and fractional optimization are jointly utilized to solve this nonconvex problem. Simulation results numerically verify the analytical results and indicate the superiority of the proposed pilot assignment and PC schemes.",
+      "authors": [
+        "Yong Chen",
+        "Xianyu Zhang",
+        "Fuqiang Yao",
+        "Kang An",
+        "Gan Zheng",
+        "Symeon Chatzinotas"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "IEEE"
+      ],
+      "doi": "10.1109/JIOT.2023.3296736",
+      "keywords": [
+        "massive multi-input multioutput (MIMO)",
+        "Cell-Free (CF)",
+        "physical-layer security (PLS)",
+        "user centric (UC)",
+        "power control (PC)",
+        "pilot assignment",
+        "unmanned aerial vehicle (UAV)"
+      ],
+      "number_of_pages": 15,
+      "pages": "3377-3391",
+      "publication": {
+        "category": "Journal",
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": "2372-2541",
+        "publisher": "IEEE",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "IEEE Internet of Things Journal"
+      },
+      "publication_date": "2024-01-15",
+      "selected": null,
+      "title": "Pilot Assignment and Power Control in Secure UAV-Enabled Cell-Free Massive MIMO Networks",
+      "urls": [
+        "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10186455"
+      ]
+    },
+    {
+      "abstract": "Unmanned aerial vehicle (UAV)-enabled mobile-edge computing (MEC) has been widely applied in Internet of Things networks while the security risk of wireless computation offloading is still a challenging issue due to the openness nature of line-of-sight wireless channels between UAVs and edge devices (EDs). The existing secure offloading methods are not well targeted for video offloading in multi-UAV-enabled MEC networks since the joint potentiality of video distortion characteristics and multi-UAV flexible deployment in enhancing security is not exploited. In this article, we propose a secure video offloading strategy based on deep reinforcement learning (DRL) for a multi-UAV-enabled MEC system with a UAV eavesdropper. A joint optimization problem of resolution adjustment, offloading decision, computing capability allocation, communication resources orchestration, and multi-UAV position deployment is formulated to minimize system energy consumption under the constraints of offloading security, system latency, and users\u2019 quality of experience from the aspect of video frame analytic accuracy. Since the formulated problem is a high-dimensional nonlinear mixed-integer NP-hard problem, it is difficult to obtain the optimal solution via traditional optimization methods. To solve it, we propose a DRL algorithm (HRF-TD3) to instruct the agent to approach the optimal solution efficiently. The simulation results show that the proposed algorithm is superior to comparison algorithms in terms of system energy consumption, EDs\u2019 energy consumption, and system latency under the condition of wireless offloading security.",
+      "authors": [
+        "Tantan Zhao",
+        "Fan Li",
+        "Lijun He"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "IEEE"
+      ],
+      "doi": "10.1109/JIOT.2023.3296613",
+      "keywords": [
+        "mobile-edge computing (MEC)",
+        "Deep reinforcement learning (DRL)",
+        "secure video offloading",
+        "unmanned aerial vehicle (UAV)"
+      ],
+      "number_of_pages": 14,
+      "pages": "2950-2963",
+      "publication": {
+        "category": "Journal",
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": "2372-2541",
+        "publisher": "IEEE",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "IEEE Internet of Things Journal"
+      },
+      "publication_date": "2024-01-15",
+      "selected": null,
+      "title": "Secure Video Offloading in Multi-UAV-Enabled MEC Networks: A Deep Reinforcement Learning Approach",
+      "urls": [
+        "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10185964"
+      ]
+    },
+    {
+      "abstract": "Bad weather or environmental factors, particularly in remote mountain areas, may result in unsafe driving conditions and consequently road traffic accidents. As the deployment of large-scale sensing nodes for reporting road conditions is too expensive, the crowdsourcing method or reporting by sensors in vehicles themselves will be easier to deploy and more practical. However, those participant sensing methods impose some difficulties, such as fake information, reporter misbehavior, and timeliness. Thus, we propose a tri-blockchain-based Internet of Vehicles system, called TriBoDeS, to facilitate real-time information detection and sharing. It is designed to guarantee concurrency and security to dynamically store, manage, and share information uploaded by vehicles with great efficiency. Such information will be announced on the blockchain under the autonomous identification of vehicles in low-trust conditions. In order to ensure the software\u2019s security, TriBoDeS can monitor the software\u2019s state, detect identified malicious activities, and respond accordingly. To ensure data security, a role-based management mechanism is introduced to achieve fine-grained control over permissions, and confidence rules are established to guarantee the authenticity of the data. To demonstrate the applicability of the proposed scheme, we evaluate its performance (e.g., computing and communication overheads) and security (e.g., resiliency against common attacks) over a consortium blockchain. The experimental results demonstrate that, under the conditions of a sufficient number of vehicles, the TriBoDeS system is capable of real-time information sharing while ensuring the security of user information. Compared to conventional single-chain systems, the TriBoDeS system achieves a 2.75-time improvement in efficiency.",
+      "authors": [
+        "Haoran Qin",
+        "Yining Tan",
+        "Yuxian Chen",
+        "Wei Ren",
+        "Kim-Kwang Raymond Choo"
+      ],
+      "categories": null,
+      "citations": 2,
+      "comments": null,
+      "databases": [
+        "IEEE"
+      ],
+      "doi": "10.1109/JIOT.2023.3297259",
+      "keywords": [
+        "Blockchain",
+        "Internet of Vehicles (IoV)",
+        "road condition detection and sharing"
+      ],
+      "number_of_pages": 15,
+      "pages": "3563-3577",
+      "publication": {
+        "category": "Journal",
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": "2372-2541",
+        "publisher": "IEEE",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "IEEE Internet of Things Journal"
+      },
+      "publication_date": "2024-01-15",
+      "selected": null,
+      "title": "TriBoDeS: A Tri-Blockchain-Based Detection and Sharing Scheme for Dangerous Road Condition Information in Internet of Vehicles",
+      "urls": [
+        "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10188927"
+      ]
+    },
+    {
+      "abstract": "Federated Learning (FL) is a decentralized machine learning (ML) technique that allows a number of participants to train an ML model collaboratively without having to share their private local datasets with others. When participants are unmanned aerial vehicles (UAVs), UAV-enabled FL would experience heterogeneity due to the majorly skewed (non-independent and identically distributed -IID) collected data. In addition, UAVs may demonstrate unintentional misbehavior in which the latter may fail to send updates to the FL server due, for instance, to UAVs' disconnectivity from the FL system caused by high mobility, unavailability, or battery depletion. Such challenges may significantly affect the convergence of the FL model. A recent way to tackle these challenges is client selection, based on customized criteria that consider UAV computing power and energy consumption. However, most existing client selection schemes neglected the participants' reliability. Indeed, FL can be targeted by poisoning attacks, in which malicious UAVs upload poisonous local models to the FL server, by either providing targeted false predictions for specifically chosen inputs or by compromising the global model's accuracy through tampering with the local model. Hence, we propose in this article a novel client selection scheme that enhances convergence by prioritizing fast UAVs with high-reliability scores, while eliminating malicious UAVs from training. Through experiments, we assess the effectiveness of our scheme in resisting different attack scenarios, in terms of convergence and achieved model accuracy. Finally, we demonstrate the performance superiority of the proposed approach compared to baseline methods.",
+      "authors": [
+        "Youssra Cheriguene",
+        "Wael Jaafar",
+        "Halim Yanikomeroglu",
+        "Chaker Abdelaziz Kerrache"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "IEEE"
+      ],
+      "doi": "10.1109/OJVT.2023.3341304",
+      "keywords": [
+        "model poisoning",
+        "edge computing",
+        "stragglers",
+        "unmanned aerial vehicle",
+        "Dropouts",
+        "UAV",
+        "federated learning"
+      ],
+      "number_of_pages": 17,
+      "pages": "125-141",
+      "publication": {
+        "category": "Journal",
+        "cite_score": 8.1,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": "2644-1330",
+        "publisher": "Institute of Electrical and Electronics Engineers Inc.",
+        "sjr": 2.116,
+        "snip": 1.564,
+        "subject_areas": [
+          "Automotive Engineering"
+        ],
+        "title": "IEEE Open Journal of Vehicular Technology"
+      },
+      "publication_date": "2024-01-01",
+      "selected": null,
+      "title": "Towards Reliable Participation in UAV-Enabled Federated Edge Learning on Non-IID Data",
+      "urls": [
+        "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10360280"
+      ]
+    },
+    {
+      "abstract": "In this study, we consider surfacing control problems for the autonomous underwater vehicle in three-dimensional space under emergencies. Most model-based controllers cannot effectively solve these problems due to the unknown task environment model. Moreover, existing deep reinforcement learning (DRL) methods have some limitations, such as slow convergence or overestimation bias. For these purposes, we propose a model-free DRL algorithm based on the Deep Deterministic Policy Gradient within the paradigm of deep learning as a service (DLaaS). The algorithm combines existing expert episodes as demonstration and transitions from the interaction between the agent and task environment, which potentially reduce risk from adversarial attack. We propose a variable delay learning mechanism to improve the performance of the proposed algorithm. The simulation results show that our method can converge faster and has a more robust performance with adversarial attack than the existing DRL method under the premise of solving the AUV surfacing control tasks for safety.",
+      "authors": [
+        "Tianze Zhang",
+        "Xuhong Miao",
+        "Yibin Li",
+        "Lei Jia",
+        "Yinghao Zhuang"
+      ],
+      "categories": null,
+      "citations": 1,
+      "comments": null,
+      "databases": [
+        "IEEE"
+      ],
+      "doi": "10.1109/TC.2021.3072072",
+      "keywords": [
+        "learning from demonstration",
+        "deep reinforcement learning",
+        "delay learning",
+        "AUV surfacing control"
+      ],
+      "number_of_pages": 13,
+      "pages": "327-339",
+      "publication": {
+        "category": "Journal",
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": "2326-3814",
+        "publisher": "IEEE",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "IEEE Transactions on Computers"
+      },
+      "publication_date": "2024-01-01",
+      "selected": null,
+      "title": "AUV Surfacing Control With Adversarial Attack Against DLaaS Framework",
+      "urls": [
+        "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9399819"
+      ]
+    },
+    {
+      "abstract": "Unmanned aerial vehicle (UAV)-borne hyperspectral imagery has been applied in precision agriculture, owing to its high spatial and spectral resolution. Specifically, the high spatial resolution is conducive to revealing the textural characteristics of crops, while the high spectral resolution can depict detailed spectral differences among crops. In this study, we explored the potential of extended attribute profiles (EAP) in modeling the spectral-spatial characteristics of UAV-borne hyperspectral imagery for the precise crop classification. Specifically, two dimensionality reduction approaches, namely, principle component analysis (PCA) and independent component analysis (ICA), were performed on the hyperspectral image to extract components, based on which a series of EAP that measure different image characteristics are generated. To exploit the complementary information of different attributes, the extracted EAP were fused for the classification of crops using feature stacking (FS) and decision fusion (DF) strategies. Meanwhile, random forest (RF), support vector machine (SVM), and deep neural networks (DNN) were used as classifier for the precise classification of crops. Experiments conducted on the WHU-Hi dataset demonstrated that EAP exploited the spectral-spatial information of UAV-borne hyperspectral imagery and obtained satisfactory crop classification performance.",
+      "authors": [
+        "Qikai Lu",
+        "Youping Xie",
+        "Lifei Wei",
+        "Zeyang Wei",
+        "Shuang Tian",
+        "Hui Liu",
+        "Li Cao"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "IEEE"
+      ],
+      "doi": "10.1109/LGRS.2023.3348462",
+      "keywords": [
+        "feature extraction",
+        "precision agriculture",
+        "Extended attribute profiles (EAP)",
+        "hyperspectral imagery",
+        "unmanned aerial vehicle (UAV)"
+      ],
+      "number_of_pages": 5,
+      "pages": "1-5",
+      "publication": {
+        "category": "Journal",
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": "1558-0571",
+        "publisher": "IEEE",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "IEEE Geoscience and Remote Sensing Letters"
+      },
+      "publication_date": "2024-01-01",
+      "selected": null,
+      "title": "Extended Attribute Profiles for Precise Crop Classification in UAV-Borne Hyperspectral Imagery",
+      "urls": [
+        "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10378649"
+      ]
+    },
+    {
+      "abstract": "Unmanned aerial vehicles (UAVs) represent an essential component of advanced intelligent equipment that can be used as an aerial perception system by installing various sensors such as vision, hearing, touch, taste, and smell to achieve intelligently integrated perception of environments. However, these perception system with environmental information may be threatened by various internal and external attacks, causing a great challenge to the security of the UAV. The original security system relied on an expert knowledge base to prevent attacks, but the weaknesses of lacking proactivity and flexibility are gradually exposed. The strong resistance and survivability of biological systems can be used to fill this capability gap and provide new ideas for the security of the UAV perception system. Therefore, an endogenous security framework (ESUAV-NI) based on the neural system and immune system is proposed in this article. Through breeding artificial intelligence (AI) vaccines and distributed neural hierarchical control, we achieve the security protection for the UAV perception system. Moreover, we evaluated the AI vaccine breeding approach in the ESUAV-NI by conducting extensive experiments on internal threats and external aerial imagery camouflage data, respectively. The results show that the proposed approach has a superior performance for the UAV perception system.",
+      "authors": [
+        "Heqing Li",
+        "Xinde Li",
+        "Zhentong Zhang",
+        "Chuanfei Hu",
+        "Fir Dunkin",
+        "Shuzhi Sam Ge"
+      ],
+      "categories": null,
+      "citations": 1,
+      "comments": null,
+      "databases": [
+        "IEEE"
+      ],
+      "doi": "10.1109/TII.2023.3271443",
+      "keywords": [
+        "unmanned aerial vehicles (UAVs)",
+        "Artificial intelligence (AI) vaccines",
+        "endogenous security",
+        "security threats"
+      ],
+      "number_of_pages": 12,
+      "pages": "732-743",
+      "publication": {
+        "category": "Journal",
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": "1941-0050",
+        "publisher": "IEEE",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "IEEE Transactions on Industrial Informatics"
+      },
+      "publication_date": "2024-01-01",
+      "selected": null,
+      "title": "ESUAV-NI: Endogenous Security Framework for UAV Perception System Based on Neural Immunity",
+      "urls": [
+        "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10111025"
+      ]
+    },
+    {
+      "abstract": "For autonomous robots, it is desirable to learn coordination of primitive skills that can effectively solve long-horizon tasks and perform novel ones. Recent advances in hierarchical policy learning have shown that decomposing complex tasks into sequences of primitive skills which are called sketches can enable robots to perform directed exploration in challenging manipulation tasks. However, they usually fall short in sequencing skills in a new task without retraining as the task sketches are almost hard-coded or learned by deep reinforcement learning. To improve exploration efficiency for long-horizon tasks, we propose Sketch RL, a hierarchical framework that combines supervised learning with reinforcement learning interactively generates the task sketch, and utilizes it as the curriculum to guide low-level skill learning. Furthermore, to allow for multitask decomposition and generalizing few-shot to new tasks, our method exploits a Vision-based Skill Predictor (VSP) to capture shared subtask structure. Extensive experiments on challenging manipulation tasks demonstrate that Sketch RL substantially outperforms other prior baseline methods and is capable of adapting to new tasks with different sketches and real-world settings.",
+      "authors": [
+        "Zhenyang Lin",
+        "Yurou Chen",
+        "Zhiyong Liu"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "IEEE"
+      ],
+      "doi": "10.1109/LRA.2023.3339400",
+      "keywords": [
+        "grasping",
+        "Reinforcement learning",
+        "deep learning methods"
+      ],
+      "number_of_pages": 8,
+      "pages": "867-874",
+      "publication": {
+        "category": "Journal",
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": "2377-3774",
+        "publisher": "IEEE",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "IEEE Robotics and Automation Letters"
+      },
+      "publication_date": "2024-01-01",
+      "selected": null,
+      "title": "Sketch RL: Interactive Sketch Generation for Long-Horizon Tasks via Vision-Based Skill Predictor",
+      "urls": [
+        "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10342749"
+      ]
+    },
+    {
+      "abstract": "In this letter, the novel intelligent reflecting surface (IRS)-assisted cognitive unmanned aerial vehicle systems (CUAVS) are investigated, where the UAV serves as a mobile node sensing spectrum state of primary user (PU) and transmitting data to ground secondary users (SUs), while IRS is exploited to assist both the UAV sensing and transmission in CUAVS. Our aim is to maximize the effective throughput of CUAVS by jointly optimizing the spectrum sensing duration and the UAV\u2019s trajectory, as well as IRS phase shift matrices in the sensing and transmission stages, where UAV needs to balance its relative location among IRS, primary transmitter, PU and SUs. To solve this challenging optimization problem, the original problem is divided into four sub-problems, and these sub-problems are solved by exploiting the bisection search, semidefinite relaxation, Gaussian randomization and successive convex approximation techniques, respectively. Numerical results demonstrate that our proposed design can significantly enhance the effective throughput of CUAVS.",
+      "authors": [
+        "Qian Deng",
+        "Guangcheng Yu",
+        "Xiaopeng Liang",
+        "Feng Shu",
+        "Jiangzhou Wang"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "IEEE"
+      ],
+      "doi": "10.1109/LWC.2023.3326979",
+      "keywords": [
+        "cognitive UAV systems",
+        "IRS",
+        "spectrum sensing",
+        "trajectory optimization"
+      ],
+      "number_of_pages": 5,
+      "pages": "233-237",
+      "publication": {
+        "category": "Journal",
+        "cite_score": 10.7,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": "2162-2345",
+        "publisher": "IEEE Communications Society",
+        "sjr": 3.092,
+        "snip": 1.561,
+        "subject_areas": [
+          "Control and Systems Engineering",
+          "Electrical and Electronic Engineering"
+        ],
+        "title": "IEEE Wireless Communications Letters"
+      },
+      "publication_date": "2024-01-01",
+      "selected": null,
+      "title": "Joint Trajectory, Sensing, and Transmission Design for IRS-Assisted Cognitive UAV Systems",
+      "urls": [
+        "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10293170"
+      ]
+    },
+    {
+      "abstract": "Cyber\u2013physical systems (CPSs) driven by a local controller and a remote controller have been gaining significant research interest in recent years due to its application scenarios in practice, such as unmanned aerial vehicles (UAVs). In this article, we consider the security issue in the remote control system with a local controller under stealthy attacks. Under this framework, one controller is designed locally based on the limited measurements collected by a local sensor, and the other controller is designed remotely and is transmitted to the actuator through a wireless communication channel, which may suffer malicious attacks due to its openness. To defend attacks on remote control signal, the K\u2013L divergence-based detector or  $\\chi ^{2}$  detector is often adopted. However, there may be attackers adopting stealthy attacks, which can bypass such detectors. Therefore, we analyze the existence of such attacks, and analytically characterize the worst-estimation performance degradation induced by the remote control signal attack. Further, we construct the optimal attack signal to achieve the upper bound on the estimation performance degradation. In addition, we also give countermeasures against such stealthy attacks. Simulations are provided to illustrate the proposed results.",
+      "authors": [
+        "Fuyi Qu",
+        "Nachuan Yang",
+        "Jun Fu",
+        "Hao Liu",
+        "Yuzhe Li"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "IEEE"
+      ],
+      "doi": "10.1109/TSMC.2023.3324366",
+      "keywords": [
+        "stealthy attack",
+        "security",
+        "Remote control system"
+      ],
+      "number_of_pages": 12,
+      "pages": "1147-1158",
+      "publication": {
+        "category": "Journal",
+        "cite_score": 18.9,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": "2168-2232",
+        "publisher": "IEEE Advancing Technology for Humanity",
+        "sjr": 3.688,
+        "snip": 2.893,
+        "subject_areas": [
+          "Control and Systems Engineering",
+          "Computer Science Applications",
+          "Electrical and Electronic Engineering",
+          "Human-Computer Interaction",
+          "Software"
+        ],
+        "title": "IEEE Transactions on Systems, Man, and Cybernetics: Systems"
+      },
+      "publication_date": "2024-01-01",
+      "selected": null,
+      "title": "Stealthy Attack on Remote Control System With Local Controller and Its Countermeasures",
+      "urls": [
+        "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10304192"
+      ]
+    },
+    {
+      "abstract": "In this article, we investigate the design of the trajectory of an unmanned aerial vehicle (UAV) and the transmit power of ground users to improve covert communications against a flying warden in UAV-assisted non-orthogonal multiple access networks, where the legitimate UAV can simultaneously collect the messages from the multiple ground users in a secure manner. Taking the channel uncertainty into account, we derive the analytical expressions of the optimal normalized detection threshold, the minimum detection error probability (DEP), and the security-guaranteed transmit power constraint for the ground users that are exploited to ensure a high DEP at the warden UAV. Subsequently, the design to maximize the average covert achievable rate (CAR) subject to the constraints of flight speed, initial and final locations, transmit power, and detection performance is formulated as a non-convex optimization problem. To obtain a high-quality solution to the design problem at hand, an iterative block coordinate descent-based successive convex approximation method is proposed. From the theoretical analysis, we find that a greater channel estimation uncertainly or a lower effective received power ratio at the warden UAV is beneficial in enhancing the system covertness towards the warden UAV. Moreover, when the successful detection probability of the warden UAV is sufficiently small, the maximum effective received power ratio is linearly and positively correlated to the detection success probability. Besides, extensive simulations are presented to verify the covert performance advantages brought by the proposed method.",
+      "authors": [
+        "Dan Deng",
+        "Shuping Dang",
+        "Xingwang Li",
+        "Derrick Wing Kwan Ng",
+        "Arumugam Nallanathan"
+      ],
+      "categories": null,
+      "citations": 1,
+      "comments": null,
+      "databases": [
+        "IEEE"
+      ],
+      "doi": "10.1109/TVT.2023.3308718",
+      "keywords": [
+        "UAV-assisted communications",
+        "Covert communications",
+        "NOMA",
+        "joint optimization"
+      ],
+      "number_of_pages": 15,
+      "pages": "1012-1026",
+      "publication": {
+        "category": "Journal",
+        "cite_score": 13.6,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": "1939-9359",
+        "publisher": "Institute of Electrical and Electronics Engineers Inc.",
+        "sjr": 2.802,
+        "snip": 2.086,
+        "subject_areas": [
+          "Applied Mathematics",
+          "Electrical and Electronic Engineering",
+          "Automotive Engineering",
+          "Aerospace Engineering"
+        ],
+        "title": "IEEE Transactions on Vehicular Technology"
+      },
+      "publication_date": "2024-01-01",
+      "selected": null,
+      "title": "Joint Optimization for Covert Communications in UAV-Assisted NOMA Networks",
+      "urls": [
+        "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10230898"
+      ]
+    },
+    {
+      "abstract": "The trajectory planning module generates optimal collision-free paths, which is essential to automated driving. Existing approaches have focused on traffic flow situations and the geometrical feasibility of local trajectories. However, high nonlinearity of vehicle dynamics could cause handling instability or even severe accidents in cases of tracking dynamic infeasible paths. Meanwhile, the variety and complexity of driving environments bring intractable challenges to safe trajectory planning. This article aims to address this crucial issue and proposes a chassis global dynamics-oriented trajectory planning scheme. This work designs comprehensive performance indices to represent handling dynamic status based on chassis dynamics modeling. As the basis of trajectory planning, a reference path is extracted from global digital map data, and the curvilinear coordinate frame is exploited. Numerical optimization is proposed to solve the trajectory planning problem. Thus, an optimal and dynamically feasible trajectory, which satisfies geometrical smoothness, chassis global dynamics indices, and feasible safety, can be generated and transformed. Various scenarios are involved in carrying out simulation tests, and those results demonstrate the excellent capability and effectiveness of the proposed scheme to provide optimal trajectories in a variety of driving situations.",
+      "authors": [
+        "Shuo Cheng",
+        "Hao-Nan Peng",
+        "Xiao-Xu Dong",
+        "Zi-Jun Liu",
+        "Liang Li"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "IEEE"
+      ],
+      "doi": "10.1109/TSMC.2023.3321881",
+      "keywords": [
+        "Automated vehicles (AVs)",
+        "vehicle chassis global dynamics",
+        "multiobjective optimization",
+        "trajectory planning"
+      ],
+      "number_of_pages": 10,
+      "pages": "950-959",
+      "publication": {
+        "category": "Journal",
+        "cite_score": 18.9,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": "2168-2232",
+        "publisher": "IEEE Advancing Technology for Humanity",
+        "sjr": 3.688,
+        "snip": 2.893,
+        "subject_areas": [
+          "Control and Systems Engineering",
+          "Computer Science Applications",
+          "Electrical and Electronic Engineering",
+          "Human-Computer Interaction",
+          "Software"
+        ],
+        "title": "IEEE Transactions on Systems, Man, and Cybernetics: Systems"
+      },
+      "publication_date": "2024-01-01",
+      "selected": null,
+      "title": "Chassis Global Dynamics-Oriented Trajectory Planning for Automated Vehicles",
+      "urls": [
+        "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10289710"
+      ]
+    },
+    {
+      "abstract": "Multi-sensor collaborative perception has been a significant trend in self-driving and robot navigation. The precondition for multi-sensor fusion is the accurate calibration between sensors. Traditional LiDAR-Camera calibrations rely on laborious manual operations. Several recent studies have demonstrated the advantages of convolutional neural networks regarding feature extraction capabilities. However, the vast modality discrepancy between RGB images and point clouds makes it difficult to explore corresponding features, remaining a challenge for LiDAR-Camera calibrations. In this letter, we propose a new robust online LiDAR-Camera self-calibration network (SCNet). To reduce the search dimensionality for feature matching, we exploit self-supervised learning to align RGB images with projected depth images in 2D pixel coordinates, thereby achieving pre-alignment of the roll angle. In addition, to generate more accurate initial similarity measures for RGB image pixels and possible corresponding projected depth image pixels, we propose a novel multi-level patch matching method that concatenates cost volume constructed from multi-level feature maps. Our method achieves a mean absolute calibration error of 0.724 cm in translation and 0.055$^{\\circ }$ in rotation in a single frame analysis with miscalibration magnitudes of up to $\\pm$1.5 m and $\\pm 20^{\\circ }$ on the KITTI odometry dataset, which demonstrates the superiority of our method.",
+      "authors": [
+        "Zaipeng Duan",
+        "Xuzhong Hu",
+        "Junfeng Ding",
+        "Pei An",
+        "Xiao Huang",
+        "Jie Ma"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "IEEE"
+      ],
+      "doi": "10.1109/LRA.2023.3336250",
+      "keywords": [
+        "deep learning",
+        "Calibration",
+        "sensor fusion"
+      ],
+      "number_of_pages": 8,
+      "pages": "627-634",
+      "publication": {
+        "category": "Journal",
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": "2377-3774",
+        "publisher": "IEEE",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "IEEE Robotics and Automation Letters"
+      },
+      "publication_date": "2024-01-01",
+      "selected": null,
+      "title": "A Robust LiDAR-Camera Self-Calibration Via Rotation-Based Alignment and Multi-Level Cost Volume",
+      "urls": [
+        "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10328060"
+      ]
+    },
+    {
+      "abstract": "With the growing threat of unmanned aerial vehicle (UAV) intrusions, the topic of anti-UAV tracking has received widespread attention from the community. Traditional Siamese trackers struggle with small UAV targets and are plagued by model degradation issues. To mitigate this, we propose a novel searching region-free and template-free Siamese network (SiamSRT) to track UAV targets in thermal infrared (TIR) videos. The proposed tracker builds a two-stage Siamese architecture with the former providing detection of the first-frame ground truth by using a cross-correlated region proposal network (C-C RPN) and the latter providing detection of previous-frame predictions via a similarity-learning region convolutional neural network (S-L RCNN). In both stage, global proposals are acquired by region of interest (ROI) alignment operation to break the limitation of searching region. Then, a spatial location consistency function is introduced to suppress background thermal distractors and a temporal memory bank (TMB) is utilized to avoid template update degradation problem. Further, a single-category foreground detector (SCFD) is designed to independently predict the position of the UAV target. SCFD can re-initialize the tracker without the given target in the first frame, which can help to recover the tracking failures. Comprehensive experiments demonstrate that SiamSRT achieves the best performance compared to the most advanced algorithms in the anti-UAV tracking missions.",
+      "authors": [
+        "Bo Huang",
+        "Zeyang Dou",
+        "Junjie Chen",
+        "Jianan Li",
+        "Ning Shen",
+        "Ying Wang",
+        "Tingfa Xu"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "IEEE"
+      ],
+      "doi": "10.1109/TGRS.2023.3341331",
+      "keywords": [
+        "thermal infrared (TIR)",
+        "Anti-unmanned aerial vehicles (UAVs)",
+        "temporal memory bank (TMB)",
+        "single-category foreground detector (SCFD)",
+        "Siamese network"
+      ],
+      "number_of_pages": 15,
+      "pages": "1-15",
+      "publication": {
+        "category": "Journal",
+        "cite_score": 10.9,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": "1558-0644",
+        "publisher": "Institute of Electrical and Electronics Engineers Inc.",
+        "sjr": 2.4,
+        "snip": 3.608,
+        "subject_areas": [
+          "Electrical and Electronic Engineering",
+          "Earth and Planetary Sciences (all)"
+        ],
+        "title": "IEEE Transactions on Geoscience and Remote Sensing"
+      },
+      "publication_date": "2024-01-01",
+      "selected": null,
+      "title": "Searching Region-Free and Template-Free Siamese Network for Tracking Drones in TIR Videos",
+      "urls": [
+        "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10352116"
+      ]
+    },
+    {
+      "abstract": "Gls UUV is an intelligent underwater platform that can operate autonomously. However, it is difficult for unmanned underwater vehicle (UUV) to make correct decisions timely and independently in the face of uncertain events. Therefore, it is necessary to assess the threat of uncertain events and guide UUV to make timely and accurate decisions. This article studies the threat assessment strategy of a human-in-the-loop UUV under uncertain events. First, the uncertain events are classified according to their characteristics, and the Bayesian network (BN) is constructed by taking the characteristic variables of uncertain events as neurons. Then, the human experiences are combined with the genetic optimization algorithm to determine the BN parameters. According to the reasoning of the BN, the threat of uncertain events is evaluated. Finally, according to the threat assessment results, the PSO and A/B model are used to replan the task. The proposed algorithm uses BN to represent uncertain events and introduces human experiences to optimize network parameters, eliminating subjective bias and improving the accuracy of threat assessment. At the same time, the task replanning strategy is introduced to ensure the security of UUV. Four typical UUV tasks are designed, and the trigger elements of uncertain events are set in the simulation to verify the performance of the proposed algorithm. The simulation and experiment results show that a UUV can accurately assess the threat level of uncertain events during the task execution process when using the proposed strategy. The safety of the human-in-the-loop UUV operation is guaranteed by task replanning.",
+      "authors": [
+        "Xiang Cao",
+        "Changyin Sun",
+        "Xuerao Wang"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "IEEE"
+      ],
+      "doi": "10.1109/TSMC.2023.3311778",
+      "keywords": [
+        "threat assessment",
+        "(UUV)",
+        "uncertain event",
+        "task replanning",
+        "Human-in-the-loop"
+      ],
+      "number_of_pages": 13,
+      "pages": "520-532",
+      "publication": {
+        "category": "Journal",
+        "cite_score": 18.9,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": "2168-2232",
+        "publisher": "IEEE Advancing Technology for Humanity",
+        "sjr": 3.688,
+        "snip": 2.893,
+        "subject_areas": [
+          "Control and Systems Engineering",
+          "Computer Science Applications",
+          "Electrical and Electronic Engineering",
+          "Human-Computer Interaction",
+          "Software"
+        ],
+        "title": "IEEE Transactions on Systems, Man, and Cybernetics: Systems"
+      },
+      "publication_date": "2024-01-01",
+      "selected": null,
+      "title": "Threat Assessment Strategy of Human-in-the-Loop Unmanned Underwater Vehicle Under Uncertain Events",
+      "urls": [
+        "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10255075"
+      ]
+    },
+    {
+      "abstract": "The real-time segmentation results of side-scan sonar (SSS) images can realize the intelligent perception of autonomous underwater vehicles (AUVs). However, there remains a compelling challenge that the models trained with training data may not generalize well in practical applications due to the various marine conditions/working devices. This article proposes a real-time cross-domain segmentation adaptation scheme for SSS images based on adversarial training via min\u2013max training to distribute SSS images in the output space and marginal distribution adaption to improve the segmentation performance by minimizing the measured distribution distance. To further enhance the adapted model, the multilayer feature discriminators are established to realize the fine-grained alignment. Experiments on the real-world SSS datasets demonstrate that our proposed model outperforms state-of-the-art methods and achieves the actual industrial application for AUV.",
+      "authors": [
+        "Qi Wang",
+        "Yixiao Zhang",
+        "Bo He"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "IEEE"
+      ],
+      "doi": "10.1109/TIE.2023.3247737",
+      "keywords": [
+        "side-scan sonar (SSS)",
+        "autonomous underwater vehicle (AUV)",
+        "Adversarial network",
+        "intelligent robots",
+        "domain adaptation (DA)"
+      ],
+      "number_of_pages": 11,
+      "pages": "749-759",
+      "publication": {
+        "category": "Journal",
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": "1557-9948",
+        "publisher": "IEEE",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "IEEE Transactions on Industrial Electronics"
+      },
+      "publication_date": "2024-01-01",
+      "selected": null,
+      "title": "Automatic Seabed Target Segmentation of AUV via Multilevel Adversarial Network and Marginal Distribution Adaptation",
+      "urls": [
+        "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10054596"
+      ]
+    },
+    {
+      "abstract": "As a crucial component in power transmission lines, structural defects in dampers can significantly reduce their ability to suppress wire vibrations, posing a serious threat to the transmission line infrastructure. Most existing methods for damper defect detection are based on deep learning. However, these methods face challenges when applied to unmanned aerial vehicle (UAV)-captured images of dampers, as they often appear in complex backgrounds and contain small and densely distributed objects. This research aims to improve the accuracy and speed of damper defect recognition by proposing an attention-guided damper defect detection network called DSA-Net, which includes components such as damper attention (DA), Stile path aggregation network (Stile PAN), and ASFFs. First, to accurately extract the features of the damper while reducing background interference, a novel attention mechanism called DA is introduced, based on the shape of the damper and bidirectional stripe convolution. This mechanism allows the network to focus on key regions in the image without incurring expensive computational costs. Second, the Stile PAN feature fusion structure is employed to integrate shallow-level information of small targets. Finally, a single-layer ASFFs structure is utilized to autonomously learn information about small and densely distributed targets from the detection feature maps output by Stile PAN. On the transmission line damper (TLD) dataset, DSA-Net achieves an mAP0.5 of 0.935, an mAP0.5:0.95 of 0.789, and an inference speed of 7.2 ms.",
+      "authors": [
+        "Ye Zhang",
+        "Botao Li",
+        "Jinghao Shang",
+        "Xinbo Huang",
+        "Pengchao Zhai",
+        "Cuicui Geng"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "IEEE"
+      ],
+      "doi": "10.1109/TIM.2023.3331418",
+      "keywords": [
+        "visible light image",
+        "damper",
+        "Attention mechanism",
+        "transmission line",
+        "unmanned aerial vehicle (UAV)"
+      ],
+      "number_of_pages": 22,
+      "pages": "1-22",
+      "publication": {
+        "category": "Journal",
+        "cite_score": 7.4,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": "1557-9662",
+        "publisher": "Institute of Electrical and Electronics Engineers Inc.",
+        "sjr": 1.397,
+        "snip": 1.721,
+        "subject_areas": [
+          "Instrumentation",
+          "Electrical and Electronic Engineering"
+        ],
+        "title": "IEEE Transactions on Instrumentation and Measurement"
+      },
+      "publication_date": "2024-01-01",
+      "selected": null,
+      "title": "DSA-Net: An Attention-Guided Network for Real-Time Defect Detection of Transmission Line Dampers Applied to UAV Inspections",
+      "urls": [
+        "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10313303"
+      ]
+    },
+    {
+      "abstract": "As a key technology of autonomous driving, the high-precision vehicle localization is the prerequisite for automatic steer. With the advantage of accuracy and robustness, the Light Detection and Ranging (LiDAR) is widely employed in Simultaneous Localization and Mapping (SLAM), which has been utilized to provide reliable positioning information. Compared with the experimental vehicles in the restricted laboratory driving circumstances, autonomous vehicles are devoted to actual roads and contain complicated activities, where closed loops can be noticed. In general, the accumulated error may be accumulated with the increasing of maneuver scope of SLAM. A distinct drift phenomenon may thus be incurred in the completed point cloud map and threaten the accuracy of positioning results. Focusing on this deficiency, a tightly-coupled LiDAR inertial odometry, named PDLC-LIO, is developed in this paper towards large-scale environments with close loops. A direct point cloud registration approach without extracting features has been introduced into this framework. Strategies including the pre-integration on the Inertial Measurement Unit (IMU), the direct scan match in local-scale, and an efficient fusion loop closure detection method with conditional detection are included to guarantee the precision. Also, the factor graph optimization is considered, and measurements from LiDAR odometry, IMU and loop closures can thus be integrated into the back-end optimization. The proposed method has been verified on both the public datasets and the test cases collected by our own autonomous driving experiment platform. Accurate experimental results can be obtained. Such results show that the performance including accumulated errors and the drift phenomenon outperforms the state-of-the-art algorithms LeGO-LOAM/ LIO-SAM /FAST-LIO2, and the loop closure detection rate can be promoted up to 75%.",
+      "authors": [
+        "Shuai Wang",
+        "Jiazhong Zhang",
+        "Xiaojun Tan"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "IEEE"
+      ],
+      "doi": "10.1109/TITS.2023.3307439",
+      "keywords": [
+        "simultaneous localization and mapping",
+        "Autonomous driving",
+        "light detection and ranging",
+        "loop closure detection"
+      ],
+      "number_of_pages": 12,
+      "pages": "626-637",
+      "publication": {
+        "category": "Journal",
+        "cite_score": 11.6,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": "1558-0016",
+        "publisher": "Institute of Electrical and Electronics Engineers Inc.",
+        "sjr": 2.674,
+        "snip": 3.544,
+        "subject_areas": [
+          "Mechanical Engineering",
+          "Computer Science Applications",
+          "Automotive Engineering"
+        ],
+        "title": "IEEE Transactions on Intelligent Transportation Systems"
+      },
+      "publication_date": "2024-01-01",
+      "selected": null,
+      "title": "PDLC-LIO: A Precise and Direct SLAM System Toward Large-Scale Environments With Loop Closures",
+      "urls": [
+        "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10234608"
+      ]
+    },
+    {
+      "abstract": "This article addresses indoor environment mapping by employing the synthetic aperture radar (SAR) technique at millimeter wave (mmWave) frequencies. The mmWave-based SAR can provide a high-resolution map, for example, of an emergency scenario like a burning room. The high-resolution map drives a new era of SAR applications such as object detection, classification, characterization, and precise localization. A major requirement at high frequencies is the precise knowledge of SAR trajectory, where radar sensors are mounted on a mobile platform such as a drone or unmanned aerial vehicle (UAV). State-of-the-art localization methods such as global positioning system (GPS)-aided inertial measurement units (IMUs) are not valid due to limited coverage and accuracy. One of the primary solutions could be the SAR assisted with an indoor localization system, which is exploited in the work. The presented indoor localization system comprises two types of passive chipless frequency-coded tags, based on dielectric resonators (DRs) and frequency-selective surfaces. In this work, first, the proposed method of integrating SAR and localization systems is evaluated in a single-tag environment. Further, a version of a room equipped with a multitag system is considered for real-time applications, and a successful demonstration of indoor environment mapping for the frequency spectrum of 75\u2013110 GHz is presented.",
+      "authors": [
+        "Aman Batra",
+        "Ali Alhaj Abbas",
+        "Jes\u00fas S\u00e1nchez-Pastor",
+        "Mohammed El-Absi",
+        "Alejandro Jim\u00e9nez-S\u00e1ez",
+        "Maher Khaliel",
+        "Jan Barowski",
+        "Michael Wiemeler",
+        "Diana G\u00f6hringer",
+        "Ilona Rolfes",
+        "Rolf Jakoby",
+        "Thomas Kaiser"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "IEEE"
+      ],
+      "doi": "10.1109/JSEN.2023.3332431",
+      "keywords": [
+        "radar imaging",
+        "High-resolution synthetic aperture radar (SAR)",
+        "indoor imaging",
+        "mmWave identification",
+        "passive tag localization",
+        "mmWave indoor mapping"
+      ],
+      "number_of_pages": 14,
+      "pages": "844-857",
+      "publication": {
+        "category": "Journal",
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": "2379-9153",
+        "publisher": "IEEE",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "IEEE Sensors Journal"
+      },
+      "publication_date": "2024-01-01",
+      "selected": null,
+      "title": "Millimeter Wave Indoor SAR Sensing Assisted With Chipless Tags-Based Self-Localization System: Experimental Evaluation",
+      "urls": [
+        "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10323276"
+      ]
+    },
+    {
+      "abstract": "In the realm of Intelligent Transportation Systems (ITSs), ensuring the safety and stability of connected automated vehicles (CAVs) is of paramount importance due to their susceptibility to vulnerabilities in interactions. The potential for system-wide disruption stemming from a cyber-attack on the leader underscores this need. Therefore, this letter introduces a nonlinear neural-Lyapunov-based adaptive resilient cruise control approach aimed at ensuring that all vehicles maintain safe tracking of the leader\u2019s profile, even in the presence of cyber-attacks and external disturbances. To achieve this, we employ an adaptive neural network to estimate the system\u2019s nonlinear characteristics. Subsequently, the control procedure is proposed, utilizing a virtual disturbance observer and Lyapunov theorem for stability analysis and adaptive laws to deal with nonlinearity, external disturbances, deception attacks, and singular control gain. Notably, our proposed approach eliminates the need for restrictive assumptions such as Lipschitz conditions on the nonlinear component and avoids the requirement for additional algorithms to switch between controllers in the event of a cyber-attack. This letter provides compelling evidence of system stability and the achievement of control objectives. Additionally, simulation and comparative results validate the theoretical analysis, highlighting the efficacy of the proposed methodology.",
+      "authors": [
+        "Ladan Khoshnevisan",
+        "Xinzhi Liu"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "IEEE"
+      ],
+      "doi": "10.1109/LCSYS.2023.3346761",
+      "keywords": [
+        "deception attacks",
+        "neural-Lyapunov-based procedure",
+        "Adaptive resilient cruise control",
+        "connected automated vehicles",
+        "Lyapunov-Krasovskii approach"
+      ],
+      "number_of_pages": 6,
+      "pages": "7-12",
+      "publication": {
+        "category": "Journal",
+        "cite_score": 4.4,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": "2475-1456",
+        "publisher": "Institute of Electrical and Electronics Engineers Inc.",
+        "sjr": 1.687,
+        "snip": 1.435,
+        "subject_areas": [
+          "Control and Systems Engineering",
+          "Control and Optimization"
+        ],
+        "title": "IEEE Control Systems Letters"
+      },
+      "publication_date": "2024-01-01",
+      "selected": null,
+      "title": "A Neural-Lyapunov-Based Adaptive Resilient Cruise Control of Platoons Subject to Cyber-Attacks on Leaders",
+      "urls": [
+        "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10373564"
+      ]
+    },
+    {
+      "abstract": "The line-of-sight (LoS) channels introduced by unmanned aerial vehicle (UAV) may lead to the threat of being detected, and thus fail the covert communication. This can be solved by intelligent reflection surface (IRS) to introduce additional randomness. In this letter, we propose a novel scheme via a UAV carrying an IRS to establish air-ground links to assist the covert transmission, where the phase shifts of IRS are randomized to preserve the covertness. In addition, the legitimate receiver can act as a jammer in the full-duplex mode to defuse the detection of a warden. An optimal detection threshold and the corresponding error detection probability are derived. Under this worst situation, the optimal transmit-to-jamming ratio is obtained to maximize the achievable transmission rate. Simulation results are presented to show the effectiveness of the proposed UAV-IRS assisted covert communication scheme.",
+      "authors": [
+        "Xinying Chen",
+        "Zheng Chang",
+        "Mingqian Liu",
+        "Nan Zhao",
+        "Timo H\u00e4m\u00e4l\u00e4inen",
+        "Dusit Niyato"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "IEEE"
+      ],
+      "doi": "10.1109/LWC.2023.3321957",
+      "keywords": [
+        "Covert communication",
+        "intelligent reflecting surface",
+        "unmanned aerial vehicle",
+        "random phase shifting"
+      ],
+      "number_of_pages": 5,
+      "pages": "103-107",
+      "publication": {
+        "category": "Journal",
+        "cite_score": 10.7,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": "2162-2345",
+        "publisher": "IEEE Communications Society",
+        "sjr": 3.092,
+        "snip": 1.561,
+        "subject_areas": [
+          "Control and Systems Engineering",
+          "Electrical and Electronic Engineering"
+        ],
+        "title": "IEEE Wireless Communications Letters"
+      },
+      "publication_date": "2024-01-01",
+      "selected": null,
+      "title": "UAV-IRS Assisted Covert Communication: Introducing Uncertainty via Phase Shifting",
+      "urls": [
+        "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10271264"
+      ]
+    },
+    {
+      "abstract": "There is a definite possibility that, in a recent future, Unmanned Aerial Vehicles (UAVs) will form the backbone of any smart city in terms of automation and networking. One approach to extend the UAVs\u2019 resources spectrum is to provide a mean for them to opportunistically recharge and connect to otherwise unreachable networks: provide Training and Recharge Areas (TRAs). In these dedicated areas, the UAVs could dock to Energy and Data Dispensers (EDD) devices to resupply their batteries and exploit a high-speed connection. To autonomously move through the smart city while accomplishing a set of given tasks but, at the same time, consider visiting the EDDs, is part of a tridimensional trajectory planning problem that needs to be addressed. In this paper, we formally define the combinatorial optimization problem representing the trajectory planning. We consider the case in which more than one UAV can be connected with the same EDD at the same time, by properly addressing the assignment of the bandwidth. Through simulative investigation, realistic values for the solution of the optimization problem are found. The behavior of the proposed model is compared with an \u201donline\u201d approach that does not require the same resources and knowledge and whose evaluation and comparison with the \u201doffline\u201d approach are performed through network simulation.",
+      "authors": [
+        "Nicola Roberto Zema",
+        "Enrico Natalizio",
+        "Luigi Di Puglia Pugliese",
+        "Francesca Guerriero"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "IEEE"
+      ],
+      "doi": "10.1109/TMC.2022.3215705",
+      "keywords": [
+        "reactive planning",
+        "MILP",
+        "Distributed control systems",
+        "wireless networks"
+      ],
+      "number_of_pages": 11,
+      "pages": "1-11",
+      "publication": {
+        "category": "Journal",
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": "2161-9875",
+        "publisher": "IEEE",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "IEEE Transactions on Mobile Computing"
+      },
+      "publication_date": "2024-01-01",
+      "selected": null,
+      "title": "3D Trajectory Optimization for Multimission UAVs in Smart City Scenarios",
+      "urls": [
+        "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9925115"
+      ]
+    },
+    {
+      "abstract": "Semantic segmentation in diverse real-world traffic scenes is a challenging task for autonomous vehicles to have a reliable understanding of the outside environment. Although deep visual models show a remarkable performance on traffic scene segmentation, they need significant improvements when the source and target scene distributions are different. The weather and illumination differences between source and target datasets result in dramatic distribution shifts that degrade the target segmentation performance. This article develops an unsupervised domain adaptation (UDA) model to address complex domain shift problems where the dataset, weather, and illumination of source and target traffic scenes are different. We devise a sparse adversarial multitarget UDA approach to capture powerful domain-invariant features to segment traffic scenes in different conditions. First, a sparse representation of the source traffic scenes is captured via a new spectral low-rank dictionary learning technique in the latent space of a deep encoder\u2013decoder segmentation architecture. The feature sparsity provides high generalization capacity for our deep feature extractor that enables us to compute complex visual patterns of source images. Then, the distribution of source sparse features is learned using a generative adversarial framework. Finally, the sparse representations of source and target scenes are aligned via a sparse domain-invariant feature extractor trained by min\u2013max optimization. The aligned features serve as domain-invariant scene representations that can best describe both source and target scenes; hence providing deep domain adaptation for traffic scene semantic segmentation. Experiments on a real-world dataset indicate the superiority of the proposed model compared to the state-of-the-art methodologies.",
+      "authors": [
+        "Mohsen Saffari",
+        "Mahdi Khodayar"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "IEEE"
+      ],
+      "doi": "10.1109/TII.2023.3291402",
+      "keywords": [
+        "deep neural networks (DNNs)",
+        "Adversarial learning",
+        "generative modeling",
+        "semantic segmentation",
+        "dictionary learning"
+      ],
+      "number_of_pages": 13,
+      "pages": "2564-2576",
+      "publication": {
+        "category": "Journal",
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": "1941-0050",
+        "publisher": "IEEE",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "IEEE Transactions on Industrial Informatics"
+      },
+      "publication_date": "2024-01-01",
+      "selected": null,
+      "title": "Low-Rank Sparse Generative Adversarial Unsupervised Domain Adaptation for Multitarget Traffic Scene Semantic Segmentation",
+      "urls": [
+        "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10193868"
+      ]
+    },
+    {
+      "abstract": "This study focuses on optimizing the performance of an uplink pairwise Non-Orthogonal Multiple Access (NOMA) scenario with and without the support of a relayer, while subject to jamming attacks. We consider two different relaying protocols, one where the sources and the destination are within range of each other and one where they are not. The relay node can be mobile, e.g., a mobile base station, an unmanned aerial vehicle (UAV) or a stationary node that is chosen as a result of a relay selection procedure. We also benchmark with a NOMA retransmission protocol and an Orthogonal Multiple Access (OMA) scheme without a relayer. We analyze, adjust and compare the four protocols for different settings using outage analysis, which is an efficient tool for establishing communication reliability for both individual nodes and the overall wireless network. Closed-form expressions of outage probabilities can be adopted by deep reinforcement learning (RL) algorithms to optimize wireless networks online. Accordingly, we first derive closed-form expressions for the individual outage probability (IOP) of each source node link and the relayer link using both pairwise NOMA and OMA. Next, we analyze the IOP for one packet (IOPP) for each source node considering all possible links between the source node to the destination, taking both phases into account for the considered protocols when operating in Nakagami- $m$  fading channels. The overall outage probability for all packets (OOPP) is defined as the maximum IOPP obtained among the source nodes. This metric is useful to optimize the whole wireless network, e.g., to ensure fairness among the source nodes. Then, we propose a method using deep RL where the OOPP is used as a reward function in order to adapt to the dynamic environment associated with jamming attacks. Finally, we discuss valuable guidelines for enhancing the communication reliability of the legitimate system.",
+      "authors": [
+        "Van-Lan Dao",
+        "Elisabeth Uhlemann",
+        "Svetlana Girs"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "IEEE"
+      ],
+      "doi": "10.1109/OJCOMS.2023.3339175",
+      "keywords": [
+        "outage performance",
+        "Dynamic decoding order",
+        "imperfect CSI",
+        "deep reinforcement learning",
+        "cooperative NOMA"
+      ],
+      "number_of_pages": 15,
+      "pages": "112-126",
+      "publication": {
+        "category": "Journal",
+        "cite_score": 8.8,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": "2644-125X",
+        "publisher": "Institute of Electrical and Electronics Engineers Inc.",
+        "sjr": 2.95,
+        "snip": 2.116,
+        "subject_areas": [
+          "Computer Networks and Communications"
+        ],
+        "title": "IEEE Open Journal of the Communications Society"
+      },
+      "publication_date": "2024-01-01",
+      "selected": null,
+      "title": "Dealing With Jamming Attacks in Uplink Pairwise NOMA Using Outage Analysis, Smart Relaying, and Redundant Transmissions",
+      "urls": [
+        "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10342734"
+      ]
+    },
+    {
+      "abstract": "Future wireless communication networks are expected to extensively utilise unmanned aerial vehicles (UAVs) and reconfigurable intelligent surfaces (RISs) to improve performance, extend coverage, and enhance energy efficiency. In this letter, the fundamental limits of the system performance of a multi-hop RIS-assisted UAV communication system are analysed and characterised. We derive accurate closed-form approximations for the statistical distributions of the RIS-assisted channels which are then exploited to derive an analytical expression for the signal-to-noise ratio (SNR), outage probability, and bit error rate (BER). Moreover, we derive outage probability expressions in the high SNR regime. Our analysis demonstrates that strategically placing RIS with an adequate number of elements can effectively enhance the performance of UAV communications in different fading scenarios. RIS dynamically adapts to changing channels and user positions, enhancing performance as the UAV navigates diverse geographical areas, when ideal Line of Sight (LoS) conditions may not be consistently attainable due to the UAV\u2019s altitude and dynamic mobility.",
+      "authors": [
+        "Mohammad Abualhayja\u2019a",
+        "Anthony Centeno",
+        "Lina Mohjazi",
+        "M. Majid Butt",
+        "Philippe Sehier",
+        "Muhammad Ali Imran"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "IEEE"
+      ],
+      "doi": "10.1109/LCOMM.2023.3339969",
+      "keywords": [
+        "outage probability",
+        "unmanned aerial vehicle",
+        "bit error rate",
+        "Reconfigurable intelligent surfaces"
+      ],
+      "number_of_pages": 5,
+      "pages": "133-137",
+      "publication": {
+        "category": "Journal",
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": "2373-7891",
+        "publisher": "IEEE",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "IEEE Communications Letters"
+      },
+      "publication_date": "2024-01-01",
+      "selected": null,
+      "title": "Exploiting Multi-Hop RIS-Assisted UAV Communications: Performance Analysis",
+      "urls": [
+        "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10345614"
+      ]
+    },
+    {
+      "abstract": "Precise real-time unmanned aerial vehicle (UAV) positioning is crucial for preventing unauthorized UAVs from damaging cooperative intelligent transportation systems (C-ITSs). However, UAV positioning remains extremely challenging due to the small target size and high flexibility. Therefore, we develop a modal-oriented self-tuning fusion framework for precise UAV millimeter-wave(MMW)-vision positioning. The framework selects and extracts cross-modal features based on modality characters, and migrates the Doppler features of MMW radar data to the image features for precise pixel-level positioning. Based on the framework, a modal-oriented self-tuning fusion network is proposed to adaptively enhance UAV feature without direct supervision by exploiting the cross-modal correlations. A novel characteristic-based 3DMMW feature extraction method is presented to extract UAV Doppler motion characteristics while a self-tuning cross-modal affine transfer is proposed for UAV visual feature enhancement. Due to lack of dataset for our task, we establish a practical positioning platform and two novel datasets containing synchronized visual images and MMW radio frequency (RF) sequences in various scenarios. Experimental results confirm that our framework outperforms the benchmark methods in terms of positioning accuracy while maintaining real-time performance. Moreover, ablation studies also confirm the effectiveness of each module in the framework.",
+      "authors": [
+        "Guangyu Wu",
+        "Fuhui Zhou",
+        "Chengzhen Meng",
+        "Xiang-Yang Li"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "IEEE"
+      ],
+      "doi": "10.1109/JSAC.2023.3322851",
+      "keywords": [
+        "modal-oriented self-tuning framework",
+        "MMW-vision fusion",
+        "cooperative intelligent transportation systems",
+        "Precise UAV positioning"
+      ],
+      "number_of_pages": 15,
+      "pages": "6-20",
+      "publication": {
+        "category": "Journal",
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": "1558-0008",
+        "publisher": "IEEE",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "IEEE Journal on Selected Areas in Communications"
+      },
+      "publication_date": "2024-01-01",
+      "selected": null,
+      "title": "Precise UAV MMW-Vision Positioning: A Modal-Oriented Self-Tuning Fusion Framework",
+      "urls": [
+        "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10274507"
+      ]
+    },
+    {
+      "abstract": "The Federal Aviation Administration (FAA) recently introduced a new standard, namely, remote identification, to improve accountability for unmanned aerial vehicles (UAVs) operations. This rule requires UAV operators to broadcast messages revealing sensitive data, such as identity and location on the wireless channel. However, this leads to security and privacy concerns among UAV operators. Unauthorized parties may easily discover the location and identity of a UAV flying in a specific area and launch attacks on it such as using wireless jamming or tracking its activity. This review investigates and systematizes the main weaknesses affecting the Remote ID capability required of modern UAVs, and the approaches through which attackers can exploit these weaknesses to disrupt safety and accountability. Moreover, this article analyzes current solutions that mitigate privacy issues associated with Remote ID. Finally, we identify multiple challenges that require to be addressed by both industry and academia, and we propose future research directions to improve the security and privacy of UAVs.",
+      "authors": [
+        "Pietro Tedeschi",
+        "Fatima Ali Al Nuaimi",
+        "Ali Ismail Awad",
+        "Enrico Natalizio"
+      ],
+      "categories": null,
+      "citations": 4,
+      "comments": null,
+      "databases": [
+        "IEEE"
+      ],
+      "doi": "10.1109/TII.2023.3280325",
+      "keywords": [
+        "Anonymity",
+        "unmanned aerial vehicles (UAVs)",
+        "remote ID",
+        "privacy",
+        "security"
+      ],
+      "number_of_pages": 12,
+      "pages": "1069-1080",
+      "publication": {
+        "category": "Journal",
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": "1941-0050",
+        "publisher": "IEEE",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "IEEE Transactions on Industrial Informatics"
+      },
+      "publication_date": "2024-01-01",
+      "selected": null,
+      "title": "Privacy-Aware Remote Identification for Unmanned Aerial Vehicles: Current Solutions, Potential Threats, and Future Directions",
+      "urls": [
+        "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10143727"
+      ]
+    },
+    {
+      "abstract": "Accurate robot kinematic modelling is a major component for autonomous robot control to guarantee safety and precision during task execution. In surgical robotics complex robotic structures and actuation mechanisms are generally employed, therefore machine learning techniques can be adopted to build the model of the robot. Probabilistic neural networks are a class of learning approaches that provide information about the uncertainty of the learnt models. In this work we compare two different probabilistic neural networks (Bayesian and Evidential Neural Networks) to model the kinematics of a surgical robotic instrument and propose a control strategy based on Hierarchical Quadratic Programming (HQP) capable of exploiting the model uncertainty to improve the accuracy and safety of the controller. Simulation and real world experiments on different autonomous path tracking tasks show that the model uncertainty highly affects the control performances and prove the effectiveness of the proposed controller in improving task execution. Note to Practitioners\u2014The push towards reducing invasiveness and patient\u2019s traumas in surgery has lead to the requirement of miniaturized and highly articulated robots. This however comes at the cost of having systems that are hard to model and control, which is one of the major limitations for autonomy in surgical robotics. Machine learning has become very effective in modelling complex systems and probabilistic approaches additionally allow estimating the confidence of the learnt model. In robotics field where high precision is required to perform an autonomous task, like in minimally invasive surgery, the robot model needs to be very accurate and controllers need to guarantee safety in performing the desired task, while satisfying additional motion constraints imposed by the application scenario. This work proposes the use of probabilistic neural networks to model the complexity of a surgical robotic instrument and a control strategy capable of ensuring safety by maximizing model\u2019s confidence and guaranteeing satisfaction of imposed motion constraints. In this work a macro-micro manipulator setup is employed, consisting of an articulated surgical robotic instrument connected to a serial-link manipulator. The proposed modelling and control approaches can be used in any other field where controllers need to highly rely on the robot model due to limitations in using external sensors and where leveraging information about model\u2019s confidence can be beneficial. Currently, the work focuses only on pure kinematic modelling and control, thus neglecting any possible interaction with the environment. Future work will focus on addressing this limitation in order to ensure proper force control and effective autonomy.",
+      "authors": [
+        "Francesco Cursi",
+        "Weibang Bai",
+        "Eric M. Yeatman",
+        "Petar Kormushev"
+      ],
+      "categories": null,
+      "citations": 2,
+      "comments": null,
+      "databases": [
+        "IEEE"
+      ],
+      "doi": "10.1109/TASE.2022.3219590",
+      "keywords": [
+        "minimally invasive robotic surgery",
+        "model uncertainty",
+        "redundant robots",
+        "optimal control",
+        "Probabilistic neural networks"
+      ],
+      "number_of_pages": 16,
+      "pages": "241-256",
+      "publication": {
+        "category": "Journal",
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": "1558-3783",
+        "publisher": "IEEE",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "IEEE Transactions on Automation Science and Engineering"
+      },
+      "publication_date": "2024-01-01",
+      "selected": null,
+      "title": "Task Accuracy Enhancement for a Surgical Macro-Micro Manipulator With Probabilistic Neural Networks and Uncertainty Minimization",
+      "urls": [
+        "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9945972"
+      ]
+    },
+    {
+      "abstract": "This article introduces an innovative approach to the navigation of autonomous underwater vehicles (AUVs) in inspection and data acquisition missions within underwater wireless sensor networks (UWSNs). We combine at least five underwater navigation techniques to accomplish this mission, adapted from related works. These five techniques are employed to address at least four main challenges identified in inspection and data acquisition missions in UWSNs involving the use of AUVs, namely: communication constraints, energy usage optimization, precise navigation, and effective data acquisition. Limited simulations conducted demonstrate the reliability of the proposed model. The model successfully navigates to the target point in 3D coordinates X Y Z, assuming the launch point as d0 (10 40 40), and reaches the q-goal target point (45 45 0) within 21 seconds, with the addition of uattractive and urepulsive (magnetic beacon attraction force and repulsion force as simulation of underwater current disturbance factor). Furthermore, in the inspection and data acquisition mission in UWSN simulated as node points (o) in pink, AUV (*) in blue effectively follows the predetermined points while acquiring data, as indicated by green lines (-) within just 5 seconds, achievable by increasing the value of  $\\alpha $  (angle of attack) of the target node to reduce delay time. The evaluation of the experimental simulations has raised issues and future research challenges, including the development of environmental simulation challenges that can closely resemble real conditions, the measurement of energy usage effectiveness to reach each target point, and the potential development of underwater recharging techniques. Furthermore, there is a need for advanced precise navigation and the advancement of effective data acquisition techniques.",
+      "authors": [
+        "Arif Wibisono",
+        "Md. Jalil Piran",
+        "Hyoung-Kyu Song",
+        "Byung Moo Lee"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "IEEE"
+      ],
+      "doi": "10.1109/ACCESS.2024.3353382",
+      "keywords": [
+        "data acquisition",
+        "autonomous underwater vehicle (AUV)",
+        "constraints",
+        "optimization",
+        "Underwater wireless sensor network (UWSN)",
+        "navigation techniques"
+      ],
+      "number_of_pages": 14,
+      "pages": "8641-8654",
+      "publication": {
+        "category": "Journal",
+        "cite_score": 9.0,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": "2169-3536",
+        "publisher": "Institute of Electrical and Electronics Engineers Inc.",
+        "sjr": 0.926,
+        "snip": 1.422,
+        "subject_areas": [
+          "Engineering (all)",
+          "Materials Science (all)",
+          "Computer Science (all)"
+        ],
+        "title": "IEEE Access"
+      },
+      "publication_date": "2024-01-01",
+      "selected": null,
+      "title": "An Autonomous Underwater Vehicle Navigation Technique for Inspection and Data Acquisition in UWSNs",
+      "urls": [
+        "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10398204"
+      ]
+    },
+    {
+      "abstract": "Efficient data processing and computation are essential for the Industrial Internet of Things (IIoT) to empower various applications, which can be significantly bottlenecked by the limited energy capacity and computation capability of the IIoT nodes. In this article, we employ an unmanned aerial vehicle (UAV) as an edge server to assist IIoT data processing, while considering the practical issue of UAV jittering. Specifically, we propose a joint design on trajectory and offloading strategies to minimize energy consumption due to local and edge computation, as well as data transmission. We particularly address UAV jittering that induces Gaussian-distributed uncertainties associated with flying waypoints, resulting in probabilistic-form flying speed and data offloading constraints. We exploit the Bernstein-type inequality to reformulate the constraints in deterministic forms and decompose the energy minimization to solve for trajectory and offloading separately within an alternating optimization framework. The subproblems are then tackled with the successive convex approximation technique. Simulation results show that our proposal strictly guarantees robustness under uncertainties and effectively reduces energy consumption as compared with the baselines.",
+      "authors": [
+        "Xiao Tang",
+        "Hongrui Zhang",
+        "Ruonan Zhang",
+        "Deyun Zhou",
+        "Yan Zhang",
+        "Zhu Han"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "IEEE"
+      ],
+      "doi": "10.1109/TII.2023.3256375",
+      "keywords": [
+        "Edge computing",
+        "Industrial Internet of Things (IIoT)",
+        "robust optimization",
+        "unmanned aerial vehicle (UAV)"
+      ],
+      "number_of_pages": 12,
+      "pages": "38-49",
+      "publication": {
+        "category": "Journal",
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": "1941-0050",
+        "publisher": "IEEE",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "IEEE Transactions on Industrial Informatics"
+      },
+      "publication_date": "2024-01-01",
+      "selected": null,
+      "title": "Robust Trajectory and Offloading for Energy-Efficient UAV Edge Computing in Industrial Internet of Things",
+      "urls": [
+        "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10068215"
+      ]
+    },
+    {
+      "abstract": "Detecting spoofing attacks on the positions of unmanned aerial vehicles (UAVs) within a swarm is challenging. Traditional methods relying solely on individually reported positions and pairwise distance measurements are ineffective in identifying the misbehavior of malicious UAVs. This paper presents a novel systematic structure designed to detect and mitigate spoofing attacks in UAV swarms. We formulate the problem of detecting malicious UAVs as a localization feasibility problem, leveraging the reported positions and distance measurements. To address this problem, we develop a semidefinite relaxation (SDR) approach, which reformulates the non-convex localization problem into a convex and tractable semidefinite program (SDP). Additionally, we propose two innovative algorithms that leverage the proximity of neighboring UAVs to identify malicious UAVs effectively. Simulations demonstrate the superior performance of our proposed approaches compared to existing benchmarks. Our methods exhibit robustness across various swarm networks, showcasing their effectiveness in detecting and mitigating spoofing attacks. Specifically, the detection success rate is improved by up to 65%, 55%, and 51% against distributed, collusion, and mixed attacks, respectively, compared to the benchmarks.",
+      "authors": [
+        "Siguo Bi",
+        "Kai Li",
+        "Shuyan Hu",
+        "Wei Ni",
+        "Cong Wang",
+        "Xin Wang"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "IEEE"
+      ],
+      "doi": "10.1109/TIFS.2023.3341398",
+      "keywords": [
+        "semidefinite programming",
+        "cooperative localization",
+        "position spoofing attack",
+        "Malicious UAV detection"
+      ],
+      "number_of_pages": 13,
+      "pages": "1883-1895",
+      "publication": {
+        "category": "Journal",
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": "1556-6021",
+        "publisher": "IEEE",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "IEEE Transactions on Information Forensics and Security"
+      },
+      "publication_date": "2024-01-01",
+      "selected": null,
+      "title": "Detection and Mitigation of Position Spoofing Attacks on Cooperative UAV Swarm Formations",
+      "urls": [
+        "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10352334"
+      ]
+    },
+    {
+      "abstract": "Place recognition is one of the most crucial modules for autonomous vehicles to identify places that were previously visited in GPS-invalid environments. Sensor fusion is considered an effective method to overcome the weaknesses of individual sensors. In recent years, multimodal place recognition fusing information from multiple sensors has gathered increasing attention. However, most existing multimodal place recognition methods only use limited field-of-view camera images, which leads to an imbalance between features from different modalities and limits the effectiveness of sensor fusion. In this letter, we present a novel neural network named LCPR for robust multimodal place recognition, which fuses LiDAR point clouds with multi-view RGB images to generate discriminative and yaw-rotation invariant representations of the environment. A multi-scale attention-based fusion module is proposed to fully exploit the panoramic views from different modalities of the environment and their correlations. We evaluate our method on the nuScenes dataset, and the experimental results show that our method can effectively utilize multi-view camera and LiDAR data to improve the place recognition performance while maintaining strong robustness to viewpoint changes.",
+      "authors": [
+        "Zijie Zhou",
+        "Jingyi Xu",
+        "Guangming Xiong",
+        "Junyi Ma"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "IEEE"
+      ],
+      "doi": "10.1109/LRA.2023.3346753",
+      "keywords": [
+        "SLAM",
+        "deep learning",
+        "sensor fusion",
+        "Place recognition"
+      ],
+      "number_of_pages": 8,
+      "pages": "1342-1349",
+      "publication": {
+        "category": "Journal",
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": "2377-3774",
+        "publisher": "IEEE",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "IEEE Robotics and Automation Letters"
+      },
+      "publication_date": "2024-01-01",
+      "selected": null,
+      "title": "LCPR: A Multi-Scale Attention-Based LiDAR-Camera Fusion Network for Place Recognition",
+      "urls": [
+        "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10373064"
+      ]
+    },
+    {
+      "abstract": "Electronic control units (ECUs) connected by a controller area network (CAN) are used to perform various functions in modern vehicles. In the latest autonomous vehicles, redundant ECUs and a backup bus (different from CAN) are always equipped to prevent a single point of failure or network attack. However, due to the lack of protection measures of CAN bus, attackers can remotely intrude into the vehicle. Many schemes have proposed to use encryption to solve the security problem of CAN bus. Considering the current ECU storage space is limited, it is impossible to store all ECUs\u2019 keys. When a single point of failure or network attack against an ECU occurs, it is necessary for the backup ECU to process the messages related to the failed ECU. How to ensure that the backup ECU can decrypt the encrypted messages and at the same time securely isolates the backbone network from the backup network is an urgent issue to be solved. In order to solve the problem of forwarding and processing such messages under encryption conditions, we propose an efficient re-encryption scheme based on proxy re-encryption. The scheme is also suitable for cross-bus communication without backup networks. Burrows-Abadi-Needham (BAN) logic, random oracle model and Automated Validation of Internet Security Protocols and Applications (AVISPA) tool are utilized to prove that the scheme is secure. The scheme is simulated based on the MIRACL cryptography library on the computer and Raspberry Pi. The simulation results demonstrate that the proposed scheme is secure compared with the existing scheme.",
+      "authors": [
+        "Jie Cui",
+        "Yun Shen",
+        "Hong Zhong",
+        "Jing Zhang",
+        "Lu Liu"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "IEEE"
+      ],
+      "doi": "10.1109/TITS.2023.3309817",
+      "keywords": [
+        "proxy re-encryption",
+        "electronic computing unit",
+        "in-vehicle communication",
+        "Autonomous vehicle"
+      ],
+      "number_of_pages": 16,
+      "pages": "104-119",
+      "publication": {
+        "category": "Journal",
+        "cite_score": 11.6,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": "1558-0016",
+        "publisher": "Institute of Electrical and Electronics Engineers Inc.",
+        "sjr": 2.674,
+        "snip": 3.544,
+        "subject_areas": [
+          "Mechanical Engineering",
+          "Computer Science Applications",
+          "Automotive Engineering"
+        ],
+        "title": "IEEE Transactions on Intelligent Transportation Systems"
+      },
+      "publication_date": "2024-01-01",
+      "selected": null,
+      "title": "A Multilevel Electronic Control Unit Re-Encryption Scheme for Autonomous Vehicles",
+      "urls": [
+        "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10247102"
+      ]
+    },
+    {
+      "abstract": "In this article, we propose a method of classifying the overhead target in automotive radar systems. The conventional automotive radar systems struggle to distinguish overhead road structures (e.g., bridges, overpasses, and traffic signs) and ground-level targets (e.g., vehicles and pedestrians) due to the lack of elevation resolution. Consequently, the forward collision-avoidance assist (FCA) system or the autonomous emergency braking (AEB) system, may perceives detected overhead road structures as being on the road. Therefore, unnecessary operation of the FCA or AEB may occur. Our proposed method exploits the different patterns of changes in the estimated range, relative velocity, and signal amplitude as the radar approaches the overhead structure and ground-level targets. These patterns can be used to classify overhead structures by designing the appropriate classifier. Therefore, additional antenna elements arranged in the vertical direction required for elevation angle estimation are unnecessary. First, we obtain the radar signals by measuring the metal reflector installed at different heights. Then, by processing the received signal, we generate the input data for the proposed bidirectional long short-term memory (LSTM)-based height classifier. Our proposed method can classify the installation height of the reflector with an average accuracy of 98.18% within the range of 13 m, and an average accuracy of 94.97% within the range of 20 m in a complicated environment.",
+      "authors": [
+        "Chanul Park",
+        "Seungheon Kwak",
+        "Hojung Lee",
+        "Seongwook Lee"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "IEEE"
+      ],
+      "doi": "10.1109/TIM.2023.3343741",
+      "keywords": [
+        "target classification",
+        "collision avoidance system",
+        "frequency-modulated continuous wave (FMCW)",
+        "Automotive radar",
+        "long short-term memory (LSTM)"
+      ],
+      "number_of_pages": 11,
+      "pages": "1-11",
+      "publication": {
+        "category": "Journal",
+        "cite_score": 7.4,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": "1557-9662",
+        "publisher": "Institute of Electrical and Electronics Engineers Inc.",
+        "sjr": 1.397,
+        "snip": 1.721,
+        "subject_areas": [
+          "Instrumentation",
+          "Electrical and Electronic Engineering"
+        ],
+        "title": "IEEE Transactions on Instrumentation and Measurement"
+      },
+      "publication_date": "2024-01-01",
+      "selected": null,
+      "title": "Bidirectional LSTM-Based Overhead Target Classification for Automotive Radar Systems",
+      "urls": [
+        "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10363399"
+      ]
+    },
+    {
+      "abstract": "Multi-agent trajectory prediction plays a pivotal role for intelligent transportation and autonomous driving. Modeling the social interaction among agents and revealing the inherent relationship between interaction and future trajectory are crucial for accurate trajectory prediction. To address these challenges, this letter proposes a goal-guided and interaction-aware state refinement graph attention network (SRGAT) for multi-agent trajectory prediction. Specifically, the trajectory sequence of individual agent is firstly converted into a compact representation by exploiting Transformer encoder and gated recurrent unit (GRU). Then, a social state refinement (SSR) module for modeling social influence between agents is proposed to include more interaction-related features. Subsequently, multiple goals are predicted for each agent, followed by another goal-guided SSR module to incorporate goal information into social interaction. Finally, the multimodal trajectory is forecasted by fusing the features from forward and backward GRU. Experiments on public benchmark datasets are carried out to evaluate the effectiveness of our model. The results demonstrate the superior performance of our model compared with the state-of-the-art methods.",
+      "authors": [
+        "Xiaobo Chen",
+        "Fengbo Luo",
+        "Feng Zhao",
+        "Qiaolin Ye"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "IEEE"
+      ],
+      "doi": "10.1109/LRA.2023.3331651",
+      "keywords": [
+        "multi-agent trajectory prediction",
+        "Graph attention",
+        "multimodal prediction",
+        "state refinement"
+      ],
+      "number_of_pages": 8,
+      "pages": "57-64",
+      "publication": {
+        "category": "Journal",
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": "2377-3774",
+        "publisher": "IEEE",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "IEEE Robotics and Automation Letters"
+      },
+      "publication_date": "2024-01-01",
+      "selected": null,
+      "title": "Goal-Guided and Interaction-Aware State Refinement Graph Attention Network for Multi-Agent Trajectory Prediction",
+      "urls": [
+        "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10313963"
+      ]
+    },
+    {
+      "abstract": "Advanced Driver Assistance Systems (ADAS) are advanced technologies that assist drivers with vehicle operation and navigation. Recent improvements and brisk expansion in the ADAS market, as well as an increase in the frequency of incidents such as sensor spoofing, communication interruption etc., in autonomous vehicles (AVs), have raised the need to research ADAS security technology. The security issues raised by incorporating these technologies into automobiles must be addressed to protect the privacy and safety of passengers and other road users. As a result, the purpose of this research is to investigate the security issues that arise from the integration of ADAS technologies. Addressing these challenges holds the potential to establish a foundation for enhanced safety and dependability within transportation networks amidst the ongoing advancements in vehicle technology. This paper starts by describing the vulnerabilities, threats, assaults, and defense mechanisms of the ADAS. It then delves into the attacks and countermeasures in three categories, namely VANET, Hardware, and Adversarial attacks. VANET attacks encompass threats targeting Vehicular Ad Hoc Networks, aiming to disrupt communication among vehicles or between vehicles and infrastructure. Hardware attacks focus on vulnerabilities within the physical components of ADAS, including sensors, processors, or communication modules. Adversarial attacks involve deliberate manipulations or perturbations introduced into machine learning models or algorithms utilized within ADAS. These attacks aim to deceive or undermine the functionality of AI-based systems, causing misclassification, compromising system integrity, and posing risks to user safety by exploiting vulnerabilities in the AI decision-making process. Finally, this study highlights potential areas for future research, such as the utilization of artificial intelligence (AI), the necessity of industry-wide standardization, and recommends specific future work tailored to each attack described in the corresponding sections.",
+      "authors": [
+        "Aryan Alpesh Mehta",
+        "Ali Asgar Padaria",
+        "Dwij Jayesh Bavisi",
+        "Vijay Ukani",
+        "Priyank Thakkar",
+        "Rebekah Geddam",
+        "Ketan Kotecha",
+        "Ajith Abraham"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "IEEE"
+      ],
+      "doi": "10.1109/ACCESS.2023.3347200",
+      "keywords": [
+        "Advanced driver assistance systems (ADAS)",
+        "attacks",
+        "threats",
+        "countermeasures",
+        "defences",
+        "security"
+      ],
+      "number_of_pages": 36,
+      "pages": "643-678",
+      "publication": {
+        "category": "Journal",
+        "cite_score": 9.0,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": "2169-3536",
+        "publisher": "Institute of Electrical and Electronics Engineers Inc.",
+        "sjr": 0.926,
+        "snip": 1.422,
+        "subject_areas": [
+          "Engineering (all)",
+          "Materials Science (all)",
+          "Computer Science (all)"
+        ],
+        "title": "IEEE Access"
+      },
+      "publication_date": "2024-01-01",
+      "selected": null,
+      "title": "Securing the Future: A Comprehensive Review of Security Challenges and Solutions in Advanced Driver Assistance Systems",
+      "urls": [
+        "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10373843"
+      ]
+    },
+    {
+      "abstract": "As innovative technologies such as autonomous driving, over-the-air technology, and vehicle-to-everything are widely applied to intelligent connected vehicles, people can gain a more convenient and safer driving experience. Although the application of these technologies facilitates our lives, they also bring a series of vulnerable interfaces (such as 5G, Bluetooth, and WiFi), which pose a significant security threat to existing in-vehicle networks. To address these threats, researchers have proposed two mainstream schemes, including message authentication and intrusion detection system (IDS), where the scheme of message authentication needs to occupy the limited bandwidth of controller area network (CAN) bus. Furthermore, most IDSs either cannot locate the sender of the attack, fail to detect aperiodic malicious frames, or require prior knowledge of which CAN identifiers (IDs) belong to which electronic control units (ECUs). To address these weaknesses, we propose a practical voltage-based IDS named IdentifierIDS for real in-vehicle networks. To the best of our knowledge, it is the first scheme to detect intrusions by establishing a voltage fingerprint for each ID without the need for prior knowledge. This allows IdentifierIDS to detect both periodic and aperiodic malicious frames without occupying the limited bandwidth of the CAN bus. As a self-learning IDS, it can adapt to different in-vehicle networks without the need for customization for them. Experiments on three real vehicles demonstrate the robustness of our scheme in different in-vehicle networks.",
+      "authors": [
+        "Zhouyan Deng",
+        "Jiajia Liu",
+        "Yijie Xun",
+        "Junman Qin"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "IEEE"
+      ],
+      "doi": "10.1109/TIFS.2023.3327026",
+      "keywords": [
+        "controller area network",
+        "voltage signal",
+        "intrusion detection system",
+        "Intelligent connected vehicle",
+        "one-class classification"
+      ],
+      "number_of_pages": 16,
+      "pages": "661-676",
+      "publication": {
+        "category": "Journal",
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": "1556-6021",
+        "publisher": "IEEE",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "IEEE Transactions on Information Forensics and Security"
+      },
+      "publication_date": "2024-01-01",
+      "selected": null,
+      "title": "IdentifierIDS: A Practical Voltage-Based Intrusion Detection System for Real In-Vehicle Networks",
+      "urls": [
+        "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10292666"
+      ]
+    },
+    {
+      "abstract": "The rapid spread of the COVID-19 has not only affected personal health and economy, but also revolutionized people\u2019s lifestyles. As more people turn to work and socialize online, the development of unmanned technologies based on the Internet of Vehicles (IoV), such as unmanned delivery, unmanned vehicles, unmanned transportation, etc., will become an inevitable trend. However, all kinds of intelligent terminals for unmanned equipment require a large amount of data interaction with devices such as cloud servers, mobile terminals, and roadside terminals, which poses cyber security risks. Furthermore, the outbreak of COVID-19 has prompted people to put forward higher demands for the security of network communications. Unfortunately, the current intrusion detection methods based on machine learning still have weaknesses such as low accuracy and low efficiency when faced with unbalanced data distribution. To solve the above problems, we propose a novel Tree-based BLS (TBLS) intrusion detection method according to the idea of ensemble learning and decision tree (CART and J48). The performance of TBLS was tested on the NSL-KDD dataset and the UNSW-NB15 dataset respectively, which contain a variety of malicious traffic types for attacks on the IoV. The results show that our proposed method can achieve higher accuracy rate and lower false alarm rate, compared with the existing 16 solutions.",
+      "authors": [
+        "Ying Gao",
+        "Hongyue Miao",
+        "Jixiang Chen",
+        "Binjie Song",
+        "Xiping Hu",
+        "Wei Wang"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "IEEE"
+      ],
+      "doi": "10.1109/TITS.2022.3160182",
+      "keywords": [
+        "broad learning system (BLS)",
+        "Intrusion detection",
+        "ensemble learning",
+        "decision trees"
+      ],
+      "number_of_pages": 10,
+      "pages": "786-795",
+      "publication": {
+        "category": "Journal",
+        "cite_score": 11.6,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": "1558-0016",
+        "publisher": "Institute of Electrical and Electronics Engineers Inc.",
+        "sjr": 2.674,
+        "snip": 3.544,
+        "subject_areas": [
+          "Mechanical Engineering",
+          "Computer Science Applications",
+          "Automotive Engineering"
+        ],
+        "title": "IEEE Transactions on Intelligent Transportation Systems"
+      },
+      "publication_date": "2024-01-01",
+      "selected": null,
+      "title": "Explosive Cyber Security Threats During COVID-19 Pandemic and a Novel Tree-Based Broad Learning System to Overcome",
+      "urls": [
+        "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9743968"
+      ]
+    },
+    {
+      "abstract": "In this paper, platoons of autonomous vehicles operating in urban road networks are considered. From a methodological point of view, the problem of interest consists of formally characterizing vehicle state trajectory tubes by means of routing decisions complying with traffic congestion criteria. To this end, a novel distributed control architecture is conceived by taking advantage of two methodologies: deep reinforcement learning and model predictive control. On one hand, the routing decisions are obtained by using a distributed reinforcement learning algorithm that exploits available traffic data at each road junction. On the other hand, a bank of model predictive controllers is in charge of computing the more adequate control action for each involved vehicle. Such tasks are here combined into a single framework: the deep reinforcement learning output (action) is translated into a set-point to be tracked by the model predictive controller; conversely, the current vehicle position, resulting from the application of the control move, is exploited by the deep reinforcement learning unit for improving its reliability. The main novelty of the proposed solution lies in its hybrid nature: on one hand it fully exploits deep reinforcement learning capabilities for decision-making purposes; on the other hand, time-varying hard constraints are always satisfied during the dynamical platoon evolution imposed by the computed routing decisions. To efficiently evaluate the performance of the proposed control architecture, a co-design procedure, involving the SUMO and MATLAB platforms, is implemented so that complex operating environments can be used, and the information coming from road maps (links, junctions, obstacles, semaphores, etc.) and vehicle state trajectories can be shared and exchanged. Finally by considering as operating scenario a real entire city block and a platoon of eleven vehicles described by double-integrator models, several simulations have been performed with the aim to put in light the main features of the proposed approach. Moreover, it is important to underline that in different operating scenarios the proposed reinforcement learning scheme is capable of significantly reducing traffic congestion phenomena when compared with well-reputed competitors.",
+      "authors": [
+        "Luigi D'Alfonso",
+        "Francesco Giannini",
+        "Giuseppe Franz\u00e8",
+        "Giuseppe Fedele",
+        "Francesco Pupo",
+        "Giancarlo Fortino"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "IEEE"
+      ],
+      "doi": "10.1109/JAS.2023.123705",
+      "keywords": [
+        "Distributed model predictive control",
+        "distributed reinforcement learning",
+        "urban road networks",
+        "routing decisions"
+      ],
+      "number_of_pages": 16,
+      "pages": "141-156",
+      "publication": {
+        "category": "Journal",
+        "cite_score": 17.6,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": "2329-9274",
+        "publisher": "IEEE Advancing Technology for Humanity",
+        "sjr": 3.218,
+        "snip": 3.213,
+        "subject_areas": [
+          "Information Systems",
+          "Control and Systems Engineering",
+          "Control and Optimization",
+          "Artificial Intelligence"
+        ],
+        "title": "IEEE/CAA Journal of Automatica Sinica"
+      },
+      "publication_date": "2024-01-01",
+      "selected": null,
+      "title": "Autonomous Vehicle Platoons in Urban Road Networks: A Joint Distributed Reinforcement Learning and Model Predictive Control Approach",
+      "urls": [
+        "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10400390"
+      ]
+    },
+    {
+      "abstract": "This paper reports on the use of co-simulation techniques to build prototypes of co-operative autonomous robotic cyber-physical systems. Designing such systems involves a mission-specific planner algorithm, a control algorithm to drive an agent performing its task; and the plant model to simulate the agent dynamics. An application aimed at positioning a swarm of unmanned aerial vehicles (drones) in a bounded area, exploiting a Voronoi tessellation algorithm developed in this work, is taken as a case study. The paper shows how co-simulation allows testing the complex system at the design phase using models created with different languages and tools. The paper then reports on how the adopted co-simulation platform enables control parameters calibration, by exploiting design space exploration technology. The INTO-CPS co-simulation platform, compliant with the Functional Mock-up Interface standard to exchange dynamic simulation models using various languages, was used in this work. The different software modules were written in Modelica, C, and Python. In particular, the latter was used to implement an original variant of the Voronoi algorithm to tesselate a convex polygonal region, by means of dummy points added at appropriate positions outside the bounding polygon. A key contribution of this case study is that it demonstrates how an accurate simulation of a cooperative drone swarm requires modeling the physical plant together with the high-level coordination algorithm. The coupling of co-simulation and design space exploration has been demonstrated to support control parameter calibration to optimize energy consumption and convergence time to the target positions of the drone swarm. From a practical point of view, this makes it possible to test the ability of the swarm to self-deploy in space in order to achieve optimal detection coverage and allow unmanned aerial vehicles in a swarm to coordinate with each other.",
+      "authors": [
+        "Cinzia Bernardeschi",
+        "Andrea Domenici",
+        "Adriano Fagiolini",
+        "Maurizio Palmieri"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "IEEE"
+      ],
+      "doi": "10.1109/ACCESS.2023.3347494",
+      "keywords": [
+        "Voronoi tessellation",
+        "unmanned aerial vehicles",
+        "space coverage",
+        "co-simulation",
+        "control parameter calibration",
+        "Cyber-physical systems"
+      ],
+      "number_of_pages": 12,
+      "pages": "1064-1075",
+      "publication": {
+        "category": "Journal",
+        "cite_score": 9.0,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": "2169-3536",
+        "publisher": "Institute of Electrical and Electronics Engineers Inc.",
+        "sjr": 0.926,
+        "snip": 1.422,
+        "subject_areas": [
+          "Engineering (all)",
+          "Materials Science (all)",
+          "Computer Science (all)"
+        ],
+        "title": "IEEE Access"
+      },
+      "publication_date": "2024-01-01",
+      "selected": null,
+      "title": "Design and Validation of Cyber-Physical Systems Through Co-Simulation: The Voronoi Tessellation Use Case",
+      "urls": [
+        "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10374084"
+      ]
+    },
+    {
+      "abstract": "Along with the ubiquity of various Internet of Things (IoT) applications, data collection in harsh environments with the help of unmanned aerial vehicles (UAVs) and unmanned surface vehicles (USVs) appears as a popular approach. However, from a networking and transmission perspective, how unmanned vehicles collaborate with each other and with end IoT devices as well as the propagation characteristics for such data transmissions are less exploited. In this article, we develop a long-range wide-area network (LoRaWAN)-based data collection framework which enables UAV and/or USV-assisted data acquisition in harsh environments. Within this framework, end devices are placed in hard-to-reach locations and data acquisition is performed in an on-demand manner by unmanned vehicles acting as a gateway or peer for end devices (EDs). The framework also includes a step-by-step procedure for data collection and analytics, from parameter configuration to model validation. To reveal the transmission characteristics, we identify three scenarios in a mountainous region in Romania and perform extensive real-life measurements for data collection. Based on the collected datasets, we develop four propagation models and demonstrate that our empirical models outperform the theoretical reference models. Based on the developed empirical models, the coverage of LoRaWAN for any spreading factor (SF) can be estimated with high precision.",
+      "authors": [
+        "Ana-Maria Dr\u0103gulinescu",
+        "Ciprian Zamfirescu",
+        "Simona Halunga",
+        "Ioana Marcu",
+        "Frank Y. Li",
+        "Octavia A. Dobre"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "IEEE"
+      ],
+      "doi": "10.1109/TIM.2024.3351262",
+      "keywords": [
+        "Data collection framework",
+        "end devices (EDs)",
+        "propagation models, unmanned aerial vehicle (UAV) and unmanned surface {vehicle (USV)}",
+        "measurements and validation",
+        "Internet of Things (IoT) and long-range wide-area network (LoRaWAN)"
+      ],
+      "number_of_pages": 14,
+      "pages": "1-14",
+      "publication": {
+        "category": "Journal",
+        "cite_score": 7.4,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": "1557-9662",
+        "publisher": "Institute of Electrical and Electronics Engineers Inc.",
+        "sjr": 1.397,
+        "snip": 1.721,
+        "subject_areas": [
+          "Instrumentation",
+          "Electrical and Electronic Engineering"
+        ],
+        "title": "IEEE Transactions on Instrumentation and Measurement"
+      },
+      "publication_date": "2024-01-01",
+      "selected": null,
+      "title": "Understanding LoRaWAN Transmissions in Harsh Environments: A Measurement-Based Campaign Through Unmanned Aerial/Surface Vehicles",
+      "urls": [
+        "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10385137"
+      ]
+    },
+    {
+      "abstract": "Electric Vehicles (EVs) seem promising for future transportation to solve environmental concerns and energy management problems. According to Reuters, global car makers plan to invest over half a billion in more efficient and intelligent EVs and batteries. However, there are several challenges in EV mass production, including cybersecurity. Due to the cyber-physical nature of EVs and charging stations, their security and trustworthiness are ongoing challenges. In this study, we identify gaps in the security profiling of EVs and categorize them into five components: 1) charging station security, 2) information privacy, 3) software security, 4) connected vehicle security, and 5) autonomous driving security. Our study provides a comprehensive analysis of identified vulnerabilities, threats, challenges and attacks for different EV security aspects, along with their possible surface/subsurface and countermeasures. We develop a comprehensive security risk assessment framework by first using EV security profiles and mapping identified vulnerabilities to a well-known threat model, STRIDE. Then, we classify the risk levels associated with each vulnerability by setting ground criteria for the impact and likelihood of the threats. Finally, we validate our risk assessment framework by applying the same criteria to eight real-world EV attack scenarios. As a result, researchers can adapt the proposed risk assessment framework to discover threats and assess their risks in EVs and charging station ecosystems.",
+      "authors": [
+        "Soheil Shirvani",
+        "Yaser Baseri",
+        "Ali Ghorbani"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "IEEE"
+      ],
+      "doi": "10.1109/TITS.2023.3307660",
+      "keywords": [
+        "cybersecurity attacks",
+        "Security profiling",
+        "electric vehicle",
+        "risk assessment",
+        "autonomous vehicle"
+      ],
+      "number_of_pages": 24,
+      "pages": "33-56",
+      "publication": {
+        "category": "Journal",
+        "cite_score": 11.6,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": "1558-0016",
+        "publisher": "Institute of Electrical and Electronics Engineers Inc.",
+        "sjr": 2.674,
+        "snip": 3.544,
+        "subject_areas": [
+          "Mechanical Engineering",
+          "Computer Science Applications",
+          "Automotive Engineering"
+        ],
+        "title": "IEEE Transactions on Intelligent Transportation Systems"
+      },
+      "publication_date": "2024-01-01",
+      "selected": null,
+      "title": "Evaluation Framework for Electric Vehicle Security Risk Assessment",
+      "urls": [
+        "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10247152"
+      ]
+    },
+    {
+      "abstract": "Unmanned aerial vehicles (UAVs) are increasingly being deployed in crucial missions for the armed forces, law enforcement, industrial control monitoring, and other sectors. However, these hostile operating circumstances, along with the UAVs\u2019 dependence on wireless protocols, pose substantial security threats, limiting their mainstream application. With network security being such a major issue for UAV networks, the machine learning-based intrusion detection system (IDS) has been determined to be an effective strategy for protecting them. Additionally, though the existing methods offer effective strategies for detecting and categorizing abnormalities in the system, they are limited by their inability to adjust to various attack patterns. The dataset used as well as the memory and computational requirement of existing models, poses new challenges. One of the main concerns pertains to the reduced computational and memory demands of these models. So, the work carried out in this paper addresses this challenge. A new dimensional reduction technique based on correlation coefficient, information gain, and principal component analysis (PCA) is introduced to reduce the dimensionality of the UAV Attack Dataset. A novel intrusion detection system based on an artificial neural network (ANN) and genetic algorithm (GA) is then proposed. The genetic algorithm is used to generate the optimal weights of the artificial neural network. A comparison is made between the proposed model and the backpropagation network and its variant in terms of its convergence and prediction accuracy. Furthermore, the performance of the proposed model is compared with that of other classifiers. This comparison reveals that the proposed model is time efficient with an increased prediction accuracy of at least 6% more than other classifiers.",
+      "authors": [
+        "Korhan Cengiz",
+        "Swati Lipsa",
+        "Ranjan Kumar Dash",
+        "Nikola Ivkovi\u0107",
+        "Mario Konecki"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "IEEE"
+      ],
+      "doi": "10.1109/ACCESS.2024.3349469",
+      "keywords": [
+        "Artificial neural network",
+        "principal component analysis",
+        "unmanned aerial vehicles",
+        "intrusion detection system",
+        "information gain",
+        "genetic algorithm",
+        "sparsity",
+        "Pearson correlation coefficient",
+        "backpropagation"
+      ],
+      "number_of_pages": 13,
+      "pages": "4925-4937",
+      "publication": {
+        "category": "Journal",
+        "cite_score": 9.0,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": "2169-3536",
+        "publisher": "Institute of Electrical and Electronics Engineers Inc.",
+        "sjr": 0.926,
+        "snip": 1.422,
+        "subject_areas": [
+          "Engineering (all)",
+          "Materials Science (all)",
+          "Computer Science (all)"
+        ],
+        "title": "IEEE Access"
+      },
+      "publication_date": "2024-01-01",
+      "selected": null,
+      "title": "A Novel Intrusion Detection System Based on Artificial Neural Network and Genetic Algorithm With a New Dimensionality Reduction Technique for UAV Communication",
+      "urls": [
+        "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10379797"
+      ]
+    },
+    {
+      "abstract": "This article addresses an autonomous manipulation problem for an underwater vehicle-manipulator system (UVMS) operating in a free-floating way while subjecting to unknown continuous disturbance. More specifically, a composite control scheme composed of disturbance observer (DOB), predictor model network (PM-Net), and nonlinear model predictive control (NMPC), is devised to improve the control performance of UVMS (i.e., unicycle-like UVMS actuated only in the surge, heave, and yaw for vehicle body) in the case of disturbance, model mismatch, and input saturation. A RBF-DOB is formulated by combining a DOB and a Radial Basis Function (RBF) neural network to estimate disturbance at the current step. Then, the PM-Network, composed of a disturbance predictor network and state predictor network, is developed based on long short-term memory (LSTM) network that predicts UVMS state sequences considering model mismatch and disturbance. The NMPC is deployed as a feedback control law to endow the input saturation of the UVMS and produce optimal control action. Compared with conventional DOB control methods using feed-forward compensation of disturbance, the primary merit of the proposed approach is that the disturbance estimated by RBF-DOB is utilized in the PM-Net to predict future UVMS state sequences, which are exploited on the NMPC\u2019s receding optimization. Finally, realistic simulation and relevant experiment are conducted to demonstrate the effectiveness of the proposed method. Note to Practitioners\u2014The motivation behind this article is the autonomous manipulation of an underwater vehicle-manipulator system subjected to unknown disturbance. However, it is not always feasible or straightforward to obtain the external disturbance and unmodeled dynamics for designing robust controllers. On the one hand, how to manipulate the disturbance into the designed controller to generate optimal control action rather than by using feed-forward compensation. On the other hand, the control input saturation often occurs in the UVMS control, especially under the disturbance rejection conditions, where it should be considered in the controller design. Currently, the predominant methods for UVMS control lack a control scheme that provides a complete and credible control strategy that takes the aforementioned issues into consideration. Motivated by the above analysis, this study provides a composite control scheme to deal with the dynamic uncertainties, unknown disturbance, and input saturation. The results of realistic simulation and relevant experiments demonstrate the effectiveness of the proposed method. Hopefully, our control method can provide valuable theoretical and technical guidance to practicing marine engineers for controller design.",
+      "authors": [
+        "Mingxue Cai",
+        "Yu Wang",
+        "Shuo Wang",
+        "Rui Wang",
+        "Min Tan"
+      ],
+      "categories": null,
+      "citations": 1,
+      "comments": null,
+      "databases": [
+        "IEEE"
+      ],
+      "doi": "10.1109/TASE.2023.3236149",
+      "keywords": [
+        "autonomous underwater manipulation",
+        "nonlinear model predictive control (NMPC)",
+        "disturbance observer (DOB)",
+        "Underwater vehicle-manipulator system (UVMS)"
+      ],
+      "number_of_pages": 11,
+      "pages": "1012-1022",
+      "publication": {
+        "category": "Journal",
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": "1558-3783",
+        "publisher": "IEEE",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "IEEE Transactions on Automation Science and Engineering"
+      },
+      "publication_date": "2024-01-01",
+      "selected": null,
+      "title": "Autonomous Manipulation of an Underwater Vehicle-Manipulator System by a Composite Control Scheme With Disturbance Estimation",
+      "urls": [
+        "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10016284"
+      ]
+    },
+    {
+      "abstract": "Recent developments in intelligence technologies have led to an explosion in the use of connected and automated vehicles (CAVs). Unfortunately, these autonomous vehicles face an increasing risk of vulnerability due to various attacks. Vehicle intrusion detection mechanisms are widely employed to mitigate the threats. Although some works have addressed this issue, few works consider situations that the attack detection may be fooled via simultaneous attacking multiple sensors. In this article, we propose a novel intrusion detection system integrated Space Dimension Model and Time Dimension Model based on sensor data fusion for countering both independent attack and confederate attack in automated vehicles. In Space Dimension Model, the correlations of multivariate in-vehicle sensor data among multiple sensors are utilized as the input of our optimized convolutional neural network (CNN) model. Especially, we construct vehicle state matrices to characterize the underlying correlation of data between each sensor and other sensors, and then input them into our network for classification. To describe the abrupt deviation caused by anomalous multivariate sensor data itself, we design Time Dimension Model to capture the sensor behaviors of vehicle state vectors at adjacent time by utilizing the Mahalanobis distance (MD) metric. Extensive empirical studies based on a real-world vehicular dataset demonstrate the effectiveness of our integrated anomaly detection mechanisms by a comparative analysis with two detection models that consider only Space Dimension and Time Dimension respectively. The method can outperform the related work under different scenarios 1) with the gain of up to 3.01% in accuracy and 3.04% in F1 score; 2) with ability of defending against confederate attack effectively.",
+      "authors": [
+        "Liyuan Wang",
+        "Xiaomei Zhang",
+        "Dongmei Li",
+        "Huibin Liu"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "IEEE"
+      ],
+      "doi": "10.1109/TVT.2023.3306345",
+      "keywords": [
+        "Connected and automated vehicles (CAVs)",
+        "intrusion detection system",
+        "Mahalanobis distance (MD)",
+        "convolutional neural network (CNN)"
+      ],
+      "number_of_pages": 16,
+      "pages": "200-215",
+      "publication": {
+        "category": "Journal",
+        "cite_score": 13.6,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": "1939-9359",
+        "publisher": "Institute of Electrical and Electronics Engineers Inc.",
+        "sjr": 2.802,
+        "snip": 2.086,
+        "subject_areas": [
+          "Applied Mathematics",
+          "Electrical and Electronic Engineering",
+          "Automotive Engineering",
+          "Aerospace Engineering"
+        ],
+        "title": "IEEE Transactions on Vehicular Technology"
+      },
+      "publication_date": "2024-01-01",
+      "selected": null,
+      "title": "Multi-Sensors Space and Time Dimension Based Intrusion Detection System in Automated Vehicles",
+      "urls": [
+        "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10224320"
+      ]
+    },
+    {
+      "abstract": "Vision-based topological localization is recently emerging as a promising alternative to metric pose estimation techniques in robotic navigation systems. Contrarily to the latter, which suffer from a quick degradation of their performance under non-ideal conditions (e.g., scenes with poor illumination and low amount of textures), topological localization trades off precise metric positioning with a more robust and higher-level location representation. State-of-the-art works in this direction, however, often neglect the spatiotemporal relationships between poses that are naturally induced by robotic navigation. Furthermore, these techniques are nearly unexplored for autonomous flying platforms. Inspired by these considerations, in this work, we propose a vision-based topological localization approach designed for Micro Aerial Vehicles (MAVs) applications. Our strategy exploits the framework of graph recurrent neural networks to model the spatial and temporal dependencies and estimate the location of the robot with respect to a topological graph representing the environment. We demonstrate with experiments on different sets of scenarios, including scenes that considerably differ from those used in the training phase, that our approach is able to outperform state-of-the-art place recognition baselines.",
+      "authors": [
+        "Simone Felicioni",
+        "Biagio Maria Rizzo",
+        "Claudio Tortorici",
+        "Gabriele Costante"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "IEEE"
+      ],
+      "doi": "10.1109/LRA.2023.3341758",
+      "keywords": [
+        "localization",
+        "Aerial systems: perception and autonomy",
+        "deep learning for visual perception"
+      ],
+      "number_of_pages": 8,
+      "pages": "1158-1165",
+      "publication": {
+        "category": "Journal",
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": "2377-3774",
+        "publisher": "IEEE",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "IEEE Robotics and Automation Letters"
+      },
+      "publication_date": "2024-01-01",
+      "selected": null,
+      "title": "Vision-Based Topological Localization for MAVs",
+      "urls": [
+        "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10354371"
+      ]
+    },
+    {
+      "abstract": "A receiver architecture for cognitive sensing and navigation with orthogonal frequency division multiplexing (OFDM)-based systems is proposed. The proposed receiver enables exploiting all the transmitted periodic beacons of 5G new radio (NR) and Starlink low Earth orbit (LEO) signals to draw navigation observables. Reference signals (RSs) of modern OFDM-based systems, such as 5G NR, contain both always-on and on-demand components. These components can be unknown or known but subject to change. To leverage all transmitted signals for navigation purposes, the RS signals should be detected and tracked cognitively. Similar to conventional navigation receivers, the proposed architecture involves acquisition and tracking stages. However, both stages are supplemented by the unorthodox capability of estimating and updating the RS signals. The acquisition stage instructs the tracking stage by reporting performance metrics, which are used to adjust the tracking loop gains to update the RS accordingly. A chirp model is considered to capture the high dynamics of Doppler frequency in intensive Doppler scenarios, where the navigating vehicle is maneuvering or the transmitting source is not static. The effect of Doppler rate estimation error on frame length estimation is analyzed. Experimental results are presented demonstrating the performance of the proposed receiver by: (i) enabling an unmanned aerial vehicle (UAV) to detect and exploit terrestrial 5G NR cellular signals in a blind fashion for navigation purposes, achieving a two-dimensional (2D) root-mean squared error (RMSE) of 4.2 m over a total trajectory of 416 m; (ii) enabling a ground vehicle that traversed a trajectory of 1.79 km to cognitively sense an unknown gNB (blindly detect, track, and exploit transmitted always-on and on-demand signals), localizing it with a 2D error of 5.83 m; and (iii) tracking Starlink LEO OFDM signals, producing Doppler measurements, which were fused to localize a stationary receiver with a 2D error of 6.5 m, starting from an initial estimate 179 km away from the receiver\u2019s true position.",
+      "authors": [
+        "Mohammad Neinavaie",
+        "Zaher M. Kassas"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "IEEE"
+      ],
+      "doi": "10.1109/JSAC.2023.3322811",
+      "keywords": [
+        "Cognitive radio",
+        "OFDM",
+        "integrated sensing and communications",
+        "starlink",
+        "5G",
+        "navigation",
+        "receiver design",
+        "low earth orbit satellites",
+        "positioning"
+      ],
+      "number_of_pages": 15,
+      "pages": "146-160",
+      "publication": {
+        "category": "Journal",
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": "1558-0008",
+        "publisher": "IEEE",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "IEEE Journal on Selected Areas in Communications"
+      },
+      "publication_date": "2024-01-01",
+      "selected": null,
+      "title": "Cognitive Sensing and Navigation With Unknown OFDM Signals With Application to Terrestrial 5G and Starlink LEO Satellites",
+      "urls": [
+        "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10274608"
+      ]
+    },
+    {
+      "abstract": "Suction cups are an important gripper type in industrial robot applications, and the prior literature focuses on using vision-based planners to improve grasping success in these tasks. Vision-based planners can fail due to adversarial objects or lose generalizability for unseen scenarios, without retraining learned algorithms. In this article, we propose haptic exploration to improve suction cup grasping when visual grasp planners fail. We present the smart suction cup, an end effector that utilizes internal flow measurements for tactile sensing. We show that model-based haptic search methods, guided by these flow measurements, improve grasping success by up to 2.5\u00d7 as compared with using only a vision planner during a bin-picking task. In characterizing the smart suction cup on both geometric edges and curves, we find that flow rate can accurately predict the ideal motion direction even with large postural errors. The smart suction cup includes no electronics on the cup itself, such that the design is easy to fabricate and haptic exploration does not damage the sensor. This work motivates the use of suction cups with autonomous haptic search capabilities in especially adversarial scenarios.",
+      "authors": [
+        "Jungpyo Lee",
+        "Sebastian D. Lee",
+        "Tae Myung Huh",
+        "Hannah S. Stuart"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "IEEE"
+      ],
+      "doi": "10.1109/TRO.2023.3331063",
+      "keywords": [
+        "vacuum gripper",
+        "tactile sensing",
+        "soft robot application",
+        "sensor-based control",
+        "Bin picking"
+      ],
+      "number_of_pages": 14,
+      "pages": "226-239",
+      "publication": {
+        "category": "Journal",
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": "1941-0468",
+        "publisher": "IEEE",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "IEEE Transactions on Robotics"
+      },
+      "publication_date": "2024-01-01",
+      "selected": null,
+      "title": "Haptic Search With the Smart Suction Cup on Adversarial Objects",
+      "urls": [
+        "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10313081"
+      ]
+    },
+    {
+      "abstract": "Despite the robust security features inherent in the 5G framework, attackers will still discover ways to disrupt 5G unmanned aerial vehicle (UAV) operations and decrease UAV control communication performance in Air-to-Ground (A2G) links. Operating under the assumption that the 5G UAV communications infrastructure will never be entirely secure, we propose Deep Attention Recognition (DAtR) as a solution to identify attacks based on a small deep network embedded in authenticated UAVs. Our proposed solution uses two observable parameters: the Signal to Interference plus Noise Ratio (SINR) and the Received Signal Strength Indicator (RSSI) to recognize attacks under Line-of-Sight (LoS), Non-Line-of-Sight (NLoS), and a probabilistic combination of the two conditions. Several attackers are located in random positions in the tested scenarios, while their power varies between simulations. Moreover, terrestrial users are included in the network to impose additional complexity on attack detection. Additionally to the application and deep network architecture, our work innovates by mixing both observable parameters inside DAtR and adding two new pre-processing and post-processing techniques embedded in the deep network results to improve accuracy. We compare several performance parameters in our proposed Deep Network. For example, the impact of Long Short-Term-Memory (LSTM) and Attention layers in terms of their overall accuracy, the window size effect, and test the accuracy when only partial data is available in the training process. Finally, we benchmark our deep network with six widely used classifiers regarding classification accuracy. The eXtreme Gradient Boosting (XGB) outperforms all other algorithms in the deep network, for instance, the three top scoring algorithms: Random Forest (RF), CatBoost (CAT), and XGB obtain mean accuracy of 83.24 %, 85.60 %, and 86.33% in LoS conditions, respectively. When compared to XGB, our algorithm improves accuracy by more than 4% in the LoS condition (90.80% with Method 2) and by around 3% in the short-distance NLoS condition (83.07% with Method 1).",
+      "authors": [
+        "Joseanne Viana",
+        "Hamed Farkhari",
+        "Pedro Sebasti\u00e3o",
+        "Luis Miguel Campos",
+        "Katerina Koutlia",
+        "Biljana Bojovic",
+        "Sandra Lag\u00e9n",
+        "Rui Dinis"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "IEEE"
+      ],
+      "doi": "10.1109/TVT.2023.3302814",
+      "keywords": [
+        "deep learning",
+        "4G",
+        "unmanned aerial vehicles",
+        "jamming detection",
+        "jamming identification",
+        "5G",
+        "UAV",
+        "security",
+        "convolutional neural networks"
+      ],
+      "number_of_pages": 16,
+      "pages": "131-146",
+      "publication": {
+        "category": "Journal",
+        "cite_score": 13.6,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": "1939-9359",
+        "publisher": "Institute of Electrical and Electronics Engineers Inc.",
+        "sjr": 2.802,
+        "snip": 2.086,
+        "subject_areas": [
+          "Applied Mathematics",
+          "Electrical and Electronic Engineering",
+          "Automotive Engineering",
+          "Aerospace Engineering"
+        ],
+        "title": "IEEE Transactions on Vehicular Technology"
+      },
+      "publication_date": "2024-01-01",
+      "selected": null,
+      "title": "Deep Attention Recognition for Attack Identification in 5G UAV Scenarios: Novel Architecture and End-to-End Evaluation",
+      "urls": [
+        "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10210056"
+      ]
+    },
+    {
+      "abstract": "Autonomous vehicles are expected to achieve self-evolution in the real-world environment to gradually cover more complex and changing scenarios. Reinforcement learning focuses on how agents act in the environment to maximize the cumulative reward, with a great potential to achieve self-evolution ability. However, most of reinforcement learning algorithms suffer from a low sample efficiency, which greatly limits their application in autonomous driving. This paper presents an efficient self-evolution method for any given algorithm based on the combination of Soft Actor Critic (SAC) and Behavioral Cloning(BC). First, the states of the sample trajectory in the replay buffer are separated and input into the given algorithm (algorithm with fundamental performance) to get the output label of actions such that the SAC algorithm can be guided using BC to achieve fast iteration in the direction of optimization with existing basic performance. Then, the value iteration algorithm is combined to achieve the proportion allocation of mixed gradient feedback, in order to trade off exploitation and exploration. In addition, the proposed methodology is evaluated in simulation environment taking automated speed control as an example. Experiment results show that compared with SAC algorithm, the proposed method can realize more than three times of convergence efficiency improvement, while without destroying the exploration enhancement advantage of reinforcement learning algorithm, that is, the performance is improved by 20% compared with the given algorithm (Intelligent Driver Model, IDM). The proposed method can easily extended to improve any given model no matter it is model-based or learning-based algorithm.",
+      "authors": [
+        "Yanjun Huang",
+        "Shuo Yang",
+        "Liwen Wang",
+        "Kang Yuan",
+        "Hongyu Zheng",
+        "Hong Chen"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "IEEE"
+      ],
+      "doi": "10.1109/TITS.2023.3307873",
+      "keywords": [
+        "Autonomous driving",
+        "reinforcement learning",
+        "policy improvement"
+      ],
+      "number_of_pages": 11,
+      "pages": "602-612",
+      "publication": {
+        "category": "Journal",
+        "cite_score": 11.6,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": "1558-0016",
+        "publisher": "Institute of Electrical and Electronics Engineers Inc.",
+        "sjr": 2.674,
+        "snip": 3.544,
+        "subject_areas": [
+          "Mechanical Engineering",
+          "Computer Science Applications",
+          "Automotive Engineering"
+        ],
+        "title": "IEEE Transactions on Intelligent Transportation Systems"
+      },
+      "publication_date": "2024-01-01",
+      "selected": null,
+      "title": "An Efficient Self-Evolution Method of Autonomous Driving for Any Given Algorithm",
+      "urls": [
+        "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10239250"
+      ]
+    },
+    {
+      "abstract": "As autonomous driving technologies advance, occupants are expected to be free from driving, diversifying interaction scenarios with vehicles. Despite the growing importance of in-vehicle occupant monitoring systems, most existing systems focus on the face or head tracking of occupants, and only a few studies have attempted to detect their poses. In this paper, we present the first in-vehicle environment-specialized framework for the joint estimation of 3D human pose and shape from a single image. To this end, we introduce a new dataset called Human In VEhicles (HIVE), which contains a large collection of synthesized humans with different shapes and poses in vehicle images. HIVE provides RGB and NIR in-vehicle image pairs with ground-truth 2D and 3D pose and shape annotations, respectively. In addition, to exploit the different characteristics of humans in vehicles and unconstrained environments, we present a new pose prior penalizing poses that deviate from in-vehicle poses. The pose prior is derived using a variational autoencoder trained with in-vehicle human pose data. By using the proposed HIVE dataset and pose prior along with an elaborately designed two-stage training procedure, our method exhibits significantly improved pose and shape estimation performance compared with state-of-the-art methods for real-world test images captured in vehicles under different conditions.",
+      "authors": [
+        "Kwang-Lim Ko",
+        "Jun-Sang Yoo",
+        "Chang-Woo Han",
+        "Jungyeop Kim",
+        "Seung-Won Jung"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "IEEE"
+      ],
+      "doi": "10.1109/TITS.2023.3306314",
+      "keywords": [
+        "Deep learning",
+        "shape estimation",
+        "pose estimation",
+        "image synthesis",
+        "driver-assistance system"
+      ],
+      "number_of_pages": 15,
+      "pages": "402-416",
+      "publication": {
+        "category": "Journal",
+        "cite_score": 11.6,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": "1558-0016",
+        "publisher": "Institute of Electrical and Electronics Engineers Inc.",
+        "sjr": 2.674,
+        "snip": 3.544,
+        "subject_areas": [
+          "Mechanical Engineering",
+          "Computer Science Applications",
+          "Automotive Engineering"
+        ],
+        "title": "IEEE Transactions on Intelligent Transportation Systems"
+      },
+      "publication_date": "2024-01-01",
+      "selected": null,
+      "title": "Pose and Shape Estimation of Humans in Vehicles",
+      "urls": [
+        "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10229964"
+      ]
+    },
+    {
+      "abstract": "The proliferation of unmanned aerial vehicles (UAVs) opens up new opportunities for on-demand service provision anywhere and anytime, but also exposes UAVs to a variety of cyber threats. Low/medium interaction honeypots offer a promising lightweight defense for actively protecting mobile Internet of things, particularly UAV networks. While previous research has primarily focused on honeypot system design and attack pattern recognition, the incentive issue for motivating UAVs\u2019 participation (e.g., sharing trapped attack data in honeypots) to collaboratively resist distributed and sophisticated attacks remains unexplored. This paper proposes a novel game-theoretical collaborative defense approach to address optimal, fair, and feasible incentive design, in the presence of network dynamics and UAVs\u2019 multi-dimensional private information (e.g., valid defense data (VDD) volume, communication delay, and UAV cost). Specifically, we first develop a honeypot game between UAVs and the network operator under both partial and complete information asymmetry scenarios. The optimal VDD-reward contract design problem with partial information asymmetry is then solved using a contract-theoretic approach that ensures budget feasibility, truthfulness, fairness, and computational efficiency. In addition, under complete information asymmetry, we devise a distributed reinforcement learning algorithm to dynamically design optimal contracts for distinct types of UAVs in the time-varying UAV network. Extensive simulations demonstrate that the proposed scheme can motivate UAV\u2019s cooperation in VDD sharing and improve defensive effectiveness, compared with conventional schemes.",
+      "authors": [
+        "Yuntao Wang",
+        "Zhou Su",
+        "Abderrahim Benslimane",
+        "Qichao Xu",
+        "Minghui Dai",
+        "Ruidong Li"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "IEEE"
+      ],
+      "doi": "10.1109/TIFS.2023.3318942",
+      "keywords": [
+        "game",
+        "Unmanned aerial vehicle (UAV)",
+        "reinforcement learning",
+        "mobile honeypot",
+        "collaborative defense"
+      ],
+      "number_of_pages": 16,
+      "pages": "1963-1978",
+      "publication": {
+        "category": "Journal",
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": "1556-6021",
+        "publisher": "IEEE",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "IEEE Transactions on Information Forensics and Security"
+      },
+      "publication_date": "2024-01-01",
+      "selected": null,
+      "title": "Collaborative Honeypot Defense in UAV Networks: A Learning-Based Game Approach",
+      "urls": [
+        "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10273619"
+      ]
+    },
+    {
+      "abstract": "Ensuring safety and achieving human-level driving performance remain challenges for autonomous vehicles, especially in safety-critical situations. As a key component of artificial intelligence, reinforcement learning is promising and has shown great potential in many complex tasks; however, its lack of safety guarantees limits its real-world applicability. Hence, further advancing reinforcement learning, especially from the safety perspective, is of great importance for autonomous driving. As revealed by cognitive neuroscientists, the amygdala of the brain can elicit defensive responses against threats or hazards, which is crucial for survival in and adaptation to risky environments. Drawing inspiration from this scientific discovery, we present a fear-neuro-inspired reinforcement learning framework to realize safe autonomous driving through modeling the amygdala functionality. This new technique facilitates an agent to learn defensive behaviors and achieve safe decision making with fewer safety violations. Through experimental tests, we show that the proposed approach enables the autonomous driving agent to attain state-of-the-art performance compared to the baseline agents and perform comparably to 30 certified human drivers, across various safety-critical scenarios. The results demonstrate the feasibility and effectiveness of our framework while also shedding light on the crucial role of simulating the amygdala function in the application of reinforcement learning to safety-critical autonomous driving domains.",
+      "authors": [
+        "Xiangkun He",
+        "Jingda Wu",
+        "Zhiyu Huang",
+        "Zhongxu Hu",
+        "Jun Wang",
+        "Alberto Sangiovanni-Vincentelli",
+        "Chen Lv"
+      ],
+      "categories": null,
+      "citations": 1,
+      "comments": null,
+      "databases": [
+        "IEEE"
+      ],
+      "doi": "10.1109/TPAMI.2023.3322426",
+      "keywords": [
+        "autonomous driving",
+        "safe decision making",
+        "reinforcement learning",
+        "Trustworthy artificial intelligence"
+      ],
+      "number_of_pages": 13,
+      "pages": "267-279",
+      "publication": {
+        "category": "Journal",
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": "1939-3539",
+        "publisher": "IEEE",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+      },
+      "publication_date": "2024-01-01",
+      "selected": null,
+      "title": "Fear-Neuro-Inspired Reinforcement Learning for Safe Autonomous Driving",
+      "urls": [
+        "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10273631"
+      ]
+    }
+  ],
+  "processed_at": "2024-01-25 12:17:04",
+  "publication_types": [
+    "journal",
+    "conference proceedings"
+  ],
+  "query": "(([autonomous] OR [self driving] OR [driverless] OR [unmanned] OR [automated]) AND ([vehicle*] OR [car*] OR [drone*] OR [robot*]) AND ([attack*] OR [exploit*] OR [threat*] OR [adversarial]))",
+  "since": "2024-01-01",
+  "until": null
+}
