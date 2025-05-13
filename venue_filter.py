@@ -13,6 +13,7 @@ def parse(data):
         abstract = entry.get('abstract')
         urls = entry.get('urls')
         publication_date = entry.get('publication_date')
+        print(publication_date)
         doi = entry.get('doi')
         authors = entry.get('authors')
         publication = entry.get('publication')
