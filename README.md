@@ -11,7 +11,3 @@ Files and directories in this repository:
 - `white_list.txt`: the list of white-listed venues.
 
 
-This work is funded by the European Union’s Horizon Europe research
-and innovation programme under the project Sec4AI4Sec, grant agreement No 101120393.
-
-Paper https://arxiv.org/abs/2412.04510

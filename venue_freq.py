@@ -6,6 +6,7 @@ json_dir_path = './json_files'
 
 # %%
 def parse(data):
+    """Parse the JSON data and extract relevant information."""
     combs = []
     for entry in data['papers']:
         title = entry.get('title')
@@ -49,69 +50,26 @@ for file_name in os.listdir(json_dir_path):
             all_combs.append(comb)
 
 # %%
-print(len(all_combs))
-print(all_combs[0])
-print(all_combs[1])
-
-# %%
+print("--"*20)
+print(len(all_combs), ' Papers remain after first filters' )
+print("--"*20)
+# Frequency for journal venues
 
 journal_venues = [c[4] for c in all_combs if c[2] == 'Journal']
 counter = collections.Counter(journal_venues)
 
-# with open('journal_venues.tsv', 'w') as f:
-#     for k, v in counter.most_common():
-#         f.write(f'{k}\t{v}\n')
+with open('frequency/journal_venues.tsv', 'w') as f:
+    for k, v in counter.most_common():
+        f.write(f'{k}\t{v}\n')
 
-for k, v in counter.most_common():
-    print(k)
+print("\nJournal venues and frequencies are saved in journal_venues.tsv")
 
-# %%
+# Frequency for conference venues
 conf_venues = [c[4] for c in all_combs if c[2] == 'Conference Proceedings']
 counter = collections.Counter(conf_venues)
 
-# with open('conf_venues.tsv', 'w') as f:
-#     for k, v in counter.most_common():
-#         print(k, v)
-#         f.write(f'{k}\t{v}\n')
+with open('frequency/conf_venues.tsv', 'w') as f:
+    for k, v in counter.most_common():
+        f.write(f'{k}\t{v}\n')
 
-for k, v in counter.most_common():
-    print(k)
-
-# %% [markdown]
-# ### Apply venue filter
-
-# %%
-venue_filters = []
-with open('venue_filter.txt', 'r') as f:
-    for line in f:
-        line = line.strip()
-        venue_filters.append(line)
-
-# %%
-with open('papers_after_venue_filter.txt', 'w') as f:
-    for comb in all_combs:
-        if comb[4] in venue_filters:
-            f.write(f'{comb[0]}\n')
-            print(comb[0])
-
-# %%
-new_lines = []
-with open('papersAndLink - papersAndLink.tsv', 'r') as f:
-    for line in f:
-        line = line.strip()
-        spl = line.split('\t')
-        print(len(spl))
-        title = spl[0]
-        for c in all_combs:
-            if title == c[0]:
-                # print(c[4], c[1])
-                spl.append(str(c[4]))
-                spl.append(str(c[1]))
-                break
-        new_lines.append('\t'.join(spl))
-    
-with open('papersAndLink_year_venue.tsv', 'w') as f:
-    for line in new_lines:
-        f.write(f'{line}\n')
-
-
+print("\nConference venues and frequencies are saved in conf_venues.tsv")

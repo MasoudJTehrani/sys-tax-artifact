@@ -20,3 +20,7 @@ Software Engineering
 - IEEE TSE (journal)
 - Elsevier Empirical Software Engineering
 
+
+Autonomous Vehicles
+- ITSC
+- MRS
