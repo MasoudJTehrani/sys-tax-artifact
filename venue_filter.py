@@ -34,7 +34,7 @@ def parse(data):
             url = urls[0]
         else:
             url = ""
-        comb = (title, year, category, publisher, journal_name, abstract, url)
+        comb = (title, publication_date, category, publisher, journal_name, abstract, url)
         combs.append(comb)
     return combs      
 
@@ -68,6 +68,6 @@ filtered_combs = [
     for comb in all_combs if comb[4] in venue_filters
 ]
 
-df = pd.DataFrame(filtered_combs, columns=["title", "abstract", "URLs", "venue", "year"])
+df = pd.DataFrame(filtered_combs, columns=["title", "abstract", "URLs", "venue", "date"])
 df.to_csv('papers_after_venue_filter.csv', index=False)
 print("created papers_after_venue_filter.csv")
