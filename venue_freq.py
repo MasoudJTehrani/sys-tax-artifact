@@ -2,7 +2,7 @@
 import json, os
 import collections
 
-json_dir_path = './json_files'
+json_dir_path = './findpapers'
 
 # %%
 def parse(data):
@@ -62,7 +62,7 @@ with open('frequency/journal_venues.tsv', 'w') as f:
     for k, v in counter.most_common():
         f.write(f'{k}\t{v}\n')
 
-print("\nJournal venues and frequencies are saved in journal_venues.tsv")
+print("\nJournal venues and frequencies are saved in frequency/journal_venues.tsv")
 
 # Frequency for conference venues
 conf_venues = [c[4] for c in all_combs if c[2] == 'Conference Proceedings']
@@ -72,4 +72,4 @@ with open('frequency/conf_venues.tsv', 'w') as f:
     for k, v in counter.most_common():
         f.write(f'{k}\t{v}\n')
 
-print("\nConference venues and frequencies are saved in conf_venues.tsv")
+print("\nConference venues and frequencies are saved in frequency/conf_venues.tsv")

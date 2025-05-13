@@ -2,7 +2,7 @@ import json, os
 import pandas as pd
 # ### Apply venue filter
 
-json_dir_path = './json_files'
+json_dir_path = './findpapers'
 
 # %%
 def parse(data):
@@ -54,9 +54,10 @@ for file_name in os.listdir(json_dir_path):
                 continue
             all_combs.append(comb)
 
-# The venue_filter.txt is created manually based on the frequency of the venues and the author's knowledge of the relevant venues
+# The chosen_venues.txt is created manually based on the frequency of the venues 
+# and the author's knowledge of relevant venues (also included in the white_list.txt).
 venue_filters = []
-with open('venue_filter.txt', 'r') as f:
+with open('chosen_venues.txt', 'r') as f:
     for line in f:
         line = line.strip()
         venue_filters.append(line)
