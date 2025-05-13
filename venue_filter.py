@@ -64,7 +64,7 @@ with open('chosen_venues.txt', 'r') as f:
 
 # Convert the filtered papers to a pandas DataFrame and save as a CSV file
 filtered_combs = [
-    {"title": comb[0], "abstract": comb[5], "URLs": comb[6], "venue": comb[4], "year": comb[1]}
+    {"title": comb[0], "abstract": comb[5], "URLs": comb[6], "venue": comb[4], "date": comb[1]}
     for comb in all_combs if comb[4] in venue_filters
 ]
 
