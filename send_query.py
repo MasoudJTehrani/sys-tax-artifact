@@ -3,6 +3,6 @@
 pip install findpapers
 
 # Collelcting papers for each year from 2017 to may 9th 2025
-findpapers search output.json --query '(([autonomous] OR [self driving] OR [driverless] OR [unmanned] OR [automated]) AND ([vehicle*] OR [car*] OR [drone*] OR [truck*] OR [tractor*] OR [submarine*] OR [boat*]) AND ([attack*] OR [exploit*] OR [threat*] OR [adversarial]))' --since 2017-01-01  --until 2025-05-09 --token-scopus "47d55b6080a1477d8750ceee0856d4ee" --token-ieee "6bjgy2dp7544azdspnc8cpud" --publication-types "journal, conference proceedings" --databases "scopus,ieee,acm"
+findpapers search output.json --query '(([autonomous] OR [self driving] OR [driverless] OR [unmanned] OR [automated]) AND ([vehicle*] OR [car*] OR [drone*] OR [truck*] OR [tractor*] OR [submarine*] OR [boat*] OR [maritime]) AND ([attack*] OR [exploit*] OR [threat*] OR [adversarial]))' --since 2017-01-01  --until 2025-05-14 --token-scopus "47d55b6080a1477d8750ceee0856d4ee" --token-ieee "6bjgy2dp7544azdspnc8cpud" --publication-types "journal, conference proceedings" --databases "scopus,ieee,acm"
 
 # You can remove the "until" argument to collect all the papers from 2017 to now. But it will not replicate our results

@@ -23,4 +23,3 @@ Software Engineering
 
 Autonomous Vehicles
 - ITSC
-- MRS
