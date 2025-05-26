@@ -34,12 +34,14 @@ def parse(data):
 
 
 all_combs = []
+before_filter = 0
 for file_name in os.listdir(json_dir_path):
     if file_name.endswith('.json'):
         file_path = os.path.join(json_dir_path, file_name)
         with open(file_path, 'r', encoding='utf-8') as f:
             data = json.load(f)
             combs = parse(data)
+            before_filter += len(data['papers'])
         
         # duplication check
         for comb in combs:
@@ -51,7 +53,7 @@ for file_name in os.listdir(json_dir_path):
 
 # %%
 print("--"*20)
-print(len(all_combs), ' Papers remain after first filters' )
+print(len(all_combs), ' Papers remain after first filters out of: ', before_filter )
 print("--"*20)
 # Frequency for journal venues
 

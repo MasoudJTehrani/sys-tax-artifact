@@ -1,51 +1,57 @@
-Lecture Notes in Computer Science
-Lecture Notes in Electrical Engineering
-ACM International Conference Proceeding Series
-IEEE Vehicular Technology Conference
-IEEE International Conference on Intelligent Robots and Systems
-Communications in Computer and Information Science
-IEEE International Conference on Robotics and Automation
-IEEE Conference on Intelligent Transportation Systems
-IEEE Intelligent Vehicles Symposium
-IEEE Computer Society Conference on Computer Vision and Pattern Recognition
-Advances in Intelligent Systems and Computing
-Digital Avionics Systems Conference
-IEEE Conference on Decision and Control
-Machine Learning Research
-International Joint Conference on Autonomous Agents and Multiagent Systems
-Procedia Computer Science
-Oceans Conference Record
-Lecture Notes in Mechanical Engineering
-IEEE Aerospace Conference Proceedings
-International Joint Conference on Neural Networks
-IEEE International Conference on Computer Vision
+International Conference on Intelligent Robots and Systems
+Vehicular Technology Conference
 International Conference on Unmanned Aircraft Systems
-IET Conference Proceedings
-Transportation Research Procedia
+International Conference on Robotics and Automation
+Conference on Decision and Control
+Intelligent Vehicles Symposium
+Global Oceans
+Digital Avionics Systems Conference
+Conference on Intelligent Transportation Systems
+Conference on Computer Vision and Pattern Recognition
+International Joint Conference on Neural Network
+IEEE Aerospace Conference
+ACM International Conference Proceeding Series
+International Conference on Unmanned Systems
+Proceedings of Machine Learning Research
+International Conference on Computer Vision
+International Conference on Automation Science and Engineering
+Oceans Conference Record
 International Conference on Control, Automation and Systems
-IEEE International Conference on Control and Automation
 IEEE Transactions on Intelligent Transportation Systems
-IEEE Internet of Things Journal
 IEEE Transactions on Vehicular Technology
-Ocean Engineering
+IEEE Internet of Things Journal
+IEEE Transactions on Intelligent Vehicles
 IEEE Robotics and Automation Letters
-IEEE Transactions on Intelligent Vehicle
-Aerospace Science and Technology
-Multimedia Tools and Applications
-Journal of Marine Science and Engineering
-Expert Systems with Applications
-IEEE Transactions on Automation Science and Engineering
-IEEE Transactions on Industrial Informatics
-Journal of Intelligent and Robotic Systems: Theory and Applications
-IEEE Transactions on Aerospace and Electronic Systems
 IEEE Transactions on Mobile Computing
+IEEE Transactions on Industrial Informatics
 IEEE Transactions on Information Forensics and Security
-Vehicular Communications
-Transportation Research Part C: Emerging Technologies
-Computers and Security
-IEEE Transactions on Communications
-Neurocomputing
-Computers and Electrical Engineering
+IEEE Transactions on Aerospace and Electronic Systems
+IEEE Transactions on Automation Science and Engineering
+IEEE Transactions on Instrumentation and Measurement
+IEEE Transactions on Systems, Man, and Cybernetics: Systems
+IEEE Transactions on Control Systems Technology
+IEEE Transactions on Network Science and Engineering
+IEEE Transactions on Consumer Electronics
+IEEE Transactions on Cybernetics
+IEEE Transactions on Industrial Electronics
+IEEE Transactions on Automatic Control
+IEEE Transactions on Network and Service Management
+IEEE/ASME Transactions on Mechatronics
+IEEE Open Journal of Intelligent Transportation Systems
+IEEE Transactions on Neural Networks and Learning Systems
+Journal of Systems Engineering and Electronics
+IEEE Journal of Oceanic Engineering
+IEEE/CAA Journal of Automatica Sinica
+IEEE Transactions on Robotics
+IEEE Transactions on Multimedia
+IET Conference Proceedings
+IEEE Transactions on Fuzzy Systems
+International Journal of Advanced Computer Science and Applications
+IEEE Transactions on Artificial Intelligence
+Proceedings of the IEEE
+Ocean Engineering
+IEEE Transactions on Dependable and Secure Computing
+IEEE Control Systems Letters
 International Conference on Computer Vision
 International Conference on Image Processing
 International Conference on Control, Automation and Systems
@@ -62,3 +68,5 @@ ACM Transactions on Software Engineering and Methodology
 IEEE Transactions on Software Engineering
 Empirical Software Engineering
 Applied Artificial Intelligence
+International Joint Conference on Autonomous Agents and Multiagent Systems
+Transportation Research Part C: Emerging Technologies
