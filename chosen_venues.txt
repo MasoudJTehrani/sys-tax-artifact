@@ -1,72 +1,97 @@
-International Conference on Intelligent Robots and Systems
-Vehicular Technology Conference
-International Conference on Unmanned Aircraft Systems
-International Conference on Robotics and Automation
-Conference on Decision and Control
-Intelligent Vehicles Symposium
-Global Oceans
-Digital Avionics Systems Conference
-Conference on Intelligent Transportation Systems
-Conference on Computer Vision and Pattern Recognition
-International Joint Conference on Neural Network
-IEEE Aerospace Conference
+The International Society for Optical Engineering
+Global Communications Conference
 ACM International Conference Proceeding Series
+Vehicular Technology Conference
+International Conference on Robotics and Automation
+International Conference on Intelligent Robots and Systems
+Conference on Computer Vision and Pattern Recognition
+Intelligent Vehicles Symposium
+International Joint Conference on Neural Networks
+Machine Learning Research
+International Conference on Intelligent Transportation Systems
+International Conference on Unmanned Aircraft Systems
+SciTech Forum and Exposition
+Conference on Decision and Control
 International Conference on Unmanned Systems
-Proceedings of Machine Learning Research
+Symposium on Security and Privacy
+AIP Conference Proceedings
+Digital Avionics Systems Conference
+International Conference On Trust, Security And Privacy In Computing And Communications
+Aerospace Conference
+International Conference on Computer-Aided Design
+Procedia Computer Science
+Pacific Rim International Symposium on Dependable Computing
+Oceans Conference
+International Conference on Vehicular Control and Intelligence
 International Conference on Computer Vision
-International Conference on Automation Science and Engineering
-Oceans Conference Record
-International Conference on Control, Automation and Systems
+Advances in Neural Information Processing Systems
 IEEE Transactions on Intelligent Transportation Systems
 IEEE Transactions on Vehicular Technology
 IEEE Internet of Things Journal
 IEEE Transactions on Intelligent Vehicles
-IEEE Robotics and Automation Letters
-IEEE Transactions on Mobile Computing
-IEEE Transactions on Industrial Informatics
 IEEE Transactions on Information Forensics and Security
-IEEE Transactions on Aerospace and Electronic Systems
-IEEE Transactions on Automation Science and Engineering
-IEEE Transactions on Instrumentation and Measurement
-IEEE Transactions on Systems, Man, and Cybernetics: Systems
-IEEE Transactions on Control Systems Technology
-IEEE Transactions on Network Science and Engineering
-IEEE Transactions on Consumer Electronics
-IEEE Transactions on Cybernetics
-IEEE Transactions on Industrial Electronics
-IEEE Transactions on Automatic Control
-IEEE Transactions on Network and Service Management
-IEEE/ASME Transactions on Mechatronics
-IEEE Open Journal of Intelligent Transportation Systems
-IEEE Transactions on Neural Networks and Learning Systems
-Journal of Systems Engineering and Electronics
-IEEE Journal of Oceanic Engineering
-IEEE/CAA Journal of Automatica Sinica
-IEEE Transactions on Robotics
-IEEE Transactions on Multimedia
-IET Conference Proceedings
-IEEE Transactions on Fuzzy Systems
-International Journal of Advanced Computer Science and Applications
-IEEE Transactions on Artificial Intelligence
-Proceedings of the IEEE
+IEEE Transactions on Industrial Informatics
+IEEE Robotics and Automation Letters
 Ocean Engineering
+IEEE Transactions on Consumer Electronics
+IEEE Transactions on Systems, Man, and Cybernetics: Systems
+IEEE Transactions on Mobile Computing
+IEEE Transactions on Neural Networks and Learning Systems
+IEEE Transactions on Cybernetics
+Journal of Marine Science and Engineering
+IEEE Transactions on Automation Science and Engineering
+IEEE Transactions on Aerospace and Electronic Systems
+Computers, Materials and Continua
+IEEE Network
+IEEE Transactions on Fuzzy Systems
+IEEE/CAA Journal of Automatica Sinica
+Vehicular Communications
+IEEE Transactions on Automatic Control
+IEEE Open Journal of Intelligent Transportation Systems
+Aerospace
+ISA Transactions
+IEEE Transactions on Instrumentation and Measurement
 IEEE Transactions on Dependable and Secure Computing
-IEEE Control Systems Letters
-International Conference on Computer Vision
-International Conference on Image Processing
-International Conference on Control, Automation and Systems
+International Journal of Advanced Computer Science and Applications
+Journal of Systems Engineering and Electronics
+IET Conference Proceedings
+Aerospace Science and Technology
+The Journal of Supercomputing
 International Conference on Machine Learning
-Neural Information Processing Systems
+AAAI Conference on Artificial Intelligence
 International Conference on Learning Representations
 International Conference on Artificial Intelligence and Statistics
 International Joint Conference on Artificial Intelligence
 International Conference on Software Engineering
 Foundations of Software Engineering
-Automated Software Engineering
+International Conference on Automated Software Engineering
 International Conference on Software Testing, Verification and Validation
 ACM Transactions on Software Engineering and Methodology
 IEEE Transactions on Software Engineering
 Empirical Software Engineering
-Applied Artificial Intelligence
 International Joint Conference on Autonomous Agents and Multiagent Systems
 Transportation Research Part C: Emerging Technologies
+IEEE Transactions on Robotics
+International Journal of Robotics Research
+Autonomous Robots
+ACM Transactions on Privacy and Security
+Acta Astronautica
+AIAA Journal
+Journal of Guidance, Control, and Dynamics
+IEEE Journal of Oceanic Engineering
+Journal of Field Robotics
+Robotics and Autonomous Systems
+Automation in Construction
+Computers and Electronics in Agriculture
+Conference on Neural Information Processing Systems
+IEEE/CVF Conference on Computer Vision and Pattern Recognition
+IEEE International Conference on Robotics and Automation
+IEEE/RSJ International Conference on Intelligent Robots and Systems
+Robotics: Science and Systems
+IEEE Symposium on Security and Privacy
+USENIX Security Symposium
+ACM Conference on Computer and Communications Security
+Network and Distributed System Security Symposium
+AIAA Science and Technology Forum and Exposition
+International Astronautical Congress
+IEEE/OES OCEANS Conference
