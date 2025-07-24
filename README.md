@@ -1,5 +1,9 @@
-# Replication package of the paper "A Taxonomy of System-Level Attacks on Deep Learning Models in Autonomous Vehicles"
 
+
+<p align="center" style="font-size:90px;">
+Replication package of the paper: <br>
+<b>A Taxonomy of System-Level Attacks on Deep Learning Models in Autonomous Vehicles</b>
+</p>
 
 - The **ChatGPT_for_AVs.pdf** file is the ChatGPT search for finding the domains of Autonomous Vehicles, Deep Learning models and modules, and simulation environment.
 
