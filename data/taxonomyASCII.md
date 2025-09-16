@@ -9,9 +9,9 @@ System-level Attack Taxonomy
 │  ├─ Road Line Detection — [13, 17]
 │  └─ Traffic Control — [10]
 ├─ Module Under Attack
-│  ├─ Perception
-│  ├─ Planning
-│  └─ End-to-end
+│  ├─ Perception — [1, 3, 4, 6, 7, 8, 9, 13, 14, 15, 16, 19, 20]
+│  ├─ Planning — [10] 
+│  └─ End-to-end — [2, 5, 11, 12, 17, 18, 21]
 ├─ System Under Attack
 │  ├─ Simulation
 │  │  ├─ SSF — [2, 4, 5, 10, 11, 12, 17, 18, 21]
