@@ -37,13 +37,13 @@ This emphasizes the *end-to-end chain* from environment/digital manipulation →
 
 ## Categories
 
-Please refer to `categories.md` for a full explanation of the meaning of each category.
+Please refer to <a href="https://github.com/MasoudJTehrani/sys-tax-artifact/blob/main/categories.md">categories.md</a> for a full explanation of the meaning of each category.
 
 ---
 
 ## Taxonomy Mapping
 
-Please refer to `taxonomy.md` for a full taxonomy mapping.
+Please refer to `<a href="https://github.com/MasoudJTehrani/sys-tax-artifact/blob/main/taxonomy.md">taxonomy.md</a>` for a full taxonomy mapping.
 
 ---
 
