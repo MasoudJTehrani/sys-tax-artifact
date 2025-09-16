@@ -1,19 +1,3 @@
-<p align="center" style="font-size:90px;">
-<b>A Taxonomy of System-Level Attacks on Deep Learning Models in Autonomous Vehicles</b>
-</p>
-
-- The **ChatGPT_for_AVs.pdf** file is the ChatGPT search for finding the domains of Autonomous Vehicles, Deep Learning models and modules, and simulation environment.
-
-# How to Replicate:
-1. Install <a href="https://github.com/jonatasgrosman/findpapers">findpapers</a> by using ``pip install findpapers``.
-2. Find our query from the **send_query.py**. Copy it and run it to find and extract the papers.
-3. Change the ``json_dir_path = './findpapers'`` in the **venue_filter.py** to the direction of your outputed list of papers.
-4. Run the **venue_filter.py** to filter venues based on the listed venues in **chosen_venues.txt** file.
-5. You will have a **papers_after_venue_filter.csv** which contains the title, abstract, URLs, venue, and published date of the papers.
-
-- Note: The **venue_freq.py** file outputs the number of papers extracted from each venue, separated by journals and conferences. You can skip running this code, as it was only intended for us to find related venues.
-
-
 # System-level attack taxonomy for Deep Learning in Autonomous Vehicles
 
 > A compact, taxonomy-first README for researchers. This repository contains a taxonomy-style index of system-level attacks on DL components in Autonomous Vehicles (papers published 2017-01-01 → 2024-01-01). The taxonomy and mappings below are derived from the uploaded paper used to build this repo.
@@ -41,8 +25,6 @@
   - Sensor *physical removal/physical tampering* papers that only remove sensors or physically damage hardware without targeting DL model inputs are outside our focus when they do not produce DL-based model mispredictions leading to system-level failures.
   - Network-only attacks (purely communication-layer exploits) were excluded because the taxonomy focuses on attacks that manipulate the *DL components or their inputs/outputs* and track how those model-level changes propagate to system-level failures.
 
-(These inclusion/exclusion rules are exactly the ones used to reduce the initial corpus to 21 papers in the source paper.)
-
 ---
 
 ## What is a "system-level attack"?
@@ -55,50 +37,11 @@ This emphasizes the *end-to-end chain* from environmental or digital manipulatio
 
 ## Why we focus on attacks that target DL parts (not e.g., pure camera destruction or network takeover)
 
-Short answer: the taxonomy explicitly aims to study the *propagation* from model-level faults to system-level failures. Network-only or purely physical-destruction attacks (e.g., smashing a camera, cutting a wire) can of course disable a vehicle, but they do not help us understand how **subtle manipulations of DL inputs/weights/pipeline** cause the vehicle to behave incorrectly in a way that *depends on the model’s internals or outputs*.
+Short answer: the taxonomy explicitly aims to study the *propagation* from model-level faults to system-level failures. Network-only or purely physical-destruction attacks (e.g., smashing a camera, cutting a wire) can, of course, disable a vehicle, but they do not help us understand how **subtle manipulations of DL inputs/weights/pipeline** cause the vehicle to behave incorrectly in a way that *depends on the model’s internals or outputs*.
 
 Practically:
-- The goal is to catalogue *system-level consequences that arise because a DL model misbehaved* (e.g., adversarial patch → misdetection → car steers into another lane). Sensor damage / network removal are outside this chain.
+- The goal is to catalogue *system-level consequences that arise because a DL model misbehaved* (e.g., adversarial patch → misdetection → car steers into another lane). Sensor damage/network removal is outside this chain.
 - Focusing on DL-oriented, model-linked attacks enables taxonomy categories such as: *Attacked Target (input image, roadside, training data, sensor spoofing), DL model under attack (object detection vs end-to-end vs steering-angle predictor), Attack Type (evasion vs poisoning), Attacker’s knowledge (white/black/gray) and System-level results (crash, freeze, sign-ignorance, etc.).*
-
-If you want a separate index that *also* includes sensor-physical-damage or network-only attacks, we can add a supplemental folder (recommendation: `supplementary/other-threats.md`).
-
----
-
-## ASCII taxonomy tree (textual) — leaves link to paper anchors below
-
-(Leaf lists use the reference numbers from the original paper; each number below links to the short title entry in the **Papers** section.)
-
-```
-System-level attack taxonomy
-├─ Application Domain
-│  ├─ Cars -> [1,3,4,5,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21]
-│  └─ Drones -> [2,4,6]
-├─ DL Model Under Attack
-│  ├─ Object Detection & Tracking -> [1,3,4,6,7,8,9,13,14,15,16,19,20]
-│  ├─ End-to-end (raw input → control) -> [2,5,11,12,17,18,21]
-│  └─ Steering wheel / Angle prediction (prediction/planning) -> [13,17]
-├─ Module Under Attack
-│  ├─ Perception        -> [1,3,4,6,7,8,9,13,14,15,16,19,20]
-│  ├─ End-to-end        -> [2,5,11,12,17,18,21]
-│  └─ Planning/Control  -> [10]
-├─ Attacked Target
-│  ├─ Input image       -> [1,4,6,11,16]
-│  ├─ Road / Roadside   -> [12,13,14,15,17,19]
-│  ├─ Sensors (e.g. LiDAR camera interference) -> [9,20]
-│  └─ Training data     -> [10]
-├─ Attack Type
-│  ├─ Evasion  -> [1,2,3,4,5,6,7,8,9,11,12,13,14,15,16,17,18,19,20]
-│  └─ Poisoning -> [10,21]
-├─ Attacker's Knowledge
-│  ├─ White-box -> [1,2,3,4,5,6,7,8,9,10,11,12,13,15,16,18,20,21]
-│  └─ Black-box -> [11,14,17,19]
-└─ System-level Results
-   ├─ Vehicle crash (to objects/vehicles/pedestrians) -> [1,3,10,12,16]
-   ├─ Losing the path / Lane departure -> [5,11,12,18,21]
-   ├─ Freeze / Sudden braking -> [2,4,5,6,11,12,14,15,17,19,21]
-   └─ Wrong decision / Sign ignorance -> [9,10,19]
-```
 
 ---
 
@@ -136,6 +79,28 @@ System-level attack taxonomy
 
 ---
 
+## Contributing
+
+If you want to **add a paper** or **adjust a mapping**: please open a PR and add a row to `data/papers.csv` and update `data/summary.json`. Use the same fields and the `ref` number should map to the number used in the original paper (or, if adding a new paper, add a new `ref` number and include the source).
+
+> Thank you for contributing. This repository is a living taxonomy compiled from <a href="https://arxiv.org/abs/2412.04510">Tehrani et al.'s paper</a>. Please add papers that match these criteria: (1) attack demonstrates a DL-model-level misprediction and (2) the authors report a system-level effect or vehicle-level consequence. When possible, provide a stable link (DOI / arXiv / project page) and list which taxonomy categories apply. We will review PRs and merge after basic sanity checks.
+
+---
+
+## Citation 
+If you find this taxonomy useful, please consider giving it a star &#127775;, and cite the published paper:
+[https://arxiv.org/abs/2503.09385](https://arxiv.org/abs/2412.04510)
+```bibtex
+@article{tehrani2024taxonomy,
+  title={A Taxonomy of System-Level Attacks on Deep Learning Models in Autonomous Vehicles},
+  author={Tehrani, Masoud Jamshidiyan and Kim, Jinhan and Foulefack, Rosmael Zidane Lekeufack and Marchetto, Alessandro and Tonella, Paolo},
+  journal={arXiv preprint arXiv:2412.04510},
+  year={2024}
+}
+```
+
+---
+
 ## Papers (short-list — titles only, linked to the taxonomy mapping above)
 
 Below we list the 21 papers included in the taxonomy. **Only the short title is listed here**; users should consult the original paper (or the paper’s ref list) for full bibliographic details and PDFs.
@@ -164,81 +129,49 @@ Below we list the 21 papers included in the taxonomy. **Only the short title is 
 
 ---
 
-## data/papers.csv (CSV preview)
 
-```csv
-ref,year,title,attack_type,dl_module,app_domain,attacked_target,system_result
-1,2024,SlowTrack: Increasing the latency of camera-based perception,Evasion,Perception,Cars,Input image,Crash
-2,2024,RPAU: Fooling the eyes of UAVs via physical adversarial patches,Evasion,End-to-end,Drones,Objects/Signs,Crash/Freeze
-3,2023,Adversarial attacks on adaptive cruise control systems,Evasion,Perception,Cars,Objects/Signs,Collision
-4,2023,Learning when to use adaptive adversarial image perturbations,Evasion,Perception,Cars,Input image,Lose tracking/Crash
-5,2023,DeepManeuver: Adversarial test generation,Evasion,End-to-end,Cars,Objects/Signs,Off-road/Collision
-6,2023,Kidnapping multirotors using flying patches,Evasion,Perception,Drones,Input image,Drone hijack
-7,2023,Does physical adv. example matter to AVs?,Evasion,Perception,Cars,Objects/Signs,Crash (improved success)
-8,2023,On data fabrication in collaborative perception,Evasion,Perception,Cars,Objects/Signs,Spoof/Remove objects
-9,2022,Rolling colors: laser exploits,Evasion,Perception,Cars,Sensors,Sign misclass/ignore
-10,2021,Stop-and-go: backdoor attacks,Poisoning,Planning,Cars,Training data,Wrong decisions/Collision
-11,2021,Attack & fault injection in CARLA,Evasion,End-to-end,Cars,Input image/weights,Collisions/Lane departure
-12,2021,Dirty road can attack,Evasion,End-to-end,Cars,Road/Roadside,Wrong steering/Off-road
-13,2021,Invisible for camera & LiDAR,Evasion,Perception,Cars,Road/Roadside,Undetected object -> collision
-14,2021,Too good to be safe: tricking lane detection,Evasion,Perception,Cars,Road/Roadside,Veer into wrong lane
-15,2021,Robust roadside physical adversarial attack,Evasion,Perception,Cars,Roadside,Change lane/stop
-16,2020,ML-driven malware targeting AV safety,Evasion,Perception,Cars,Input feeds,Emergency braking/Crash
-17,2020,Attacking vision-based perception in E2E models,Evasion,End-to-end,Cars,Road/Roadside,Wrong steering/Turn wrong way
-18,2020,Feasibility & suppression of patch attacks,Evasion,End-to-end,Cars,Objects/Signs,Steer to patch/Collision
-19,2020,Phantom of the ADAS:Episodes,Evasion,Perception,Cars,Roadside/Projection,Erroneous braking
-20,2019,Adversarial sensor attack on LiDAR-based perception,Evasion,Perception,Cars,Sensors,Freeze/Sudden brake
-21,2017,Trojaning attack on neural networks,Poisoning,End-to-end,Cars,Objects/Signs,Steering misprediction
+## ASCII taxonomy tree (textual) — leaves link to paper anchors below
+
+(Leaf lists use the reference numbers from the original paper; each number below links to the short title entry in the **Papers** section.)
+
 ```
-```
-
----
-
-## data/summary.json (preview)
-
-```json
-[
-  {"ref":1, "year":2024, "title":"SlowTrack: Increasing the latency of camera-based perception", "attack_type":"Evasion", "dl_module":"Perception", "app_domain":"Cars"},
-  {"ref":2, "year":2024, "title":"RPAU: Fooling the eyes of UAVs via physical adversarial patches", "attack_type":"Evasion", "dl_module":"End-to-end", "app_domain":"Drones"},
-  {"ref":3, "year":2023, "title":"Adversarial attacks on adaptive cruise control systems", "attack_type":"Evasion", "dl_module":"Perception", "app_domain":"Cars"}
-  /* ... remaining entries (4..21) mirror the CSV above */
-]
+System-level attack taxonomy
+├─ Application Domain
+│  ├─ Cars -> [1,3,4,5,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21]
+│  └─ Drones -> [2,4,6]
+├─ DL Model Under Attack
+│  ├─ Object Detection & Tracking -> [1,3,4,6,7,8,9,13,14,15,16,19,20]
+│  ├─ End-to-end (raw input → control) -> [2,5,11,12,17,18,21]
+│  └─ Steering wheel / Angle prediction (prediction/planning) -> [13,17]
+├─ Module Under Attack
+│  ├─ Perception        -> [1,3,4,6,7,8,9,13,14,15,16,19,20]
+│  ├─ End-to-end        -> [2,5,11,12,17,18,21]
+│  └─ Planning/Control  -> [10]
+├─ Attacked Target
+│  ├─ Input image       -> [1,4,6,11,16]
+│  ├─ Road / Roadside   -> [12,13,14,15,17,19]
+│  ├─ Sensors (e.g. LiDAR camera interference) -> [9,20]
+│  └─ Training data     -> [10]
+├─ Attack Type
+│  ├─ Evasion  -> [1,2,3,4,5,6,7,8,9,11,12,13,14,15,16,17,18,19,20]
+│  └─ Poisoning -> [10,21]
+├─ Attacker's Knowledge
+│  ├─ White-box -> [1,2,3,4,5,6,7,8,9,10,11,12,13,15,16,18,20,21]
+│  └─ Black-box -> [11,14,17,19]
+└─ System-level Results
+   ├─ Vehicle crash (to objects/vehicles/pedestrians) -> [1,3,10,12,16]
+   ├─ Losing the path / Lane departure -> [5,11,12,18,21]
+   ├─ Freeze / Sudden braking -> [2,4,5,6,11,12,14,15,17,19,21]
+   └─ Wrong decision / Sign ignorance -> [9,10,19]
 ```
 
-> *Full `data/summary.json` and `data/papers.csv` are included in this repository (same folder). The preview above is intentionally compact.*
+## How to Replicate:
+1. Install <a href="https://github.com/jonatasgrosman/findpapers">findpapers</a> by using ``pip install findpapers``.
+2. Find our query from the **send_query.py**. Copy it and run it to find and extract the papers.
+3. Change the ``json_dir_path = './findpapers'`` in the **venue_filter.py** to the direction of your outputed list of papers.
+4. Run the **venue_filter.py** to filter venues based on the listed venues in **chosen_venues.txt** file.
+5. You will have a **papers_after_venue_filter.csv** which contains the title, abstract, URLs, venue, and published date of the papers.
+
+- Note: The **venue_freq.py** file outputs the number of papers extracted from each venue, separated by journals and conferences. You can skip running this code, as it was only intended for us to find related venues.
 
 ---
-
-## Contributing
-
-If you want to **add a paper** or **adjust a mapping**: please open a PR and add a row to `data/papers.csv` and update `data/summary.json`. Use the same fields and the `ref` number should map to the number used in the original paper (or, if adding a new paper, add a new `ref` number and include the source).
-
-Suggested paragraph for CONTRIBUTING.md (you can copy-paste):
-
-> Thank you for contributing. This repository is a living taxonomy compiled from Tehrani et al.'s paper. Please add papers that match these criteria: (1) attack demonstrates a DL-model-level misprediction and (2) the authors report a system-level effect or vehicle-level consequence. When possible, provide a stable link (DOI / arXiv / project page) and list which taxonomy categories apply. We will review PRs and merge after basic sanity checks.
-
----
-
-## Notes & Next steps (suggestions)
-
-- Add a small script `scripts/filter_by_category.py` that loads `data/papers.csv` and allows quick filters by `AttackType`, `DLModule`, or `SystemResult`.
-- Add `supplementary/other-threats.md` if you want a separate index of sensor-only or network-only attacks.
-- If you want badges (CI, license, zenodo, paper), I can propose a concise badges block — let me know which CI and license you plan to use.
-
----
-
-# Citation 
-If you find this taxonomy useful, please consider giving it a star &#127775;, and cite the published paper:
-[https://arxiv.org/abs/2503.09385](https://arxiv.org/abs/2412.04510)
-```bibtex
-@article{tehrani2024taxonomy,
-  title={A Taxonomy of System-Level Attacks on Deep Learning Models in Autonomous Vehicles},
-  author={Tehrani, Masoud Jamshidiyan and Kim, Jinhan and Foulefack, Rosmael Zidane Lekeufack and Marchetto, Alessandro and Tonella, Paolo},
-  journal={arXiv preprint arXiv:2412.04510},
-  year={2024}
-}
-
-*Taxonomy and compact mapping generated from the uploaded paper.*
-
-<!-- End of document -->
-
