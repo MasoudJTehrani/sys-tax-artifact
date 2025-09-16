@@ -226,7 +226,7 @@ Below is the **full taxonomy tree (textual)** that mirrors the paper's taxonomy 
 ---
 ## Full taxonomy tree (ASCII)
 
-For the ASCII version of the taxonomy tree, please refer to <a href="https://github.com/MasoudJTehrani/sys-tax-artifact/blob/main/data/taxonomyASCII.md">taxonomy.md</a>
+For the ASCII version of the taxonomy tree, please refer to <a href="https://github.com/MasoudJTehrani/sys-tax-artifact/blob/main/data/treeASCII.md">treeASCII.md</a>
 
 ---
 
