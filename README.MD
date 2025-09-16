@@ -34,13 +34,13 @@ This emphasizes the *end-to-end chain* from environment/digital manipulation →
 
 ---
 
-## Taxonomy Categories
+## Categories
 
 Please refer to `categories.md` for a full explanation of the meaning of each category.
 
 ---
 
-## Taxonomy mapping
+## Taxonomy Mapping
 
 Please refer to `taxonomy.md` for a full taxonomy mapping.
 
