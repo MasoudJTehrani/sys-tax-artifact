@@ -1,5 +1,5 @@
 - **Files included in this folder:**
-  - `data/taxonomyCSV.csv` full taxonomy mapping in CSV
-  - `data/taxonomyJSON.json` machine-friendly JSON mirroring the full CSV
-  - `data/taxonomyMD.md` is a readable Markdown version of the full taxonomy mapping.
-  - `data/categories.md` is a full description of the meanings of each category.
+  - `taxonomyCSV.csv` full taxonomy mapping in CSV
+  - `taxonomyJSON.json` machine-friendly JSON mirroring the full CSV
+  - `taxonomyMD.md` is a readable Markdown version of the full taxonomy mapping.
+  - `categories.md` is a full description of the meanings of each category.
