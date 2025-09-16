@@ -2,5 +2,5 @@
   - `taxonomyCSV.csv` full taxonomy mapping in CSV
   - `taxonomyJSON.json` machine-friendly JSON mirroring the full CSV
   - `taxonomyMD.md` is a readable Markdown version of the full taxonomy mapping.
-  - `treeASCII.md` is an ASCII format version of the full taxonomy.
+  - `treeASCII.md` is an ASCII format version of the full taxonomy tree.
   - `categories.md` is a full description of the meanings of each category.
