@@ -107,9 +107,9 @@ Below is the **full taxonomy tree (textual)** that mirrors the paper's taxonomy 
 <details>
 <summary><strong>Module Under Attack</strong></summary>
 
-- Perception
-- Planning
-- End-to-end
+- Perception — [1, 3, 4, 6, 7, 8, 9, 13, 14, 15, 16, 19, 20]
+- Planning — [10] 
+- End-to-end — [2, 5, 11, 12, 17, 18, 21]
 
 </details>
 
