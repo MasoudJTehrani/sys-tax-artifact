@@ -13,6 +13,7 @@
   - `data/taxonomyCSV.csv` full taxonomy mapping in CSV
   - `data/taxonomyJSON.json` machine-friendly JSON mirroring the full CSV
   - `data/taxonomyMD.md` is a readable Markdown version of the full taxonomy mapping.
+  - `taxonomyASCII.md` is an ASCII format version of the full taxonomy.
   - `data/categories.md` is a full description of the meanings of each category.
 ---
 
@@ -221,6 +222,11 @@ Below is the **full taxonomy tree (textual)** that mirrors the paper's taxonomy 
 - Sign Ignorance — [7, 9]
 
 </details>
+
+---
+## Full taxonomy tree (ASCII)
+
+For the ASCII version of the taxonomy tree please refer to <a href="https://github.com/MasoudJTehrani/sys-tax-artifact/blob/main/data/taxonomyASCII.md">taxonomy.md</a>
 
 ---
 
