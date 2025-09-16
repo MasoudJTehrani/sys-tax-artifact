@@ -43,7 +43,7 @@ Please refer to <a href="https://github.com/MasoudJTehrani/sys-tax-artifact/blob
 
 ## Taxonomy Mapping
 
-Please refer to `<a href="https://github.com/MasoudJTehrani/sys-tax-artifact/blob/main/taxonomy.md">taxonomy.md</a>` for a full taxonomy mapping.
+Please refer to <a href="https://github.com/MasoudJTehrani/sys-tax-artifact/blob/main/taxonomy.md">taxonomy.md</a> for a full taxonomy mapping.
 
 ---
 
