@@ -10,10 +10,10 @@
 - **Where the content comes from:** the taxonomy and mappings were extracted from the paper (Tehrani et al., *A Taxonomy of System-Level Attacks on Deep Learning Models in Autonomous Vehicles*). See the original paper for full details and full references. 
 
 - **Files included in this document:**
-  - `data/papers_full.csv` (full taxonomy mapping — exact headers preserved from the paper's Appendix Tables 3–5)
-  - `data/summary_full.json` (machine-friendly JSON summary mirroring the full CSV)
-  - `taxonomy.md` is a readable Markdown version of the full taxonomy mapping.
-  - `categories.md` is a full description of the meanings of each category.
+  - `data/taxonomyCSV.csv` full taxonomy mapping in CSV
+  - `data/taxonomyJSON.json` machine-friendly JSON mirroring the full CSV
+  - `data/taxonomyMD.md` is a readable Markdown version of the full taxonomy mapping.
+  - `data/categories.md` is a full description of the meanings of each category.
 ---
 
 ## Scope & inclusion criteria (short)
@@ -37,13 +37,13 @@ This emphasizes the *end-to-end chain* from environment/digital manipulation →
 
 ## Categories
 
-Please refer to <a href="https://github.com/MasoudJTehrani/sys-tax-artifact/blob/main/categories.md">categories.md</a> for a full explanation of the meaning of each category.
+Please refer to <a href="https://github.com/MasoudJTehrani/sys-tax-artifact/blob/main/data/categories.md">categories.md</a> for a full explanation of the meaning of each category.
 
 ---
 
 ## Taxonomy Mapping
 
-Please refer to <a href="https://github.com/MasoudJTehrani/sys-tax-artifact/blob/main/taxonomy.md">taxonomy.md</a> for a full taxonomy mapping.
+Please refer to <a href="https://github.com/MasoudJTehrani/sys-tax-artifact/blob/main/data/taxonomyMD.md">taxonomy.md</a> for a full taxonomy mapping.
 
 ---
 
