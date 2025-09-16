@@ -6,13 +6,14 @@
 
 ## Quick start
 
-- **What this repo is:** a lightweight, curated taxonomy and index (titles + links) of the 21 papers the authors selected for system-level attacks on DL in AVs. Unlike a bibliography, this README prioritizes *taxonomy-based discovery* (categories, leaves, and links to papers) so researchers can quickly find papers by attack properties.
+- **What this repo is:** a lightweight, curated taxonomy and index (titles + links) of the papers for system-level attacks on DL in AVs. Unlike a bibliography, this README prioritizes *taxonomy-based discovery* (categories, leaves, and links to papers) so researchers can quickly find papers by attack properties.
 - **Where the content comes from:** the taxonomy and mappings were extracted from the paper (Tehrani et al., *A Taxonomy of System-Level Attacks on Deep Learning Models in Autonomous Vehicles*). See the original paper for full details and full references. 
 
 - **Files included in this document:**
   - `data/papers_full.csv` (full taxonomy mapping — exact headers preserved from the paper's Appendix Tables 3–5)
   - `data/summary_full.json` (machine-friendly JSON summary mirroring the full CSV)
   - `taxonomy.md` is a readable Markdown version of the full taxonomy mapping.
+  - `categories.md` is a full description of the meanings of each category.
 ---
 
 ## Scope & inclusion criteria (short)
