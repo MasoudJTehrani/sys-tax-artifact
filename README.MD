@@ -232,9 +232,9 @@ For the ASCII version of the taxonomy tree please refer to <a href="https://gith
 
 ## Contributing
 
-If you want to **add a paper** or **adjust a mapping**: please open a PR and add a row to `data/papers_full.csv` and update `data/summary_full.json`. Use the same fields and the `Ref` number should map to the number used in the original paper (or, if adding a new paper, add a new `Ref` number and include the source link).
-
 > Thank you for contributing. This repository is a living taxonomy compiled from Tehrani et al.'s paper. Please add papers that match these criteria: (1) the attack demonstrates a DL-model-level misprediction and (2) the authors report a system-level effect or vehicle-level consequence. When possible, provide a stable link (DOI / arXiv / project page) and list which taxonomy categories apply. We will review PRs and merge after basic sanity checks.
+
+If you want to **add a paper** or **adjust a mapping**: please open a PR and add a row to `data/taxonomyCSV.csv` and update `data/taxonomyJSON.json`, and all other files in the data folder. Use the same fields and the `Ref` number should map to the number used in the original paper (or, if adding a new paper, add a new `Ref` number and include the source link). The ref number and the papers should be ordered descendingly based on the published year.
 
 ---
 
