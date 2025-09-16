@@ -1,6 +1,6 @@
 # System-level attack taxonomy for Deep Learning in Autonomous Vehicles
 
-> A compact, taxonomy-first README for researchers. This repository contains a taxonomy-style index of system-level attacks on DL components in Autonomous Vehicles (papers published 2017-01-01 → 2024-01-01). The taxonomy and mappings below are derived from the paper: A Taxonomy of System-Level Attacks on Deep Learning Models in Autonomous Vehicles, used to build this repo.
+> This repository contains a taxonomy-style index of system-level attacks on DL components in Autonomous Vehicles (papers published 2017-01-01 → 2024-01-01). The taxonomy and mappings below are derived from the paper: A Taxonomy of System-Level Attacks on Deep Learning Models in Autonomous Vehicles, used to build this repo.
 
 ---
 
@@ -10,7 +10,6 @@
 - **Where the content comes from:** the taxonomy and mappings were extracted from the paper (Tehrani et al., *A Taxonomy of System-Level Attacks on Deep Learning Models in Autonomous Vehicles*). See the original paper for full details and full references. 
 
 - **Files included in this document:**
-  - `README.md` (this content, taxonomy + ASCII tree + full mapping preview)
   - `data/papers_full.csv` (full taxonomy mapping — exact headers preserved from the paper's Appendix Tables 3–5)
   - `data/summary_full.json` (machine-friendly JSON summary mirroring the full CSV)
   - `papers_full_view.md` is a readable Markdown version of the full taxonomy mapping.
