@@ -1,31 +1,29 @@
 # System-level attack taxonomy for Deep Learning in Autonomous Vehicles
 
-> A compact, taxonomy-first README for researchers. This repository contains a taxonomy-style index of system-level attacks on DL components in Autonomous Vehicles (papers published 2017-01-01 → 2024-01-01). The taxonomy and mappings below are derived from the uploaded paper used to build this repo.
+> A compact, taxonomy-first README for researchers. This repository contains a taxonomy-style index of system-level attacks on DL components in Autonomous Vehicles (papers published 2017-01-01 → 2024-01-01). The taxonomy and mappings below are derived from the paper: A Taxonomy of System-Level Attacks on Deep Learning Models in Autonomous Vehicles, used to build this repo.
 
 ---
 
 ## Quick start
 
 - **What this repo is:** a lightweight, curated taxonomy and index (titles + links) of the 21 papers the authors selected for system-level attacks on DL in AVs. Unlike a bibliography, this README prioritizes *taxonomy-based discovery* (categories, leaves, and links to papers) so researchers can quickly find papers by attack properties.
-- **Where the content comes from:** the taxonomy and mappings were extracted from the uploaded paper (Tehrani et al., *A Taxonomy of System-Level Attacks on Deep Learning Models in Autonomous Vehicles*). See the original paper for full details and full references. 
+- **Where the content comes from:** the taxonomy and mappings were extracted from the paper (Tehrani et al., *A Taxonomy of System-Level Attacks on Deep Learning Models in Autonomous Vehicles*). See the original paper for full details and full references. 
 
 - **Files included in this document:**
   - `README.md` (this content, taxonomy + ASCII tree + full mapping preview)
   - `data/papers_full.csv` (full taxonomy mapping — exact headers preserved from the paper's Appendix Tables 3–5)
   - `data/summary_full.json` (machine-friendly JSON summary mirroring the full CSV)
-
+  - `papers_full_view.md` a readable Markdown version of the full taxonomy mapping.
 ---
 
 ## Scope & inclusion criteria (short)
 
 - **Time window:** studies published between **2017-01-01** and **2024-01-01**.
-- **What we include:** papers that *execute an attack in an AV context and report a system-level failure or observable system-level effect* (e.g., crash, lane-departure, freeze, wrong decision). This intentionally excludes papers that only report model-level mispredictions without any system-level evaluation.
+- **What we include:** papers that *execute an attack on DL components in an AV context and report a system-level failure or observable system-level effect* (e.g., crash, lane-departure, freeze, wrong decision). This intentionally excludes papers that only report model-level mispredictions without any system-level evaluation.
 
 - **What we exclude (and why):**
   - Sensor *physical removal/physical tampering* papers that only remove sensors or physically damage hardware without targeting DL model inputs are outside our focus when they do not produce DL-based model mispredictions leading to system-level failures. 
   - Network-only attacks (purely communication-layer exploits) were excluded because the taxonomy focuses on attacks that manipulate the *DL components or their inputs/outputs* and track how those model-level changes propagate to system-level failures. 
-
-(These inclusion/exclusion rules are those used to reduce the initial corpus to 21 papers in the source paper.)
 
 ---
 
@@ -37,9 +35,69 @@ This emphasizes the *end-to-end chain* from environment/digital manipulation →
 
 ---
 
+## Taxonomy mapping
+
+| Ref | Title | App Domain | DL Model Under Attack | System Under attack | Attack Scenario | Attacked Target | Attacker's Capability | Attack Strategy | Attacker's System/Model knowledge | Attack/Error Specificity | Failure Specificity | Model-level results | System-level results (Failure Propagation) |
+|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
+| [1] | SlowTrack: Increasing the latency of camera-based perception in autonomous driving using adversarial examples | Cars | SORT(Y5), FairMOT, ByteTrack, BoT-SORT(Perception) | Baidu Apollo in LGSVL simulator (MSF) | AVs changing lanes when another car is in the adjacent lane or approaching an intersection with a stop sign where another car is present | Input image | Purturbing the image input to insert fake bounding boxes into it | Evasion | WM / BS | AG / EG | Generic | Losing detection and subsequently tracking of the target object | Crashing into another car |
+| [2] | RPAU: Fooling the eyes of UAVs via physical adversarial patches | Drones | A variation of DroNet (E2E) | Parrot Bebop 2 Drone and Matlab simulation (SSF) | Drones moving to its destination | Environment (anything that can hold a patch horizontally) | 'Attaching the patch to anything that can hold it horizontally, facing the drone.' | Evasion | WM / GS | AG / ES | Specific | Misdetection of objects and Misprediction of the steering wheel angle | Crashing to objects, freezing or going off-route |
+| [3] | Adversarial attacks on adaptive cruise control systems | Cars | OpenPilot's Adaptive CruiseControl ACC system (Perception) | CARLA and Baidu Apollo (MSF) | AV driving behind the attacker's vehicle | Vehicles and Trucks | Placing the patch on the back of a vehicleand drive it in front of the AV | Evasion | WM / BS | AS / ES | Specific | Misprediction of range, speed, and time-to-collision | Emergency braking or the vehicle freezing |
+| [4] | Learning when to use adaptive adversarial image perturbations against autonomous vehicles | Cars | YOLOv3, YOLOv5, and Mask R-CNN (Perception) | End-to-end AVs (E2E) | AV driving to its destination | Roadside advertisements and other objects | Placing a physical perturbation on roadside advertisements or other objects | Evasion | WM / BS | AS / ES | Specific | Misdetection of vehicles and other traffic objects | Crashing to objects or the vehicle freezing |
+| [5] | DeepManeuver: Adversarial test generation for trajectory manipulation of autonomous vehicles | Cars | DeepManeuver and LGSVL simulator (E2E) | A self-driving car in LGSVL simulator (SSF) | AVs driving to its destination | A self-driving car | Applying an adversarial perturbation to the driving trajectory of the vehicle | Evasion | WM / BS | AG / ES | Specific | Prediction of a manipulated trajectory | Manipulating the AV's trajectory to make it get into a crash with other vehicles or leave its lane unexpectedly |
+| [6] | Kidnapping deep learning-based multirotors using optimized flying adversarial patches | Drones | A custom neural network (E2E) | A deep learning-based multirotor | Drones moving to its destination | Environment (anything that can hold a patch horizontally) | 'Applying optimized patches to billboards or a drone' | Evasion | WM / BS | AG / ES | Specific | Misprediction of the steering wheel angle | Crashing into objects, freezing, or going off-route |
+| [7] | Does physical adversarial example really matter to autonomous driving? | Cars | Various DNN models (Perception) | Various AV systems | AV driving to its destination | The environment (anywhere with a smooth surface) | 'Attaching adversarial patches to physical objects or the road' | Evasion | BM / BS | AG / ES | Specific | Misclassification of traffic signs and objects | The vehicle going to the wrong lane or freezing |
+| [8] | On data fabrication in collaborative vehicular perception: Attacks and countermeasures | Cars | Collaborative vehicular perception (Perception) | CARLA (MSF) | AVs driving | V2X (Vehicle-to-everything) communication | Injecting false data points into the V2X communication channel | Evasion | WM / BS | AG / ES | Generic | Detecting nonexistent objects and obstacles | Crashing to objects or freezing or emergency braking |
+| [9] | Rolling colors: Adversarial laser exploits against traffic light recognition | Cars | YOLOv5, RetinaNet and others (Perception) | Tesla's Autopilot and Baidu Apollo (MSF) | AVs driving | Traffic lights | Shooting a low-powered laser on the traffic lights to change their colors | Evasion | WM / BS | AG / ES | Specific | Misclassification of traffic lights | The vehicle passing red lights or freezing at green lights |
+| [10] | Stop-and-go: Exploring backdoor attacks on deep reinforcement learning-based traffic congestion control systems | Traffic | Traffic congestion control systems (Reinforcement learning) | CARLA (MSF) | AVs on the road | The traffic congestion control system of a smart city | Retraining the model with a Trojan attack where a pre-defined pattern triggers a backdoor. | Poisoning | WM / BS | AS / ES | Specific | The model's output being manipulated | Manipulating the traffic flow of a smart city |
+| [11] | Attack and fault injection in self-driving agents on the CARLA simulator – experience report | Cars | Deep Learning models and agents (E2E) | AV agents in the CARLA simulator (SSF) | AVs driving to its destination | The CARLA simulator's files | Modifying a specific file in the simulator to inject a fault | Fault injection | WM / BS | AS / ES | Specific | Injecting errors into the agents' data | The vehicle going to the wrong lane or crashing to objects |
+| [12] | Dirty road can attack: Security of deep learning based automated lane centering under Physical-World attack | Cars | Lane centering modules (Perception) | AVs with lane centering modules (SSF) | AVs driving to its destination | The road | Drawing on the road to affect the lane detection | Evasion | WM / BS | AG / ES | Specific | Misdetection of lanes and other objects | The vehicle going to the wrong lane or freezing |
+| [13] | Invisible for both camera and LiDAR: Security of multi-sensor fusion based perception in autonomous driving | Cars | Multi-sensor fusion (Perception) | Driving agents with camera and LiDAR (MSF) | AVs driving to its destination | The environment | Placing adversarial patches or posters in the AV's path | Evasion | WM / BS | AG / ES | Specific | Misclassification of objects in both camera and LiDAR | The vehicle freezing or not reacting to obstacles or crashing |
+| [14] | Too good to be safe: Tricking lane detection in autonomous driving with crafted perturbations | Cars | Lane detection modules (Perception) | AVs with lane detection modules (E2E) | AVs driving | Road and surrounding | Drawing on the road to affect the lane detection | Evasion | WM / BS | AG / ES | Specific | Misdetection of lanes | The vehicle going to the wrong lane or freezing or crashing |
+| [15] | Robust roadside physical adversarial attack against deep learning in LiDAR perception modules | Cars | LiDAR-based modules (Perception) | AVs with LiDAR sensors (SSF) | AVs driving | Road and surrounding | Drawing on the road to affect the lane detection | Evasion | BM / BS | AG / ES | Specific | Misdetection of objects | The vehicle going to the wrong lane or freezing or crashing |
+| [16] | ML-driven malware that targets AV safety | Cars | NN models that control the AV safety | AV safety systems (Perception) | AVs driving | An infected USB stick connected to the car's system | Plugging an infected USB into the car's system to manipulate the AV safety controls | Malware | WM / BS | AS / ES | Specific | Manipulating the safety controls | The vehicle going to the wrong lane or freezing or crashing |
+| [17] | Attacking vision-based perception in end-to-end autonomous driving models | Cars | End-to-end models (E2E) | End-to-end AVs (E2E) | AVs driving | Input image | Applying an adversarial perturbation to the image input | Evasion | WM / BS | AG / ES | Specific | Misprediction of the steering wheel angle | The vehicle going to the wrong lane or crashing to objects |
+| [18] | Feasibility and suppression of adversarial patch attacks on end-to-end vehicle control | Cars | DriveNet (an extension of Dave2) (E2E) | Autonomous Driving agent in CARLA (SSF) | AVs driving past a roadside billboard | Billboard | Placing adversarial patches on billboards located on the right side of the roadside | Evasion | WM / BS | AS / EG | Specific | Misprediction of the steering wheel angle | Collision with the poster |
+| [19] | Phantom of the ADAS: split-second phantom attacks | Cars | Faster_rcnn_inception_v2 and Tesla's (Perception) model | Tesla Model X HW 2.5/3 & Renault Captur (equipped with Mobileye 630) (MSF) | AVs driving | The environment (anywhere with a smooth surface) | 'Projecting a phantom using a projector or embedding the phantom on a digital advertising billboard' | Evasion | BM / BS | AG / EG | Generic | Detecting phantoms as real road signs or real-world objects | Acting according to the detected object (Brake or decelerate or follow a phantom lane into collision or into the upcoming lane and, etc...) |
+| [20] | Adversarial sensor attack on LiDAR-based perception | Cars | DNN of the Lidar-based (Perception) module in Baidu Apollo | Driving agent in Baidu Apollo (MSF) | AVs driving | LIDAR Sensor | Injecting spoofed LiDAR data points by shooting lasers at the AV | Evasion | WM / BS | AG / ES | Specific | Detecting nonexistent obstacles | Emergency braking or the vehicle freezing |
+| [21] | Trojaning attack on neural networks | Cars | NN model of Udacity Simulator (E2E) | Udacity Simulator (SSF) | AVs driving | Billboards | Retraining the model with Trojan data and attaching it to billboards. | Poisoning | WM / BS | AG / ES | Specific | Misprediction of the steering wheel angle | Collision with the poster |
+---
+
+## Papers
+
+Below we list the 21 papers included in the taxonomy. These papers are sorted by publication year.
+
+1. <a id="ref-1"></a>SlowTrack: Increasing the latency of camera-based perception in autonomous driving using adversarial examples (Ma et al., 2024)
+2. <a id="ref-2"></a>RPAU: Fooling the eyes of UAVs via physical adversarial patches (Liu et al., 2024)
+3. <a id="ref-3"></a>Adversarial attacks on adaptive cruise control systems (Guo et al., 2023)
+4. <a id="ref-4"></a>Learning when to use adaptive adversarial image perturbations against autonomous vehicles (Yoon et al., 2023)
+5. <a id="ref-5"></a>DeepManeuver: Adversarial test generation for trajectory manipulation of autonomous vehicles (von Stein et al., 2023)
+6. <a id="ref-6"></a>Kidnapping deep learning-based multirotors using optimized flying adversarial patches (Hanfeld et al., 2023)
+7. <a id="ref-7"></a>Does physical adversarial example really matter to autonomous driving? (Wang et al., 2023)
+8. <a id="ref-8"></a>On data fabrication in collaborative vehicular perception: Attacks and countermeasures (Zhang et al., 2023)
+9. <a id="ref-9"></a>Rolling colors: Adversarial laser exploits against traffic light recognition (Yan et al., 2022)
+10. <a id="ref-10"></a>Stop-and-go: Exploring backdoor attacks on deep reinforcement learning-based traffic congestion control systems (Wang et al., 2021)
+11. <a id="ref-11"></a>Attack and fault injection in self-driving agents on the CARLA simulator – experience report (Piazzesi et al., 2021)
+12. <a id="ref-12"></a>Dirty road can attack: Security of deep learning based automated lane centering under Physical-World attack (Sato et al., 2021)
+13. <a id="ref-13"></a>Invisible for both camera and LiDAR: Security of multi-sensor fusion based perception in autonomous driving (Cao et al., 2021)
+14. <a id="ref-14"></a>Too good to be safe: Tricking lane detection in autonomous driving with crafted perturbations (Jing et al., 2021)
+15. <a id="ref-15"></a>Robust roadside physical adversarial attack against deep learning in LiDAR perception modules (Yang et al., 2021)
+16. <a id="ref-16"></a>ML-driven malware that targets AV safety (Jha et al., 2020)
+17. <a id="ref-17"></a>Attacking vision-based perception in end-to-end autonomous driving models (Boloor et al., 2020)
+18. <a id="ref-18"></a>Feasibility and suppression of adversarial patch attacks on end-to-end vehicle control (Pavlitskaya et al., 2020)
+19. <a id="ref-19"></a>Phantom of the ADAS: split-second phantom attacks (Nassi et al., 2020)
+20. <a id="ref-20"></a>Adversarial sensor attack on LiDAR-based perception (Cao et al., 2019)
+21. <a id="ref-21"></a>Trojaning attack on neural networks (Liu et al., 2017)
+
+---
+## Full taxonomy tree (image)
+
+![Alt text](images/tree.png)
+
+---
+
 ## Full taxonomy tree (textual)
 
-Below is the **full taxonomy tree (textual)** that mirrors the paper's taxonomy (12 top-level categories and subcategories). Each leaf lists the reference numbers of the papers from the original paper; those reference numbers map to the **Papers** section below.
+Below is the **full taxonomy tree (textual)** that mirrors the paper's taxonomy (12 top-level categories and subcategories). Each leaf lists the reference numbers of the papers from the original paper; those reference numbers map to the **Papers** section above.
 
 ```
 System-level attack taxonomy
@@ -102,51 +160,6 @@ System-level attack taxonomy
    ├─ Freeze / Sudden braking / Emergency brake -> [2,4,5,6,11,12,14,15,17,19,20,21]
    └─ Sign ignorance / Wrong decision -> [9,10,19]
 ```
-
----
-
-## Short taxonomy mapping (full mapping from the paper)
-
-Below is the **full mapping** of all 21 papers across the taxonomy categories exactly as represented in the uploaded CSV (the paper's Appendix Tables 3–5). The CSV included in the repository is `data/papers_full.csv` and contains the exact headers from the paper's Appendix:
-
-`Ref, App Domain, DL Model Under Attack, System Under attack, Attack Scenario, Attacked Target, Attacker's Capability, Attack Strategy, Attacker's System/Model knowledge, Attack/Error Specificity, Failure Specificity, Model-level results, System-level results (Failure Propagation)`
-
-> For readability in the README we show a compact preview of the first 4 rows. The full `data/papers_full.csv` is included in the repo for programmatic use and contains all 21 rows.
-
-| Ref | App Domain | DL Model Under Attack | System Under attack | Attack Scenario | Attacked Target | Attacker's Capability | Attack Strategy | Attacker's System/Model knowledge | Attack/Error Specificity | Failure Specificity | Model-level results | System-level results (Failure Propagation) |
-|-----:|:-----------|:----------------------|:--------------------|:----------------|:----------------|:----------------------|:----------------|:----------------------------------:|:-----------------------:|:-------------------:|:-------------------:|:-----------------------------------------|
-| [1] | Cars | SORT(Y5), FairMOT, ByteTrack, BoT-SORT (Perception) | Baidu Apollo in LGSVL simulator (MSF) | AVs changing lanes when another car is in the adjacent lane or approaching an intersection with a stop sign where another car is present | Input image | Purturbing the image input to insert fake bounding boxes into it | Evasion | WM / BS | AG / EG | Generic | Losing detection and subsequently tracking of the target object | Crashing into another car |
-| [2] | Drones | A variation of DroNet (E2E) | Parrot Bebop 2 Drone and Matlab simulation (SSF) | Drones moving to its destination | Environment (anything that can hold a patch horizontally) | Attaching the patch to anything that can hold it horizontally, facing the drone. | Evasion | WM / GS | AG / ES | Specific | Misdetection of objects and Misprediction of the steering wheel angle | Crashing to objects, freezing or going off-route |
-| [3] | Cars | OpenPilot's Adaptive Cruise Control ACC system (Perception) | CARLA and Baidu Apollo (MSF) | AV driving behind the attacker's vehicle | Vehicles and Trucks | Placing the patch on the back of a vehicle and drive it in front of the AV | Evasion | WM / BS | AS / ES | Specific | Misdetection of the vehicle in front | Acceleration and crash into the car in front |
-| [4] | Cars, Drones | YOLO v5 (Perception) | Vision-based guidance system in CARLA or AirSim (SSF) | AVs following their target | Input image | Inserting the malware into the system and training the perturbations on the real training set | Evasion | WM / BS | AG / EG | Generic | Misdetection of the correct coordinates of the target bounding box | Losing path, stability and collision to surrounding obstacles |
-
----
-
-## Papers (short-list — titles only, linked to the taxonomy mapping above)
-
-Below we list the 21 papers included in the taxonomy. **Only the short title is listed here**; users should consult the original paper (or the paper’s ref list) for full bibliographic details and PDFs.
-
-1. <a id="ref-1"></a>SlowTrack: Increasing the latency of camera-based perception in autonomous driving using adversarial examples (Ma et al., 2024)
-2. <a id="ref-2"></a>RPAU: Fooling the eyes of UAVs via physical adversarial patches (Liu et al., 2024)
-3. <a id="ref-3"></a>Adversarial attacks on adaptive cruise control systems (Guo et al., 2023)
-4. <a id="ref-4"></a>Learning when to use adaptive adversarial image perturbations against autonomous vehicles (Yoon et al., 2023)
-5. <a id="ref-5"></a>DeepManeuver: Adversarial test generation for trajectory manipulation of autonomous vehicles (von Stein et al., 2023)
-6. <a id="ref-6"></a>Kidnapping deep learning-based multirotors using optimized flying adversarial patches (Hanfeld et al., 2023)
-7. <a id="ref-7"></a>Does physical adversarial example really matter to autonomous driving? (Wang et al., 2023)
-8. <a id="ref-8"></a>On data fabrication in collaborative vehicular perception: Attacks and countermeasures (Zhang et al., 2023)
-9. <a id="ref-9"></a>Rolling colors: Adversarial laser exploits against traffic light recognition (Yan et al., 2022)
-10. <a id="ref-10"></a>Stop-and-go: Exploring backdoor attacks on deep reinforcement learning-based traffic congestion control systems (Wang et al., 2021)
-11. <a id="ref-11"></a>Attack and fault injection in self-driving agents on the CARLA simulator – experience report (Piazzesi et al., 2021)
-12. <a id="ref-12"></a>Dirty road can attack: Security of deep learning based automated lane centering under Physical-World attack (Sato et al., 2021)
-13. <a id="ref-13"></a>Invisible for both camera and LiDAR: Security of multi-sensor fusion based perception in autonomous driving (Cao et al., 2021)
-14. <a id="ref-14"></a>Too good to be safe: Tricking lane detection in autonomous driving with crafted perturbations (Jing et al., 2021)
-15. <a id="ref-15"></a>Robust roadside physical adversarial attack against deep learning in LiDAR perception modules (Yang et al., 2021)
-16. <a id="ref-16"></a>ML-driven malware that targets AV safety (Jha et al., 2020)
-17. <a id="ref-17"></a>Attacking vision-based perception in end-to-end autonomous driving models (Boloor et al., 2020)
-18. <a id="ref-18"></a>Feasibility and suppression of adversarial patch attacks on end-to-end vehicle control (Pavlitskaya et al., 2020)
-19. <a id="ref-19"></a>Phantom of the ADAS: split-second phantom attacks (Nassi et al., 2020)
-20. <a id="ref-20"></a>Adversarial sensor attack on LiDAR-based perception (Cao et al., 2019)
-21. <a id="ref-21"></a>Trojaning attack on neural networks (Liu et al., 2017)
 
 ---
 
