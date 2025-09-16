@@ -84,23 +84,22 @@ Below we list the 21 papers included in the taxonomy. These papers are sorted by
 
 Below is the **full taxonomy tree (textual)** that mirrors the paper's taxonomy (12 top-level categories and subcategories). Each leaf lists the reference numbers of the papers from the original paper; those reference numbers map to the **Papers** section above.
 
-# System-level Attack Taxonomy
 
 <details>
 <summary><strong>Application Domain</strong></summary>
 
-- Cars
-- Drones
+- Cars — [1, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+- Drones — [2, 4, 6]
 
 </details>
 
 <details>
 <summary><strong>DL Model Under Attack</strong></summary>
 
-- Object Detection & Tracking
-- Steering (Wheel) Angle Prediction
-- Road Line Detection
-- Traffic Control
+- Object Detection & Tracking — [1, 3, 4, 6, 7, 8, 9, 13, 15, 16, 19, 20]
+- Steering Wheel Angle Prediction — [2, 5, 11, 12, 18, 21]
+- Road Line Detection — [13, 17]
+- Traffic Control — [10]
 
 </details>
 
@@ -117,51 +116,51 @@ Below is the **full taxonomy tree (textual)** that mirrors the paper's taxonomy 
 <summary><strong>System Under Attack</strong></summary>
 
 - Simulation
-  - SSF
-  - MSF
+  - SSF — [2, 4, 5, 10, 11, 12, 17, 18, 21]
+  - MSF — [1, 3, 7, 8, 9, 13, 15, 16, 20]
 - Real AVs
-  - SSF
-  - MSF
+  - SSF — [2, 6, 14]
+  - MSF — [19]
 
 </details>
 
 <details>
 <summary><strong>Attack Scenario</strong></summary>
 
-- Without Constraints
+- Without Constraints — [2, 4, 6, 12, 19, 20, 21]
 - With Constraints
-  - Roads
-  - Objects & Cars
-  - Driving Conditions
+  - Roads — [13, 14, 15]
+  - Objects & Cars — [5, 10, 11, 16, 18]
+  - Driving Conditions — [1, 3, 7, 8, 9, 17]
 
 </details>
 
 <details>
 <summary><strong>Attacked Target</strong></summary>
 
-- Input image
-- Road / Roadside
-- Sensors
-- Objects / Signs
-- Train Data
+- Input image — [1, 4, 6, 11, 16]
+- Road / Roadside — [12, 13, 14, 15, 17, 19]
+- Sensors — [9, 20]
+- Objects / Signs — [2, 3, 5, 7, 8, 18, 19, 21]
+- Train Data — [10]
 
 </details>
 
 <details>
 <summary><strong>Attacker's Capability</strong></summary>
 
-- Environmental Manipulation
-- Software Interference
-- Sensor Interference
-- Model Manipulation
+- Environmental Manipulation — [2, 3, 5, 6, 12, 13, 14, 15, 17, 18, 19]
+- Software Interference — [1, 4, 7, 8, 11, 16]
+- Sensor Interference — [9, 20]
+- Model Manipulation — [10, 11, 21]
 
 </details>
 
 <details>
 <summary><strong>Attack Type</strong></summary>
 
-- Evasion
-- Poisoning
+- Evasion — [1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+- Poisoning — [10, 21]
 
 </details>
 
@@ -169,12 +168,13 @@ Below is the **full taxonomy tree (textual)** that mirrors the paper's taxonomy 
 <summary><strong>Attacker's System / Model Knowledge</strong></summary>
 
 - Model-level Knowledge
-  - White-Box
-  - Black-Box
+  - White-Box — [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 18, 20, 21]
+  - Black-Box — [11, 14, 17, 19]
+
 - System-level Knowledge
-  - White-Box
-  - Black-Box
-  - Gray-Box
+  - White-Box — [16]
+  - Black-Box — [1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 17, 18, 19, 20, 21]
+  - Gray-Box — [2, 8]
 
 </details>
 
@@ -182,29 +182,30 @@ Below is the **full taxonomy tree (textual)** that mirrors the paper's taxonomy 
 <summary><strong>Attack / Error Specificity</strong></summary>
 
 - Attack
-  - Specific
-  - Generic
+  - Specific — [5, 7, 8, 9, 10, 13, 16, 17, 18]
+  - Generic — [1, 2, 3, 4, 6, 11, 12, 14, 15, 19, 20, 21]
+
 - Error
-  - Specific
-  - Generic
+  - Specific — [2, 3, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16, 17, 20, 21]
+  - Generic — [1, 4, 5, 11, 18, 19]
 
 </details>
 
 <details>
 <summary><strong>System's Failure Specificity</strong></summary>
 
-- Generic
-- Specific
+- Generic — [1, 4, 5, 15, 19]
+- Specific — [2, 3, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16, 17, 18, 20, 21]
 
 </details>
 
 <details>
 <summary><strong>Model-Level Results</strong></summary>
 
-- Steering Angle Misprediction
-- Object Misdetection
-- Misclassification
-- Wrong Decision
+- Steering Angle Misprediction — [2, 5, 11, 12, 18, 21]
+- Object Misdetection — [1, 2, 3, 4, 6, 7, 8, 11, 13, 14, 15, 16, 17, 19, 20]
+- Misclassification — [9]
+- Wrong Decision — [10]
 
 </details>
 
@@ -212,12 +213,12 @@ Below is the **full taxonomy tree (textual)** that mirrors the paper's taxonomy 
 <summary><strong>System-Level Results</strong></summary>
 
 - Vehicle Crash to:
-  - Vehicles
-  - Objects
-  - Pedestrians
-- Losing the Path
-- Changing in Speed/Brake
-- Sign Ignorance
+  - Vehicles — [1, 3, 10, 12, 16]
+  - Objects — [2, 4, 5, 8, 11, 12, 13, 17, 18, 19]
+  - Pedestrians — [7]
+- Losing the path — [2, 4, 5, 6, 11, 12, 14, 15, 17, 19, 21]
+- Changing in Speed/Brake — [2, 3, 8, 9, 15, 16, 19, 20]
+- Sign Ignorance — [7, 9]
 
 </details>
 
