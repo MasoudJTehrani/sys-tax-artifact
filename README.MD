@@ -38,6 +38,7 @@ This emphasizes the *end-to-end chain* from environment/digital manipulation →
 ## Taxonomy mapping
 
 Please refer to `papers_full_view.md` for a full taxonomy mapping
+
 ---
 
 ## Papers
@@ -69,7 +70,7 @@ Below we list the 21 papers included in the taxonomy. These papers are sorted by
 ---
 ## Full taxonomy tree (image)
 
-![Alt text](images/tree.png)
+![Taxonmy Tree](images/tree.png)
 
 ---
 
