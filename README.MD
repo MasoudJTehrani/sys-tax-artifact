@@ -44,27 +44,27 @@ Please refer to `papers_full_view.md` for a full taxonomy mapping
 
 Below we list the 21 papers included in the taxonomy. These papers are sorted by publication year.
 
-1. <a id="ref-1"></a>SlowTrack: Increasing the latency of camera-based perception in autonomous driving using adversarial examples (Ma et al., 2024)<a href"https://ojs.aaai.org/index.php/AAAI/article/view/28200">Paper</a>
-2. <a id="ref-2"></a>RPAU: Fooling the eyes of UAVs via physical adversarial patches (Liu et al., 2024)<a href"https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10265297">Paper</a>
-3. <a id="ref-3"></a>Adversarial attacks on adaptive cruise control systems (Guo et al., 2023)<a href"https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85159779784&origin=inward">Paper</a>
-4. <a id="ref-4"></a>Learning when to use adaptive adversarial image perturbations against autonomous vehicles (Yoon et al., 2023)<a href"https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10138012">Paper</a>
-5. <a id="ref-5"></a>DeepManeuver: Adversarial test generation for trajectory manipulation of autonomous vehicles (von Stein et al., 2023)<a href"https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10213222">Paper</a>
-6. <a id="ref-6"></a>Kidnapping deep learning-based multirotors using optimized flying adversarial patches (Hanfeld et al., 2023)<a href"https://ieeexplore.ieee.org/abstract/document/10416782">Paper</a>
-7. <a id="ref-7"></a>Does physical adversarial example really matter to autonomous driving? (Wang et al., 2023)<a href"https://openaccess.thecvf.com/content/ICCV2023/html/Wang_Does_Physical_Adversarial_Example_Really_Matter_to_Autonomous_Driving_Towards_ICCV_2023_paper.html">Paper</a>
-8. <a id="ref-8"></a>On data fabrication in collaborative vehicular perception: Attacks and countermeasures (Zhang et al., 2023)<a href"https://www.usenix.org/system/files/sec23winter-prepub-37-zhang-qingzhao.pdf">Paper</a>
-9. <a id="ref-9"></a>Rolling colors: Adversarial laser exploits against traffic light recognition (Yan et al., 2022)<a href"https://www.usenix.org/conference/usenixsecurity22/presentation/yan">Paper</a>
-10. <a id="ref-10"></a>Stop-and-go: Exploring backdoor attacks on deep reinforcement learning-based traffic congestion control systems (Wang et al., 2021)<a href"https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9541185">Paper</a>
-11. <a id="ref-11"></a>Attack and fault injection in self-driving agents on the CARLA simulator – experience report (Piazzesi et al., 2021)<a href"https://dl.acm.org/doi/10.1007/978-3-030-83903-1_14">Paper</a>
-12. <a id="ref-12"></a>Dirty road can attack: Security of deep learning based automated lane centering under Physical-World attack (Sato et al., 2021)<a href"https://www.usenix.org/conference/usenixsecurity21/presentation/sato">Paper</a>
-13. <a id="ref-13"></a>Invisible for both camera and LiDAR: Security of multi-sensor fusion based perception in autonomous driving (Cao et al., 2021)<a href"https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9519442">Paper</a>
-14. <a id="ref-14"></a>Too good to be safe: Tricking lane detection in autonomous driving with crafted perturbations (Jing et al., 2021)<a href"https://www.usenix.org/system/files/sec21-jing.pdf">Paper</a>
-15. <a id="ref-15"></a>Robust roadside physical adversarial attack against deep learning in LiDAR perception modules (Yang et al., 2021)<a href"https://dl.acm.org/doi/pdf/10.1145/3433210.3453106">Paper</a>
-16. <a id="ref-16"></a>ML-driven malware that targets AV safety (Jha et al., 2020)<a href"https://arxiv.org/pdf/2004.13004.pdf">Paper</a>
-17. <a id="ref-17"></a>Attacking vision-based perception in end-to-end autonomous driving models (Boloor et al., 2020)<a href"https://www.sciencedirect.com/science/article/pii/S1383762120300606">Paper</a>
-18. <a id="ref-18"></a>Feasibility and suppression of adversarial patch attacks on end-to-end vehicle control (Pavlitskaya et al., 2020)<a href"https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9294426">Paper</a>
-19. <a id="ref-19"></a>Phantom of the ADAS: split-second phantom attacks (Nassi et al., 2020)<a href"https://dl.acm.org/doi/pdf/10.1145/3372297.3423359">Paper</a>
-20. <a id="ref-20"></a>Adversarial sensor attack on LiDAR-based perception (Cao et al., 2019)<a href"https://dl.acm.org/doi/pdf/10.1145/3319535.3339815">Paper</a>
-21. <a id="ref-21"></a>Trojaning attack on neural networks (Liu et al., 2017)<a href"https://scholarship.libraries.rutgers.edu/esploro/outputs/991031794682704646/filesAndLinks?institution=01RUT_INST&skipUsageReporting=true&recordUsage=false&index=0">Paper</a>
+1. <a id="ref-1"></a>SlowTrack: Increasing the latency of camera-based perception in autonomous driving using adversarial examples (Ma et al., 2024)<a href="https://ojs.aaai.org/index.php/AAAI/article/view/28200">Paper</a>
+2. <a id="ref-2"></a>RPAU: Fooling the eyes of UAVs via physical adversarial patches (Liu et al., 2024)<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10265297">Paper</a>
+3. <a id="ref-3"></a>Adversarial attacks on adaptive cruise control systems (Guo et al., 2023)<a href="https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85159779784&origin=inward">Paper</a>
+4. <a id="ref-4"></a>Learning when to use adaptive adversarial image perturbations against autonomous vehicles (Yoon et al., 2023)<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10138012">Paper</a>
+5. <a id="ref-5"></a>DeepManeuver: Adversarial test generation for trajectory manipulation of autonomous vehicles (von Stein et al., 2023)<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10213222">Paper</a>
+6. <a id="ref-6"></a>Kidnapping deep learning-based multirotors using optimized flying adversarial patches (Hanfeld et al., 2023)<a href="https://ieeexplore.ieee.org/abstract/document/10416782">Paper</a>
+7. <a id="ref-7"></a>Does physical adversarial example really matter to autonomous driving? (Wang et al., 2023)<a href="https://openaccess.thecvf.com/content/ICCV2023/html/Wang_Does_Physical_Adversarial_Example_Really_Matter_to_Autonomous_Driving_Towards_ICCV_2023_paper.html">Paper</a>
+8. <a id="ref-8"></a>On data fabrication in collaborative vehicular perception: Attacks and countermeasures (Zhang et al., 2023)<a href="https://www.usenix.org/system/files/sec23winter-prepub-37-zhang-qingzhao.pdf">Paper</a>
+9. <a id="ref-9"></a>Rolling colors: Adversarial laser exploits against traffic light recognition (Yan et al., 2022)<a href="https://www.usenix.org/conference/usenixsecurity22/presentation/yan">Paper</a>
+10. <a id="ref-10"></a>Stop-and-go: Exploring backdoor attacks on deep reinforcement learning-based traffic congestion control systems (Wang et al., 2021)<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9541185">Paper</a>
+11. <a id="ref-11"></a>Attack and fault injection in self-driving agents on the CARLA simulator – experience report (Piazzesi et al., 2021)<a href="https://dl.acm.org/doi/10.1007/978-3-030-83903-1_14">Paper</a>
+12. <a id="ref-12"></a>Dirty road can attack: Security of deep learning based automated lane centering under Physical-World attack (Sato et al., 2021)<a href="https://www.usenix.org/conference/usenixsecurity21/presentation/sato">Paper</a>
+13. <a id="ref-13"></a>Invisible for both camera and LiDAR: Security of multi-sensor fusion based perception in autonomous driving (Cao et al., 2021)<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9519442">Paper</a>
+14. <a id="ref-14"></a>Too good to be safe: Tricking lane detection in autonomous driving with crafted perturbations (Jing et al., 2021)<a href="https://www.usenix.org/system/files/sec21-jing.pdf">Paper</a>
+15. <a id="ref-15"></a>Robust roadside physical adversarial attack against deep learning in LiDAR perception modules (Yang et al., 2021)<a href="https://dl.acm.org/doi/pdf/10.1145/3433210.3453106">Paper</a>
+16. <a id="ref-16"></a>ML-driven malware that targets AV safety (Jha et al., 2020)<a href="https://arxiv.org/pdf/2004.13004.pdf">Paper</a>
+17. <a id="ref-17"></a>Attacking vision-based perception in end-to-end autonomous driving models (Boloor et al., 2020)<a href="https://www.sciencedirect.com/science/article/pii/S1383762120300606">Paper</a>
+18. <a id="ref-18"></a>Feasibility and suppression of adversarial patch attacks on end-to-end vehicle control (Pavlitskaya et al., 2020)<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9294426">Paper</a>
+19. <a id="ref-19"></a>Phantom of the ADAS: split-second phantom attacks (Nassi et al., 2020)<a href="https://dl.acm.org/doi/pdf/10.1145/3372297.3423359">Paper</a>
+20. <a id="ref-20"></a>Adversarial sensor attack on LiDAR-based perception (Cao et al., 2019)<a href="https://dl.acm.org/doi/pdf/10.1145/3319535.3339815">Paper</a>
+21. <a id="ref-21"></a>Trojaning attack on neural networks (Liu et al., 2017)<a href="https://scholarship.libraries.rutgers.edu/esploro/outputs/991031794682704646/filesAndLinks?institution=01RUT_INST&skipUsageReporting=true&recordUsage=false&index=0">Paper</a>
 
 ---
 ## Full taxonomy tree (image)
