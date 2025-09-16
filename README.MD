@@ -84,67 +84,143 @@ Below we list the 21 papers included in the taxonomy. These papers are sorted by
 
 Below is the **full taxonomy tree (textual)** that mirrors the paper's taxonomy (12 top-level categories and subcategories). Each leaf lists the reference numbers of the papers from the original paper; those reference numbers map to the **Papers** section above.
 
-```
-System-level attack taxonomy
-├─ Application Domain
-│  ├─ Cars -> [1,3,4,5,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21]
-│  └─ Drones -> [2,4,6]
-│
-├─ DL Model Under Attack
-│  ├─ Object Detection & Tracking -> [1,3,4,6,7,8,9,13,14,15,16,19,20]
-│  ├─ Steering Wheel Angle Prediction -> [5,17,21]
-│  ├─ Road Line Detection / Lane Detection -> [12,14,18]
-│  └─ End-to-end (E2E) / Driving Agents -> [2,5,11,12,17,18,21]
-│
-├─ System Under Attack
-│  ├─ Simulation (SSF / MSF / other simulators) -> [2,4,5,10,11,12,17,18,21]
-│  ├─ Real AVs (Tesla, etc.) -> [1,3,7,8,9,13,15,16,20]
-│  └─ Multi-Sensor Fusion (MSF) vs Single-Sensor Fusion (SSF) distinctions -> MSF papers: [1,3,7,8,13,15,16,20]; SSF papers: [2,4,5,6,11,12,17,18,21]
-│
-├─ Attack Scenario
-│  ├─ Following / Vehicle-to-vehicle scenarios -> [3,5]
-│  ├─ Intersection scenarios -> [1,12]
-│  ├─ Waypoint / Destination tracking (drones) -> [2,6]
-│  └─ Generic driving scenarios (simulation experiments) -> [4,7,8,9,10,11,13,14,15,16,17,18,19,20,21]
-│
-├─ Attacked Target
-│  ├─ Input image -> [1,4,6,11,16]
-│  ├─ Road / Roadside (paint, billboards, projections) -> [12,13,14,15,17,18,19]
-│  ├─ Sensors (camera/LiDAR/laser interference) -> [9,20]
-│  └─ Training data / Backdoor (Trojan) -> [10,21]
-│
-├─ Attacker's Capability (examples)
-│  ├─ Attach stickers / patches / projections -> [3,5,6,12,14,15,18,19]
-│  ├─ Install malware / manipulate training -> [4,10,21]
-│  └─ Laser / sensor spoofing -> [9,20]
-│
-├─ Attack Strategy (Attack Type)
-│  ├─ Evasion -> [1,2,3,4,5,6,7,8,9,11,12,13,14,15,16,17,18,19,20]
-│  └─ Poisoning (Backdoor/Trojan) -> [10,21]
-│
-├─ Attacker's System/Model Knowledge
-│  ├─ White-box (WM) -> many papers list WM or mixed knowledge (see CSV for per-paper detail)
-│  ├─ Black-box (BS) -> [11,14,17,19]
-│  └─ Gray-box (GS) -> [2,8,...] (see CSV for exact labels)
-│
-├─ Attack/Error Specificity
-│  ├─ Generic Attack / Generic Error (AG / EG) -> [1,4,5,15,19]
-│  └─ Specific Attack / Specific Error (AS / ES) -> [2,3,6,7,8,9,10,11,12,13,14,16,17,18,20,21]
-│
-├─ Failure Specificity
-│  ├─ Generic (aims to cause any failure) -> [1,4,5,15,19]
-│  └─ Specific (aims at a targeted system-level failure) -> [2,3,6,7,8,9,10,11,12,13,14,16,17,18,20,21]
-│
-├─ Model-level Results
-│  ├─ Misdetection / Missing detection -> [1,3,4,6,7,8,9,13,14,15,16,19,20]
-│  └─ Misclassification / Wrong steering angle / Increased latency -> [2,5,10,11,12,17,18,21]
-│
-└─ System-level Results (Failure Propagation)
-   ├─ Vehicle crash / collision -> [1,3,10,12,16]
-   ├─ Losing the path / Lane departure -> [5,11,12,18,21]
-   ├─ Freeze / Sudden braking / Emergency brake -> [2,4,5,6,11,12,14,15,17,19,20,21]
-   └─ Sign ignorance / Wrong decision -> [9,10,19]
-```
+# System-level Attack Taxonomy
+
+<details>
+<summary><strong>Application Domain</strong></summary>
+
+- Cars
+- Drones
+
+</details>
+
+<details>
+<summary><strong>DL Model Under Attack</strong></summary>
+
+- Object Detection & Tracking
+- Steering (Wheel) Angle Prediction
+- Road Line Detection
+- Traffic Control
+
+</details>
+
+<details>
+<summary><strong>Module Under Attack</strong></summary>
+
+- Perception
+- Planning
+- End-to-end
+
+</details>
+
+<details>
+<summary><strong>System Under Attack</strong></summary>
+
+- Simulation
+  - SSF
+  - MSF
+- Real AVs
+  - SSF
+  - MSF
+
+</details>
+
+<details>
+<summary><strong>Attack Scenario</strong></summary>
+
+- Without Constraints
+- With Constraints
+  - Roads
+  - Objects & Cars
+  - Driving Conditions
+
+</details>
+
+<details>
+<summary><strong>Attacked Target</strong></summary>
+
+- Input image
+- Road / Roadside
+- Sensors
+- Objects / Signs
+- Train Data
+
+</details>
+
+<details>
+<summary><strong>Attacker's Capability</strong></summary>
+
+- Environmental Manipulation
+- Software Interference
+- Sensor Interference
+- Model Manipulation
+
+</details>
+
+<details>
+<summary><strong>Attack Type</strong></summary>
+
+- Evasion
+- Poisoning
+
+</details>
+
+<details>
+<summary><strong>Attacker's System / Model Knowledge</strong></summary>
+
+- Model-level Knowledge
+  - White-Box
+  - Black-Box
+- System-level Knowledge
+  - White-Box
+  - Black-Box
+  - Gray-Box
+
+</details>
+
+<details>
+<summary><strong>Attack / Error Specificity</strong></summary>
+
+- Attack
+  - Specific
+  - Generic
+- Error
+  - Specific
+  - Generic
+
+</details>
+
+<details>
+<summary><strong>System's Failure Specificity</strong></summary>
+
+- Generic
+- Specific
+
+</details>
+
+<details>
+<summary><strong>Model-Level Results</strong></summary>
+
+- Steering Angle Misprediction
+- Object Misdetection
+- Misclassification
+- Wrong Decision
+
+</details>
+
+<details>
+<summary><strong>System-Level Results</strong></summary>
+
+- Vehicle Crash to:
+  - Vehicles
+  - Objects
+  - Pedestrians
+- Losing the Path
+- Changing in Speed/Brake
+- Sign Ignorance
+
+</details>
+
 
 ---
 
