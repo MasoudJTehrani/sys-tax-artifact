@@ -1,7 +1,5 @@
 
-
 <p align="center" style="font-size:90px;">
-Replication package of the paper: <br>
 <b>A Taxonomy of System-Level Attacks on Deep Learning Models in Autonomous Vehicles</b>
 </p>
 
