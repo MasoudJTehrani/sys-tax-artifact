@@ -166,7 +166,6 @@ The `data/summary_full.json` mirrors the CSV contents as an array of JSON object
 
 If you want to **add a paper** or **adjust a mapping**: please open a PR and add a row to `data/papers_full.csv` and update `data/summary_full.json`. Use the same fields and the `Ref` number should map to the number used in the original paper (or, if adding a new paper, add a new `Ref` number and include the source link).
 
-Suggested paragraph for CONTRIBUTING.md (you can copy-paste):
 
 > Thank you for contributing. This repository is a living taxonomy compiled from Tehrani et al.'s paper. Please add papers that match these criteria: (1) the attack demonstrates a DL-model-level misprediction and (2) the authors report a system-level effect or vehicle-level consequence. When possible, provide a stable link (DOI / arXiv / project page) and list which taxonomy categories apply. We will review PRs and merge after basic sanity checks.
 
@@ -193,5 +192,4 @@ If you find this taxonomy useful, please consider giving it a star &#127775;, an
 
 - Note: The **venue_freq.py** file outputs the number of papers extracted from each venue, separated by journals and conferences. You can skip running this code, as it was only intended for us to find related venues.
 
----
 
