@@ -13,17 +13,6 @@
 
 - Note: The **venue_freq.py** file outputs the number of papers extracted from each venue, separated by journals and conferences. You can skip running this code, as it was only intended for us to find related venues.
 
-# Citation 
-If you find this taxonomy useful, please consider giving it a star &#127775;, and cite the published paper:
-[https://arxiv.org/abs/2503.09385](https://arxiv.org/abs/2412.04510)
-```bibtex
-@article{tehrani2024taxonomy,
-  title={A Taxonomy of System-Level Attacks on Deep Learning Models in Autonomous Vehicles},
-  author={Tehrani, Masoud Jamshidiyan and Kim, Jinhan and Foulefack, Rosmael Zidane Lekeufack and Marchetto, Alessandro and Tonella, Paolo},
-  journal={arXiv preprint arXiv:2412.04510},
-  year={2024}
-}
-
 
 # System-level attack taxonomy for Deep Learning in Autonomous Vehicles
 
@@ -237,6 +226,17 @@ Suggested paragraph for CONTRIBUTING.md (you can copy-paste):
 - If you want badges (CI, license, zenodo, paper), I can propose a concise badges block — let me know which CI and license you plan to use.
 
 ---
+
+# Citation 
+If you find this taxonomy useful, please consider giving it a star &#127775;, and cite the published paper:
+[https://arxiv.org/abs/2503.09385](https://arxiv.org/abs/2412.04510)
+```bibtex
+@article{tehrani2024taxonomy,
+  title={A Taxonomy of System-Level Attacks on Deep Learning Models in Autonomous Vehicles},
+  author={Tehrani, Masoud Jamshidiyan and Kim, Jinhan and Foulefack, Rosmael Zidane Lekeufack and Marchetto, Alessandro and Tonella, Paolo},
+  journal={arXiv preprint arXiv:2412.04510},
+  year={2024}
+}
 
 *Taxonomy and compact mapping generated from the uploaded paper.*
 
