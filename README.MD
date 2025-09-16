@@ -12,7 +12,7 @@
 - **Files included in this document:**
   - `data/papers_full.csv` (full taxonomy mapping — exact headers preserved from the paper's Appendix Tables 3–5)
   - `data/summary_full.json` (machine-friendly JSON summary mirroring the full CSV)
-  - `papers_full_view.md` is a readable Markdown version of the full taxonomy mapping.
+  - `taxonomy.md` is a readable Markdown version of the full taxonomy mapping.
 ---
 
 ## Scope & inclusion criteria (short)
