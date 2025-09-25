@@ -245,8 +245,9 @@ If you find this taxonomy useful, please consider giving it a star &#127775;, an
 @article{tehrani2024taxonomy,
   title={A Taxonomy of System-Level Attacks on Deep Learning Models in Autonomous Vehicles},
   author={Tehrani, Masoud Jamshidiyan and Kim, Jinhan and Foulefack, Rosmael Zidane Lekeufack and Marchetto, Alessandro and Tonella, Paolo},
-  journal={arXiv preprint arXiv:2412.04510},
-  year={2024}
+  journal={ACM Transactions on Software Engineering and Methodology},
+  year={2024},
+  publisher={ACM New York, NY}
 }
 ```
 
