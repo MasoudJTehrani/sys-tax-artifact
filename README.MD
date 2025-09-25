@@ -240,7 +240,7 @@ If you want to **add a paper** or **adjust a mapping**: please open a PR and add
 
 ## Citation 
 If you find this taxonomy useful, please consider giving it a star &#127775;, and cite the published paper:
-[doi.org/10.1145/3769009](doi.org/10.1145/3769009)
+https://doi.org/10.1145/3769009
 ```bibtex
 @article{tehrani2024taxonomy,
   title={A Taxonomy of System-Level Attacks on Deep Learning Models in Autonomous Vehicles},
